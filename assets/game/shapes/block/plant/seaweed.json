@@ -1,0 +1,30 @@
+{
+    "textures": {
+    },
+    "elements": [
+        {
+            "name": "Face",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 22.6, 22.6, 1.0 ], 
+			shade: "false",
+            "rotationOrigin": [ 0.0, 0.0, 0.0 ], 
+			"rotationY": -45.0,
+			"climateColorMap": "climatePlantTint",
+            "faces": {
+				"north": { "texture": "#weed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Face2",
+            "from": [ 0.0, 0.0, 15.0 ], 
+            "to": [ 22.6, 22.6, 16.0 ], 
+			shade: "false",
+            "rotationOrigin": [ 0.0, 0.0, 16.0 ], 
+			"rotationY" : 45.0,
+			"climateColorMap": "climatePlantTint",
+            "faces": {
+                "south": { "texture": "#weed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,338 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"jailor-belt": [8, 8]
+	},
+	"textures": {
+		"jailor-belt": "entity/humanoid/seraphclothes/waist/jailor-belt"
+	},
+	"elements": [
+		{
+			"name": "Waist",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.2, 0.0, -0.4 ], 
+			"to": [ 5.2, 1.0, 6.4 ], 
+			"rotationOrigin": [ 2.8, 0.0, 3.0 ],
+			"faces": {
+				"north": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"east": { "texture": "#jailor-belt", "uv": [ 1.5, 0.5, 8.0, 1.5 ] },
+				"south": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"west": { "texture": "#jailor-belt", "uv": [ 1.0, 0.5, 7.5, 1.5 ] },
+				"up": { "texture": "#jailor-belt", "uv": [ 0.0, 1.5, 5.0, 8.0 ] },
+				"down": { "texture": "#jailor-belt", "uv": [ 0.0, 1.5, 5.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "buckle-down",
+					"from": [ -0.3, -0.5, 3.1 ], 
+					"to": [ 0.2, 0.0, 4.6 ], 
+					"rotationOrigin": [ -0.3, -0.5, 3.1 ],
+					"faces": {
+						"north": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#jailor-belt", "uv": [ 6.0, 2.5, 7.5, 3.0 ], "enabled": false },
+						"south": { "texture": "#jailor-belt", "uv": [ 7.0, 2.0, 7.5, 2.5 ] },
+						"west": { "texture": "#jailor-belt", "uv": [ 6.0, 2.5, 7.5, 3.0 ] },
+						"up": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] },
+						"down": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "buckle-left",
+							"from": [ 0.0, 0.0, -0.5 ], 
+							"to": [ 0.5, 1.5, 0.0 ], 
+							"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 3.0 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 2.5 ] }
+							}
+						},
+						{
+							"name": "buckle-right",
+							"from": [ 0.0, 0.5, 1.0 ], 
+							"to": [ 0.5, 2.0, 1.5 ], 
+							"rotationOrigin": [ 0.0, 0.5, 1.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 3.0 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 3.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 3.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 7.5, 3.0, 8.0, 3.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "buckle-up",
+							"from": [ 0.0, 1.5, -0.5 ], 
+							"to": [ 0.5, 2.0, 1.0 ], 
+							"rotationOrigin": [ 0.0, 1.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 7.5, 2.0, 8.0, 2.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 3.0, 0.5, 4.5, 1.0 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.0, 2.5, 7.5, 3.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.5, 1.5, 8.0, 3.0 ] }
+							}
+						},
+						{
+							"name": "belt-pin",
+							"from": [ 0.2, 0.8, 0.5 ], 
+							"to": [ 0.7, 1.2, 2.0 ], 
+							"rotationOrigin": [ 0.2, 0.8, 0.7 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 7.0, 2.5, 7.5, 3.0 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 2.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 3.0, 8.0, 3.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 3.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "belt-loop",
+					"from": [ -0.2, -0.2, 1.6 ], 
+					"to": [ 0.3, 1.2, 2.1 ], 
+					"rotationOrigin": [ -0.2, -0.2, 1.6 ],
+					"faces": {
+						"north": { "texture": "#jailor-belt", "uv": [ 6.0, 2.5, 6.5, 3.5 ] },
+						"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"south": { "texture": "#jailor-belt", "uv": [ 6.0, 2.5, 6.5, 3.5 ] },
+						"west": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.0 ] },
+						"up": { "texture": "#jailor-belt", "uv": [ 7.0, 3.0, 7.5, 3.5 ] },
+						"down": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "key1",
+					"from": [ -0.1, -1.4, 1.0 ], 
+					"to": [ 0.4, 0.1, 1.5 ], 
+					"rotationOrigin": [ -0.1, -1.4, 1.0 ],
+					"rotationZ": -8.0,
+					"faces": {
+						"north": { "texture": "#jailor-belt", "uv": [ 4.5, 0.0, 5.0, 1.5 ] },
+						"east": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ], "enabled": false },
+						"south": { "texture": "#jailor-belt", "uv": [ 4.0, 0.5, 4.5, 2.0 ] },
+						"west": { "texture": "#jailor-belt", "uv": [ 7.0, 0.0, 7.5, 1.5 ] },
+						"up": { "texture": "#jailor-belt", "uv": [ 6.0, 3.5, 6.5, 4.0 ], "enabled": false },
+						"down": { "texture": "#jailor-belt", "uv": [ 3.0, 0.0, 3.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "key1left",
+							"from": [ 0.0, -1.0, -0.5 ], 
+							"to": [ 0.5, 0.5, 0.0 ], 
+							"rotationOrigin": [ 0.0, -1.0, -0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.0, 2.0, 6.5, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.5, 7.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "key1right",
+							"from": [ 0.0, -1.0, 0.5 ], 
+							"to": [ 0.5, 0.5, 1.0 ], 
+							"rotationOrigin": [ 0.0, -1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.0, 2.0, 6.5, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.5, 1.5, 8.0, 3.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.5, 7.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "key1shaft",
+							"from": [ 0.0, -3.0, 0.0 ], 
+							"to": [ 0.5, -0.5, 0.5 ], 
+							"rotationOrigin": [ 0.0, -3.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 4.0 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 4.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 4.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 3.0, 7.0, 3.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.0, 7.5, 2.5 ] }
+							}
+						},
+						{
+							"name": "key1tooth",
+							"from": [ 0.0, -2.5, -0.5 ], 
+							"to": [ 0.5, -1.5, 0.0 ], 
+							"rotationOrigin": [ 0.0, -2.5, -0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 2.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.5, 3.0, 8.0, 3.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "key2",
+					"from": [ -0.1, -0.9, 5.3 ], 
+					"to": [ 0.4, 0.1, 5.8 ], 
+					"rotationOrigin": [ -0.1, -0.9, 5.3 ],
+					"rotationZ": -8.0,
+					"faces": {
+						"north": { "texture": "#jailor-belt", "uv": [ 4.5, 0.0, 5.0, 1.0 ] },
+						"east": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.0 ], "enabled": false },
+						"south": { "texture": "#jailor-belt", "uv": [ 4.0, 0.5, 4.5, 1.5 ] },
+						"west": { "texture": "#jailor-belt", "uv": [ 7.0, 0.0, 7.5, 1.0 ] },
+						"up": { "texture": "#jailor-belt", "uv": [ 6.0, 3.5, 6.5, 4.0 ], "enabled": false },
+						"down": { "texture": "#jailor-belt", "uv": [ 3.0, 0.0, 3.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "key2left",
+							"from": [ 0.0, -1.0, -0.5 ], 
+							"to": [ 0.5, 0.5, 0.0 ], 
+							"rotationOrigin": [ 0.0, -1.0, -0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.0, 2.0, 6.5, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 2.0, 7.0, 3.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.5, 7.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "key2right",
+							"from": [ 0.0, -1.0, 0.5 ], 
+							"to": [ 0.5, 0.5, 1.0 ], 
+							"rotationOrigin": [ 0.0, -1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.0, 2.0, 6.5, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.0 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.5, 1.5, 8.0, 3.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.5, 7.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "key2shaft",
+							"from": [ 0.0, -2.5, 0.0 ], 
+							"to": [ 0.5, -0.5, 0.5 ], 
+							"rotationOrigin": [ 0.0, -2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.5 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.0, 1.5, 7.5, 3.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 3.0, 7.0, 3.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 2.0, 7.5, 2.5 ] }
+							}
+						},
+						{
+							"name": "key2tooth",
+							"from": [ 0.0, -2.0, -0.5 ], 
+							"to": [ 0.5, -1.5, 0.0 ], 
+							"rotationOrigin": [ 0.0, -2.0, -0.5 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.5, 1.5, 7.0, 2.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 2.5, 7.0, 3.0 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.5, 3.0, 8.0, 3.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "key3",
+					"from": [ 1.2, -1.4, 6.3 ], 
+					"to": [ 1.7, 0.1, 6.8 ], 
+					"rotationOrigin": [ 1.2, 0.1, 6.3 ],
+					"rotationX": -8.0,
+					"faces": {
+						"north": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false },
+						"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+						"south": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+						"west": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+						"up": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "key3right",
+							"from": [ 0.5, -1.0, 0.0 ], 
+							"to": [ 1.0, 0.5, 0.5 ], 
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 4.5, 7.0, 6.0 ], "enabled": false },
+								"east": { "texture": "#jailor-belt", "uv": [ 6.5, 4.5, 7.0, 6.0 ] },
+								"south": { "texture": "#jailor-belt", "uv": [ 6.5, 5.0, 7.0, 6.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.0, 4.5, 7.5, 6.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 7.5, 5.0, 8.0, 5.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.5, 4.5, 8.0, 5.0 ] }
+							}
+						},
+						{
+							"name": "key3left",
+							"from": [ -0.5, -1.0, 0.0 ], 
+							"to": [ 0.0, 0.5, 0.5 ], 
+							"rotationOrigin": [ -0.5, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 6.5, 4.5, 7.0, 6.0 ], "enabled": false },
+								"east": { "texture": "#jailor-belt", "uv": [ 6.5, 4.5, 7.0, 6.0 ] },
+								"south": { "texture": "#jailor-belt", "uv": [ 6.0, 4.0, 6.5, 5.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.0, 4.5, 7.5, 6.0 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 7.5, 5.0, 8.0, 5.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.5, 4.5, 8.0, 5.0 ] }
+							}
+						},
+						{
+							"name": "key3shaft",
+							"from": [ 0.0, -2.5, 0.0 ], 
+							"to": [ 0.5, -0.5, 0.5 ], 
+							"rotationOrigin": [ 0.0, -0.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+								"east": { "texture": "#jailor-belt", "uv": [ 6.5, 4.5, 7.0, 6.5 ] },
+								"south": { "texture": "#jailor-belt", "uv": [ 7.0, 4.5, 7.5, 6.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 7.0, 4.5, 7.5, 6.5 ] },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 5.0, 7.0, 5.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 7.0, 4.0, 7.5, 4.5 ] }
+							}
+						},
+						{
+							"name": "key3tooth",
+							"from": [ 0.5, -2.0, 0.0 ], 
+							"to": [ 1.0, -1.5, 0.5 ], 
+							"rotationOrigin": [ 0.5, -2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#jailor-belt", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#jailor-belt", "uv": [ 6.5, 5.0, 7.0, 5.5 ] },
+								"west": { "texture": "#jailor-belt", "uv": [ 6.0, 5.0, 6.5, 5.5 ], "enabled": false },
+								"up": { "texture": "#jailor-belt", "uv": [ 6.5, 5.0, 7.0, 5.5 ] },
+								"down": { "texture": "#jailor-belt", "uv": [ 6.0, 4.0, 6.5, 4.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

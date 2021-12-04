@@ -1,0 +1,543 @@
+{
+	"editor": {
+		"allAngles": true,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"wood": "block/wood/planks/generic",
+		"oak1": "block/wood/planks/oak1"
+	},
+	"elements": [
+		{
+			"name": "AxleW1",
+			"from": [ 0.0, 7.0, 6.0 ], 
+			"to": [ 16.0, 9.0, 10.0 ], 
+			"rotationOrigin": [ 0.0, 8.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 0.0, 2.0, 16.0, 4.0 ] },
+				"east": { "texture": "#wood", "uv": [ 0.0, 3.0, 4.0, 5.0 ] },
+				"south": { "texture": "#wood", "uv": [ 0.0, 1.0, 16.0, 3.0 ] },
+				"west": { "texture": "#wood", "uv": [ 0.0, 8.0, 4.0, 10.0 ] },
+				"up": { "texture": "#wood", "uv": [ 0.0, 12.0, 16.0, 16.0 ] },
+				"down": { "texture": "#wood", "uv": [ 0.0, 1.0, 16.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "AxleW2",
+					"from": [ 0.01, 0.0, 0.0 ], 
+					"to": [ 16.01, 2.0, 4.0 ], 
+					"rotationOrigin": [ 0.0, 1.0, 2.0 ],
+					"rotationX": 90.0,
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 2.5, 16.0, 4.5 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 3.0, 4.0, 5.0 ] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 2.5, 16.0, 4.5 ] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 3.0, 4.0, 5.0 ] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 11.5, 16.0, 15.5 ] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 7.0, 16.0, 11.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "LeverBaseN",
+			"from": [ 5.5, 0.0, 13.8 ], 
+			"to": [ 10.5, 6.0, 14.3 ], 
+			"rotationOrigin": [ 8.0, 0.0, 15.8 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 4.0, 7.0, 9.0, 13.0 ] },
+				"east": { "texture": "#wood", "uv": [ 0.0, 4.0, 0.5, 10.0 ] },
+				"south": { "texture": "#wood", "uv": [ 0.0, 6.0, 5.0, 12.0 ] },
+				"west": { "texture": "#wood", "uv": [ 6.0, 4.0, 6.5, 10.0 ] },
+				"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 12.0, 8.5 ] },
+				"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 9.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "LeverBaseS",
+					"from": [ 0.0, 0.0, 1.7 ], 
+					"to": [ 5.0, 6.0, 2.2 ], 
+					"rotationOrigin": [ 0.0, 0.0, 3.7 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 4.0, 10.0, 9.0, 16.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 0.5, 12.0 ] },
+						"south": { "texture": "#wood", "uv": [ 3.0, 4.5, 8.0, 10.5 ] },
+						"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 6.5, 13.0 ] },
+						"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 12.0, 8.5 ] },
+						"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 9.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "LeverBasePin",
+					"from": [ 1.5, 2.5, -0.7 ], 
+					"to": [ 3.5, 4.5, 2.3 ], 
+					"rotationOrigin": [ 2.5, 3.5, 0.3 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 6.0, 11.5, 8.0, 13.5 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 3.0, 8.0 ] },
+						"south": { "texture": "#wood", "uv": [ 10.0, 6.0, 12.0, 8.0 ] },
+						"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 9.0, 9.0 ] },
+						"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 9.0, 11.0 ] },
+						"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 6.0, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "LeverHandle",
+							"from": [ 0.5, 2.0, 1.3 ], 
+							"to": [ 1.5, 12.0, 2.3 ], 
+							"rotationOrigin": [ 1.0, 2.5, 2.3 ],
+							"faces": {
+								"north": { "texture": "#wood", "uv": [ 2.0, 12.5, 12.0, 13.5 ], "rotation": 90 },
+								"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 10.0, 7.0 ], "rotation": 90 },
+								"south": { "texture": "#wood", "uv": [ 1.0, 8.0, 11.0, 9.0 ], "rotation": 90 },
+								"west": { "texture": "#wood", "uv": [ 1.0, 7.0, 11.0, 8.0 ], "rotation": 90 },
+								"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 8.0, 9.0 ] },
+								"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 5.0, 2.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "LeverRocker",
+							"from": [ -3.0, 0.0, -0.5 ], 
+							"to": [ 3.0, 2.0, 0.0 ], 
+							"rotationOrigin": [ -2.0, 1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#wood", "uv": [ 6.0, 11.5, 12.0, 13.5 ] },
+								"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 0.5, 8.0 ] },
+								"south": { "texture": "#wood", "uv": [ 2.0, 6.0, 8.0, 8.0 ] },
+								"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 6.5, 9.0 ] },
+								"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 13.0, 8.5 ] },
+								"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 10.0, 1.5 ] }
+							},
+							"children": [
+								{
+									"name": "RockerArmTop",
+									"from": [ 0.0, 0.0, -0.5 ], 
+									"to": [ 2.0, 10.5, 0.0 ], 
+									"rotationOrigin": [ 1.0, 1.0, -0.3 ],
+									"rotationX": -4.5,
+									"rotationZ": -46.0,
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 1.0, 12.5, 11.5, 14.5 ], "rotation": 90 },
+										"east": { "texture": "#oak1", "uv": [ 0.0, 7.5, 10.5, 8.0 ], "rotation": 90 },
+										"south": { "texture": "#oak1", "uv": [ 3.0, 6.5, 13.5, 8.5 ], "rotation": 90 },
+										"west": { "texture": "#oak1", "uv": [ 5.0, 8.0, 15.5, 8.5 ], "rotation": 90 },
+										"up": { "texture": "#oak1", "uv": [ 7.0, 8.0, 9.0, 8.5 ] },
+										"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 6.0, 1.5 ] }
+									}
+								},
+								{
+									"name": "LeverRockerFingerLower",
+									"from": [ 6.0, 0.0, 0.0 ], 
+									"to": [ 8.5, 0.5, 0.5 ], 
+									"rotationOrigin": [ 7.0, 1.0, 1.0 ],
+									"faces": {
+										"north": { "texture": "#wood", "uv": [ 6.0, 11.5, 8.5, 12.0 ] },
+										"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 0.5, 6.5 ] },
+										"south": { "texture": "#wood", "uv": [ 2.0, 6.0, 4.5, 6.5 ] },
+										"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 6.5, 7.5 ], "enabled": false },
+										"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 9.5, 8.5 ] },
+										"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 6.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "LeverRockerFingerUpper",
+									"from": [ 6.0, 1.5, 0.0 ], 
+									"to": [ 8.5, 2.0, 0.5 ], 
+									"rotationOrigin": [ 7.0, 2.5, 1.0 ],
+									"faces": {
+										"north": { "texture": "#wood", "uv": [ 6.0, 11.5, 8.5, 12.0 ] },
+										"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 0.5, 6.5 ] },
+										"south": { "texture": "#wood", "uv": [ 2.0, 6.0, 4.5, 6.5 ] },
+										"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 6.5, 7.5 ], "enabled": false },
+										"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 9.5, 8.5 ] },
+										"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 6.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "RockerArmTopPeg",
+									"from": [ 0.8, 0.7, -0.7 ], 
+									"to": [ 1.3, 1.2, 0.7 ], 
+									"rotationOrigin": [ 1.05, 0.95, -0.5 ],
+									"rotationX": -6.0,
+									"rotationZ": -46.0,
+									"faces": {
+										"north": { "texture": "#wood", "uv": [ 6.0, 12.5, 6.5, 13.0 ], "rotation": 90 },
+										"east": { "texture": "#wood", "uv": [ 0.0, 7.5, 0.5, 8.5 ], "rotation": 90 },
+										"south": { "texture": "#wood", "uv": [ 3.0, 6.5, 3.5, 7.0 ], "rotation": 90 },
+										"west": { "texture": "#wood", "uv": [ 5.0, 8.0, 5.5, 9.0 ], "rotation": 90 },
+										"up": { "texture": "#wood", "uv": [ 7.0, 8.0, 7.5, 9.0 ] },
+										"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 4.5, 2.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "BracketBrakeW",
+			"from": [ 1.0, 0.0, 0.0 ], 
+			"to": [ 4.0, 12.0, 3.0 ], 
+			"rotationOrigin": [ 1.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 3.0, 7.0, 15.0, 10.0 ], "rotation": 90 },
+				"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 12.0, 9.0 ], "rotation": 90 },
+				"south": { "texture": "#wood", "uv": [ 0.0, 12.0, 12.0, 15.0 ], "rotation": 90 },
+				"west": { "texture": "#wood", "uv": [ 3.0, 6.0, 15.0, 9.0 ], "rotation": 90 },
+				"up": { "texture": "#wood", "uv": [ 6.5, 6.5, 9.5, 9.5 ], "rotation": 90 },
+				"down": { "texture": "#wood", "uv": [ 6.0, 6.5, 9.0, 9.5 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "BracketBrakeE",
+			"from": [ 12.0, 0.0, 0.0 ], 
+			"to": [ 15.0, 12.0, 3.0 ], 
+			"rotationOrigin": [ 12.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 3.0, 2.5, 15.0, 5.5 ], "rotation": 90 },
+				"east": { "texture": "#wood", "uv": [ 4.0, 6.0, 16.0, 9.0 ], "rotation": 90 },
+				"south": { "texture": "#wood", "uv": [ 3.0, 6.0, 15.0, 9.0 ], "rotation": 90 },
+				"west": { "texture": "#wood", "uv": [ 3.0, 6.0, 15.0, 9.0 ], "rotation": 90 },
+				"up": { "texture": "#wood", "uv": [ 6.0, 6.5, 9.0, 9.5 ], "rotation": 90 },
+				"down": { "texture": "#wood", "uv": [ 6.0, 6.5, 9.0, 9.5 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "BrakePinUpper",
+			"from": [ 2.5, 9.5, 1.0 ], 
+			"to": [ 13.5, 10.5, 2.0 ], 
+			"rotationOrigin": [ 2.5, 10.0, 1.5 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 0.0, 8.5, 11.0, 9.5 ] },
+				"east": { "texture": "#wood", "uv": [ 0.0, 2.5, 1.0, 3.5 ], "enabled": false },
+				"south": { "texture": "#wood", "uv": [ 5.0, 3.0, 16.0, 4.0 ] },
+				"west": { "texture": "#wood", "uv": [ 0.0, 8.0, 1.0, 9.0 ], "enabled": false },
+				"up": { "texture": "#wood", "uv": [ 1.0, 6.0, 12.0, 7.0 ] },
+				"down": { "texture": "#wood", "uv": [ 1.0, 1.0, 12.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "BrakePinArmUpperE",
+					"from": [ 6.5, -0.5, -0.5 ], 
+					"to": [ 7.5, 1.5, 3.5 ], 
+					"rotationOrigin": [ 6.5, -0.5, 1.5 ],
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 3.0, 4.0, 5.0, 5.0 ], "rotation": 90 },
+						"east": { "texture": "#oak1", "uv": [ 0.0, 6.0, 4.0, 8.0 ] },
+						"south": { "texture": "#oak1", "uv": [ 0.0, 4.0, 2.0, 5.0 ], "rotation": 90, "enabled": false },
+						"west": { "texture": "#oak1", "uv": [ 3.0, 6.0, 7.0, 8.0 ] },
+						"up": { "texture": "#oak1", "uv": [ 7.0, 12.0, 11.0, 13.0 ], "rotation": 90 },
+						"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "BrakePinArmUpperW",
+					"from": [ 3.5, -0.5, -0.5 ], 
+					"to": [ 4.5, 1.5, 3.5 ], 
+					"rotationOrigin": [ 3.5, -0.5, 1.5 ],
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 3.0, 4.0, 5.0, 5.0 ], "rotation": 90 },
+						"east": { "texture": "#oak1", "uv": [ 0.0, 6.0, 4.0, 8.0 ] },
+						"south": { "texture": "#oak1", "uv": [ 0.0, 4.0, 2.0, 5.0 ], "rotation": 90, "enabled": false },
+						"west": { "texture": "#oak1", "uv": [ 3.0, 6.0, 7.0, 8.0 ] },
+						"up": { "texture": "#oak1", "uv": [ 7.0, 12.0, 11.0, 13.0 ], "rotation": 90 },
+						"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "BrakeTopU",
+							"from": [ -1.0, 1.0, 5.5 ], 
+							"to": [ 5.0, 3.5, 9.5 ], 
+							"rotationOrigin": [ -1.0, 2.0, 7.5 ],
+							"faces": {
+								"north": { "texture": "#oak1", "uv": [ 0.0, 8.5, 6.0, 11.0 ] },
+								"east": { "texture": "#oak1", "uv": [ 0.0, 2.5, 4.0, 5.0 ] },
+								"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 5.5 ] },
+								"west": { "texture": "#oak1", "uv": [ 0.0, 8.0, 4.0, 10.5 ] },
+								"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 10.0 ] },
+								"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "BrakeTopS",
+									"from": [ 0.0, -1.5, 4.0 ], 
+									"to": [ 6.0, 1.5, 5.5 ], 
+									"rotationOrigin": [ 0.0, -0.5, 6.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 0.0, 8.5, 6.0, 11.5 ] },
+										"east": { "texture": "#oak1", "uv": [ 8.0, 2.5, 9.5, 5.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 6.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 7.0, 6.0, 8.5, 9.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.5 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.5 ] }
+									}
+								},
+								{
+									"name": "BrakeTopN",
+									"from": [ 0.0, -1.5, -1.5 ], 
+									"to": [ 6.0, 1.5, 0.0 ], 
+									"rotationOrigin": [ 0.0, -0.5, 0.5 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 6.0, 15.0, 9.0 ] },
+										"east": { "texture": "#oak1", "uv": [ 3.0, 2.5, 6.0, 4.0 ], "rotation": 90 },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 6.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 11.0, 6.0, 12.5, 9.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.5 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.5 ] }
+									}
+								},
+								{
+									"name": "BrakeTopCornerN",
+									"from": [ 0.0, -1.0, 0.0 ], 
+									"to": [ 6.0, 0.0, 1.0 ], 
+									"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 6.0, 15.0, 7.0 ], "enabled": false },
+										"east": { "texture": "#oak1", "uv": [ 14.0, 2.5, 15.0, 3.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 4.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 11.0, 6.0, 12.0, 7.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.0 ], "enabled": false },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.0 ] }
+									}
+								},
+								{
+									"name": "BrakeTopCornerS",
+									"from": [ 0.0, -1.0, 3.0 ], 
+									"to": [ 6.0, 0.0, 4.0 ], 
+									"rotationOrigin": [ 0.0, 0.0, 5.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 6.0, 15.0, 7.0 ] },
+										"east": { "texture": "#oak1", "uv": [ 14.0, 2.5, 15.0, 3.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#oak1", "uv": [ 11.0, 6.0, 12.0, 7.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.0 ], "enabled": false },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.0 ] }
+									},
+									"children": [
+										{
+											"name": "LeverPegTop",
+											"from": [ 0.5, 0.5, 2.5 ], 
+											"to": [ 1.5, 1.5, 4.0 ], 
+											"rotationOrigin": [ 1.0, 1.0, 2.5 ],
+											"faces": {
+												"north": { "texture": "#oak1", "uv": [ 6.0, 11.5, 7.0, 12.5 ], "enabled": false },
+												"east": { "texture": "#oak1", "uv": [ 0.0, 6.0, 1.5, 7.0 ] },
+												"south": { "texture": "#oak1", "uv": [ 2.0, 6.0, 3.0, 7.0 ] },
+												"west": { "texture": "#oak1", "uv": [ 6.0, 7.0, 7.5, 8.0 ] },
+												"up": { "texture": "#oak1", "uv": [ 7.0, 7.0, 8.0, 8.5 ] },
+												"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 5.0, 2.5 ] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "BrakePinLower",
+			"from": [ 2.5, 5.5, 1.0 ], 
+			"to": [ 13.5, 6.5, 2.0 ], 
+			"rotationOrigin": [ 2.5, 6.0, 1.5 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 0.0, 8.5, 11.0, 9.5 ] },
+				"east": { "texture": "#wood", "uv": [ 0.0, 2.5, 1.0, 3.5 ], "enabled": false },
+				"south": { "texture": "#wood", "uv": [ 5.0, 3.0, 16.0, 4.0 ] },
+				"west": { "texture": "#wood", "uv": [ 0.0, 8.0, 1.0, 9.0 ], "enabled": false },
+				"up": { "texture": "#wood", "uv": [ 1.0, 6.0, 12.0, 7.0 ] },
+				"down": { "texture": "#wood", "uv": [ 1.0, 1.0, 12.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "BrakePinArmLowerE",
+					"from": [ 6.5, -0.5, -0.5 ], 
+					"to": [ 7.5, 1.5, 3.5 ], 
+					"rotationOrigin": [ 6.5, -0.5, 1.5 ],
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 3.0, 4.0, 5.0, 5.0 ], "rotation": 90 },
+						"east": { "texture": "#oak1", "uv": [ 0.0, 6.0, 4.0, 8.0 ] },
+						"south": { "texture": "#oak1", "uv": [ 0.0, 4.0, 2.0, 5.0 ], "rotation": 90, "enabled": false },
+						"west": { "texture": "#oak1", "uv": [ 3.0, 6.0, 7.0, 8.0 ] },
+						"up": { "texture": "#oak1", "uv": [ 7.0, 12.0, 11.0, 13.0 ], "rotation": 90 },
+						"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "BrakePinArmLowerW",
+					"from": [ 3.5, -0.5, -0.5 ], 
+					"to": [ 4.5, 1.5, 3.5 ], 
+					"rotationOrigin": [ 3.5, -0.5, 1.5 ],
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 3.0, 4.0, 5.0, 5.0 ], "rotation": 90 },
+						"east": { "texture": "#oak1", "uv": [ 0.0, 6.0, 4.0, 8.0 ] },
+						"south": { "texture": "#oak1", "uv": [ 0.0, 4.0, 2.0, 5.0 ], "rotation": 90, "enabled": false },
+						"west": { "texture": "#oak1", "uv": [ 3.0, 6.0, 7.0, 8.0 ] },
+						"up": { "texture": "#oak1", "uv": [ 7.0, 12.0, 11.0, 13.0 ], "rotation": 90 },
+						"down": { "texture": "#oak1", "uv": [ 4.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "BrakeBottomD",
+							"from": [ -1.0, -1.5, 5.5 ], 
+							"to": [ 5.0, 1.0, 9.5 ], 
+							"rotationOrigin": [ -1.0, -0.5, 7.5 ],
+							"faces": {
+								"north": { "texture": "#oak1", "uv": [ 0.0, 8.5, 6.0, 11.0 ] },
+								"east": { "texture": "#oak1", "uv": [ 0.0, 2.5, 4.0, 5.0 ] },
+								"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 5.5 ] },
+								"west": { "texture": "#oak1", "uv": [ 0.0, 8.0, 4.0, 10.5 ] },
+								"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 10.0 ] },
+								"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "BrakeBottomS",
+									"from": [ 0.0, 1.0, 4.0 ], 
+									"to": [ 6.0, 4.0, 5.5 ], 
+									"rotationOrigin": [ 0.0, 2.0, 6.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 0.0, 8.5, 6.0, 11.5 ] },
+										"east": { "texture": "#oak1", "uv": [ 5.0, 2.5, 6.5, 5.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 7.0, 11.0, 10.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 5.0, 8.0, 6.5, 11.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.5 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.5 ] }
+									},
+									"children": [
+										{
+											"name": "LeverPegBottom",
+											"from": [ 5.0, 0.9, 1.5 ], 
+											"to": [ 5.8, 1.7, 3.6 ], 
+											"rotationOrigin": [ 5.5, 1.4, 1.5 ],
+											"faces": {
+												"north": { "texture": "#wood", "uv": [ 6.0, 11.5, 6.5, 12.0 ], "enabled": false },
+												"east": { "texture": "#wood", "uv": [ 0.0, 6.0, 2.0, 6.5 ] },
+												"south": { "texture": "#wood", "uv": [ 2.0, 6.0, 2.5, 6.5 ] },
+												"west": { "texture": "#wood", "uv": [ 6.0, 7.0, 8.0, 7.5 ] },
+												"up": { "texture": "#wood", "uv": [ 7.0, 7.0, 7.5, 9.0 ] },
+												"down": { "texture": "#wood", "uv": [ 4.0, 1.0, 4.5, 3.0 ] }
+											}
+										}
+									]
+								},
+								{
+									"name": "BrakeBottomN",
+									"from": [ 0.0, 1.0, -1.5 ], 
+									"to": [ 6.0, 4.0, 0.0 ], 
+									"rotationOrigin": [ 0.0, 2.0, 0.5 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 12.0, 15.0, 15.0 ] },
+										"east": { "texture": "#oak1", "uv": [ 4.0, 2.5, 5.5, 5.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 6.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 14.0, 6.0, 15.5, 9.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.5 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.5 ] }
+									}
+								},
+								{
+									"name": "BrakeBottomCornerN",
+									"from": [ 0.0, 2.5, 0.0 ], 
+									"to": [ 6.0, 3.5, 1.0 ], 
+									"rotationOrigin": [ 0.0, 3.5, 2.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 12.0, 15.0, 13.0 ], "enabled": false },
+										"east": { "texture": "#oak1", "uv": [ 4.0, 2.5, 5.0, 3.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 4.0 ] },
+										"west": { "texture": "#oak1", "uv": [ 14.0, 6.0, 15.0, 7.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.0 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "BrakeBottomCornerS",
+									"from": [ 0.0, 2.5, 3.0 ], 
+									"to": [ 6.0, 3.5, 4.0 ], 
+									"rotationOrigin": [ 0.0, 3.5, 5.0 ],
+									"faces": {
+										"north": { "texture": "#oak1", "uv": [ 9.0, 12.0, 15.0, 13.0 ] },
+										"east": { "texture": "#oak1", "uv": [ 4.0, 2.5, 5.0, 3.5 ] },
+										"south": { "texture": "#oak1", "uv": [ 5.0, 3.0, 11.0, 4.0 ], "enabled": false },
+										"west": { "texture": "#oak1", "uv": [ 14.0, 6.0, 15.0, 7.0 ] },
+										"up": { "texture": "#oak1", "uv": [ 1.0, 6.0, 7.0, 7.0 ] },
+										"down": { "texture": "#oak1", "uv": [ 1.0, 1.0, 7.0, 2.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Engage",
+			"code": "Engage",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"AxleW1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeverBaseN": {  },
+						"LeverBasePin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeverRocker": {  },
+						"RockerArmTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BrakePinUpper": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BrakePinLower": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"BrakePinUpper": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BrakePinLower": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeverBaseN": {  },
+						"LeverBasePin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeverRocker": {  },
+						"RockerArmTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"AxleW1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LeverBaseN": {  },
+						"LeverBasePin": {  },
+						"LeverRocker": {  },
+						"RockerArmTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.3 }
+					}
+				},
+				{
+					"frame": 35,
+					"elements": {
+						"LeverBaseN": {  },
+						"LeverBasePin": {  },
+						"LeverRocker": {  },
+						"RockerArmTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 }
+					}
+				},
+				{
+					"frame": 59,
+					"elements": {
+						"LeverBaseN": {  },
+						"LeverBasePin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"LeverRocker": {  },
+						"RockerArmTop": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.5 },
+						"BrakePinUpper": { "rotationX": -11.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"BrakePinLower": { "rotationX": 12.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"AxleW1": { "rotationX": 180.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"swordforlorn": "item/tool/sword-forlorn"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "handle",
+					"from": [ -10.5, -0.7, -0.8 ], 
+					"to": [ -4.5, 0.7, 0.7 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 13.5 ],
+					"rotationOrigin": [ -5.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#swordforlorn", "uv": [ 0.0, 15.0, 6.0, 16.0 ], "rotation": 180 },
+						"east": { "texture": "#swordforlorn", "uv": [ 3.0, 1.5, 4.5, 2.5 ], "enabled": false },
+						"south": { "texture": "#swordforlorn", "uv": [ 0.0, 11.0, 6.0, 12.0 ] },
+						"west": { "texture": "#swordforlorn", "uv": [ 7.0, 12.5, 8.5, 13.5 ] },
+						"up": { "texture": "#swordforlorn", "uv": [ 0.0, 13.5, 6.0, 15.0 ] },
+						"down": { "texture": "#swordforlorn", "uv": [ 0.0, 12.0, 6.0, 13.5 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "pommel",
+							"from": [ 0.7, -0.3, -0.2 ], 
+							"to": [ 1.7, 1.7, 1.8 ], 
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 1.7, 0.7, 0.8 ],
+							"faces": {
+								"north": { "texture": "#swordforlorn", "uv": [ 0.0, 2.0, 1.0, 4.0 ] },
+								"east": { "texture": "#swordforlorn", "uv": [ 1.0, 2.0, 3.0, 4.0 ] },
+								"south": { "texture": "#swordforlorn", "uv": [ 3.0, 2.0, 4.0, 4.0 ] },
+								"west": { "texture": "#swordforlorn", "uv": [ 4.0, 2.0, 6.0, 4.0 ] },
+								"up": { "texture": "#swordforlorn", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"down": { "texture": "#swordforlorn", "uv": [ 1.0, 0.0, 2.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "hilt",
+							"from": [ 6.0, -0.6, -0.5 ], 
+							"to": [ 6.5, 1.9, 2.0 ], 
+							"uv": [ 6.0, 11.0 ],
+							"rotationOrigin": [ 6.0, 0.6, 0.7 ],
+							"faces": {
+								"north": { "texture": "#swordforlorn", "uv": [ 6.0, 13.5, 6.5, 16.0 ] },
+								"east": { "texture": "#swordforlorn", "uv": [ 6.5, 13.5, 9.0, 16.0 ] },
+								"south": { "texture": "#swordforlorn", "uv": [ 9.0, 13.5, 9.5, 16.0 ] },
+								"west": { "texture": "#swordforlorn", "uv": [ 9.5, 13.5, 12.0, 16.0 ] },
+								"up": { "texture": "#swordforlorn", "uv": [ 6.0, 11.0, 6.5, 13.5 ] },
+								"down": { "texture": "#swordforlorn", "uv": [ 6.5, 11.0, 7.0, 13.5 ] }
+							},
+							"children": [
+								{
+									"name": "hilt1",
+									"from": [ 0.3, 1.1, -0.1 ], 
+									"to": [ 2.3, 1.5, 0.9 ], 
+									"uv": [ 6.0, 2.0 ],
+									"rotationOrigin": [ 0.3, 1.3, 0.4 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#swordforlorn", "uv": [ 6.0, 3.0, 8.0, 3.5 ] },
+										"east": { "texture": "#swordforlorn", "uv": [ 8.0, 3.0, 9.0, 3.5 ] },
+										"south": { "texture": "#swordforlorn", "uv": [ 9.0, 3.0, 11.0, 3.5 ] },
+										"west": { "texture": "#swordforlorn", "uv": [ 2.5, 0.5, 3.0, 1.0 ], "enabled": false },
+										"up": { "texture": "#swordforlorn", "uv": [ 6.0, 2.0, 8.0, 3.0 ] },
+										"down": { "texture": "#swordforlorn", "uv": [ 8.0, 2.0, 10.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "hilt2",
+									"from": [ 0.3, 1.1, 1.6 ], 
+									"to": [ 2.3, 1.5, 2.6 ], 
+									"uv": [ 6.0, 0.0 ],
+									"rotationOrigin": [ 0.3, 1.3, 2.1 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#swordforlorn", "uv": [ 6.0, 1.0, 8.0, 1.5 ] },
+										"east": { "texture": "#swordforlorn", "uv": [ 8.0, 1.0, 9.0, 1.5 ] },
+										"south": { "texture": "#swordforlorn", "uv": [ 9.0, 1.0, 11.0, 1.5 ] },
+										"west": { "texture": "#swordforlorn", "uv": [ 2.5, 0.5, 3.0, 1.0 ], "enabled": false },
+										"up": { "texture": "#swordforlorn", "uv": [ 6.0, 0.0, 8.0, 1.0 ] },
+										"down": { "texture": "#swordforlorn", "uv": [ 8.0, 0.0, 10.0, 1.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "blade",
+							"from": [ 8.5, 0.5, 0.05 ], 
+							"to": [ 21.5, 0.9, 1.55 ], 
+							"autoUnwrap": false,
+							"uv": [ 0.5, 6.5 ],
+							"rotationOrigin": [ 8.5, 0.7, 0.8 ],
+							"faces": {
+								"north": { "texture": "#swordforlorn", "uv": [ 0.0, 7.0, 13.0, 7.5 ] },
+								"east": { "texture": "#swordforlorn", "uv": [ 11.0, 6.5, 12.5, 7.0 ] },
+								"south": { "texture": "#swordforlorn", "uv": [ 0.0, 7.5, 13.0, 8.0 ] },
+								"west": { "texture": "#swordforlorn", "uv": [ 3.0, 1.0, 4.5, 1.5 ], "enabled": false },
+								"up": { "texture": "#swordforlorn", "uv": [ 0.0, 9.5, 13.0, 11.0 ] },
+								"down": { "texture": "#swordforlorn", "uv": [ 0.0, 8.0, 13.0, 9.5 ] }
+							},
+							"children": [
+								{
+									"name": "bladetip",
+									"from": [ 13.0, 0.0, 0.3 ], 
+									"to": [ 24.0, 0.4, 1.3 ], 
+									"autoUnwrap": false,
+									"uv": [ 0.0, 0.0 ],
+									"rotationOrigin": [ 13.0, 0.2, 0.8 ],
+									"faces": {
+										"north": { "texture": "#swordforlorn", "uv": [ 0.0, 4.5, 11.0, 5.0 ] },
+										"east": { "texture": "#swordforlorn", "uv": [ 11.0, 6.0, 12.0, 6.5 ] },
+										"south": { "texture": "#swordforlorn", "uv": [ 0.0, 4.0, 11.0, 4.5 ] },
+										"west": { "texture": "#swordforlorn", "uv": [ 3.0, 1.0, 4.0, 1.5 ], "enabled": false },
+										"up": { "texture": "#swordforlorn", "uv": [ 0.0, 6.0, 11.0, 7.0 ] },
+										"down": { "texture": "#swordforlorn", "uv": [ 0.0, 5.0, 11.0, 6.0 ] }
+									}
+								},
+								{
+									"name": "bladeguard",
+									"from": [ -2.0, -0.1, -0.1 ], 
+									"to": [ 0.0, 0.5, 1.6 ], 
+									"uv": [ 2.0, 0.0 ],
+									"rotationOrigin": [ -2.0, 0.2, 0.8 ],
+									"faces": {
+										"north": { "texture": "#swordforlorn", "uv": [ 2.0, 1.5, 4.0, 2.0 ] },
+										"east": { "texture": "#swordforlorn", "uv": [ 4.0, 1.5, 5.5, 2.0 ] },
+										"south": { "texture": "#swordforlorn", "uv": [ 5.5, 1.5, 7.5, 2.0 ] },
+										"west": { "texture": "#swordforlorn", "uv": [ 5.5, 1.5, 7.0, 2.0 ], "enabled": false },
+										"up": { "texture": "#swordforlorn", "uv": [ 2.0, 0.0, 4.0, 1.5 ] },
+										"down": { "texture": "#swordforlorn", "uv": [ 4.0, 0.0, 6.0, 1.5 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

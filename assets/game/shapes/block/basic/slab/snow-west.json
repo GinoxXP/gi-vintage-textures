@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"snowcover": "block/snow/normal1"
+	},
+	"elements": [
+		{
+			"name": "Base-snow3",
+			"from": [ 8.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 2.0, 16.0 ], 
+			"rotationOrigin": [ 8.0, -1.0, 0.0 ],
+			"zOffset": 3,
+			"faces": {
+				"north": { "texture": "#snowcover", "uv": [ 8.0, 0.0, 16.0, 2.0 ] },
+				"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"south": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"west": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"up": { "texture": "#snowcover", "uv": [ 6.5, 0.0, 14.5, 16.0 ] },
+				"down": { "texture": "#snowcover", "uv": [ 8.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

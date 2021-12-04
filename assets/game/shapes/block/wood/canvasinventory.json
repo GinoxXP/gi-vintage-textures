@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"back": "block/wood/itemframe/back",
+		"front": "block/wood/itemframe/front"
+	},
+	"elements": [
+		{
+			"name": "frame",
+			"from": [ 1.5, 3.0, 8.0 ], 
+			"to": [ 14.5, 13.0, 9.5 ], 
+			"rotationOrigin": [ 8.0, 8.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#back", "uv": [ 0.0, 0.0, 13.0, 10.0 ] },
+				"east": { "texture": "#front", "uv": [ 14.5, 3.0, 16.0, 13.0 ] },
+				"south": { "texture": "#front", "uv": [ 1.5, 3.0, 14.5, 13.0 ] },
+				"west": { "texture": "#front", "uv": [ 0.0, 3.0, 1.5, 13.0 ] },
+				"up": { "texture": "#front", "uv": [ 1.5, 1.5, 14.5, 3.0 ] },
+				"down": { "texture": "#front", "uv": [ 1.5, 13.0, 14.5, 14.5 ], "rotation": 180 }
+			}
+		}
+	]}

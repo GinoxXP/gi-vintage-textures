@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": true,
+		"singleTexture": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/sash"
+	},
+	"elements": [
+		{
+			"name": "Shoulder",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.25, -1.2, 4.0 ], 
+			"to": [ 5.4, 5.3, 7.0 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 6.5 ],
+			"rotationOrigin": [ 2.5, 4.8, 5.0 ],
+			"rotationX": 28.0,
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 9.5, 5.5, 16.0 ] },
+				"east": { "texture": "#material", "uv": [ 5.5, 9.5, 8.5, 16.0 ] },
+				"south": { "texture": "#material", "uv": [ 0.0, 9.5, 5.5, 16.0 ] },
+				"west": { "texture": "#material", "uv": [ 13.0, 9.5, 16.0, 16.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 6.5, 5.5, 9.5 ] },
+				"down": { "texture": "#material", "uv": [ 5.5, 6.5, 11.0, 9.5 ] }
+			},
+			"children": [
+				{
+					"name": "Waist",
+					"stepParentName": "LowerTorso",
+					"from": [ -0.25, 1.9, -0.2 ], 
+					"to": [ 5.2, 4.9, 4.3 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.2, 1.9, -0.2 ],
+					"rotationX": -17.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 11.0, 0.0, 16.0, 3.0 ] },
+						"east": { "texture": "#material", "uv": [ 5.0, 0.0, 9.5, 3.0 ] },
+						"south": { "texture": "#material", "uv": [ 11.0, 3.0, 16.0, 6.0 ] },
+						"west": { "texture": "#material", "uv": [ 5.0, 3.0, 9.5, 6.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.5, 5.0, 5.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.5, 5.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Pin",
+					"from": [ -0.1, 4.0, 0.3 ], 
+					"to": [ -0.1, 6.5, 2.8 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.1, 5.3, 1.6 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 1.0, 0.5, 3.5 ], "enabled": false },
+						"east": { "texture": "#material", "uv": [ 1.0, 1.0, 3.5, 3.5 ], "enabled": false },
+						"south": { "texture": "#material", "uv": [ 2.0, 1.0, 2.5, 3.5 ], "enabled": false },
+						"west": { "texture": "#material", "uv": [ 8.5, 9.5, 11.0, 12.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "enabled": false },
+						"down": { "texture": "#material", "uv": [ 3.0, 6.0, 3.5, 8.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

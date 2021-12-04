@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/hare-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "rope",
+			"stepParentName": "neck",
+			"from": [ 1.1, -0.3, -0.3 ], 
+			"to": [ 1.6, 2.9, 2.9 ], 
+			"rotationOrigin": [ 1.1, 1.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 3.5, 9.0, 4.0, 12.0 ] },
+				"east": { "texture": "#rope", "uv": [ 6.0, 0.5, 9.0, 3.5 ] },
+				"south": { "texture": "#rope", "uv": [ 10.5, 7.5, 11.0, 10.5 ] },
+				"west": { "texture": "#rope", "uv": [ 6.5, 8.5, 9.5, 11.5 ] },
+				"up": { "texture": "#rope", "uv": [ 10.0, 2.5, 10.5, 5.5 ] },
+				"down": { "texture": "#rope", "uv": [ 5.5, 3.0, 6.0, 6.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,28 @@
+{
+    "textures": {
+    },
+    "elements": [
+        {
+            "name": "Face",
+            "from": [ 3.3, 0.0, 0.0 ], 
+            "to": [ 19.3, 16.0, 1.0 ], 
+            "shade": false,
+            "rotationOrigin": [ 0.0, 0.0, 0.0 ],
+            "rotationY": -45.0,
+            "faces": {
+                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Face2",
+            "from": [ 3.3, 0.0, 15.0 ], 
+            "to": [ 19.3, 16.0, 16.0 ], 
+            "shade": false,
+            "rotationOrigin": [ 0.0, 0.0, 16.0 ],
+            "rotationY": 45.0,
+            "faces": {
+                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

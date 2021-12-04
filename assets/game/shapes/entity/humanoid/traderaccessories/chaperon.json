@@ -1,0 +1,122 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/chaperon/plain"
+	},
+	"elements": [
+		{
+			"name": "ChaperonBand",
+			"stepParentName": "Head",
+			"from": [ -1.0, 3.0, -1.0 ], 
+			"to": [ 7.0, 5.0, 6.0 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 15.0 ],
+			"rotationOrigin": [ -1.0, 3.0, -1.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 22.0, 8.0, 24.0 ] },
+				"east": { "texture": "#material", "uv": [ 8.0, 22.0, 15.0, 24.0 ] },
+				"south": { "texture": "#material", "uv": [ 15.0, 22.0, 23.0, 24.0 ] },
+				"west": { "texture": "#material", "uv": [ 15.0, 20.0, 22.0, 22.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 15.0, 8.0, 22.0 ] },
+				"down": { "texture": "#material", "uv": [ 0.0, 15.0, 8.0, 22.0 ] }
+			},
+			"children": [
+				{
+					"name": "ChaperonTop",
+					"from": [ 0.4, 2.0, 0.4 ], 
+					"to": [ 7.6, 3.0, 6.6 ], 
+					"autoUnwrap": false,
+					"uv": [ 8.0, 9.0 ],
+					"rotationOrigin": [ 3.4, 2.0, 3.4 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 18.0, 6.0, 19.0, 13.0 ], "rotation": 90 },
+						"east": { "texture": "#material", "uv": [ 22.0, 16.0, 23.0, 22.0 ], "rotation": 90 },
+						"south": { "texture": "#material", "uv": [ 19.0, 6.0, 20.0, 13.0 ], "rotation": 90 },
+						"west": { "texture": "#material", "uv": [ 23.0, 18.0, 24.0, 24.0 ], "rotation": 90 },
+						"up": { "texture": "#material", "uv": [ 8.0, 16.0, 15.0, 22.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 7.0, 6.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "ChaperonHood",
+					"from": [ 2.0, 1.0, 1.5 ], 
+					"to": [ 6.0, 5.0, 5.5 ], 
+					"uv": [ 0.0, 7.0 ],
+					"rotationOrigin": [ 4.0, 2.0, 3.5 ],
+					"rotationX": -45.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 11.0, 4.0, 15.0 ] },
+						"east": { "texture": "#material", "uv": [ 4.0, 11.0, 8.0, 15.0 ] },
+						"south": { "texture": "#material", "uv": [ 8.0, 11.0, 12.0, 15.0 ] },
+						"west": { "texture": "#material", "uv": [ 12.0, 11.0, 16.0, 15.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 7.0, 4.0, 11.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "ChaperonHood1",
+							"from": [ 0.5, 2.0, 0.5 ], 
+							"to": [ 3.5, 6.0, 3.5 ], 
+							"uv": [ 4.0, 4.0 ],
+							"rotationOrigin": [ 2.0, 3.0, 2.0 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 4.0, 7.0, 7.0, 11.0 ] },
+								"east": { "texture": "#material", "uv": [ 7.0, 7.0, 10.0, 11.0 ] },
+								"south": { "texture": "#material", "uv": [ 10.0, 7.0, 13.0, 11.0 ] },
+								"west": { "texture": "#material", "uv": [ 13.0, 7.0, 16.0, 11.0 ] },
+								"up": { "texture": "#material", "uv": [ 4.0, 4.0, 7.0, 7.0 ] },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "ChaperonHood2",
+									"from": [ 0.5, 3.0, 1.5 ], 
+									"to": [ 2.5, 9.0, 3.5 ], 
+									"autoUnwrap": false,
+									"uv": [ 7.0, 3.0 ],
+									"rotationOrigin": [ 1.5, 3.0, 2.5 ],
+									"rotationX": -67.5,
+									"faces": {
+										"north": { "texture": "#material", "uv": [ 18.0, 13.0, 24.0, 15.0 ], "rotation": 90 },
+										"east": { "texture": "#material", "uv": [ 15.0, 16.0, 21.0, 18.0 ], "rotation": 90 },
+										"south": { "texture": "#material", "uv": [ 15.0, 18.0, 21.0, 20.0 ], "rotation": 90 },
+										"west": { "texture": "#material", "uv": [ 16.0, 9.0, 18.0, 15.0 ] },
+										"up": { "texture": "#material", "uv": [ 20.0, 11.0, 22.0, 13.0 ] },
+										"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+									},
+									"children": [
+										{
+											"name": "ChaperonHood3",
+											"from": [ 0.5, 5.6, 0.5 ], 
+											"to": [ 1.5, 9.6, 1.5 ], 
+											"autoUnwrap": false,
+											"uv": [ 16.0, 11.0 ],
+											"rotationOrigin": [ 1.0, 5.6, 1.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"north": { "texture": "#material", "uv": [ 7.0, 15.0, 11.0, 16.0 ], "rotation": 90 },
+												"east": { "texture": "#material", "uv": [ 11.0, 15.0, 15.0, 16.0 ], "rotation": 90 },
+												"south": { "texture": "#material", "uv": [ 15.0, 15.0, 19.0, 16.0 ], "rotation": 90 },
+												"west": { "texture": "#material", "uv": [ 21.0, 16.0, 22.0, 20.0 ] },
+												"up": { "texture": "#material", "uv": [ 19.0, 15.0, 20.0, 16.0 ] },
+												"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

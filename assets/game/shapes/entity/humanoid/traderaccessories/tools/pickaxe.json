@@ -1,0 +1,128 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"iron": "item/tool/material/iron",
+		"handle": "item/tool/material/handle"
+	},
+	"elements": [
+		{
+			"name": "PickHandle",
+			"stepParentName": "UpperTorso",
+			"from": [ 5.0, -4.0, 3.0 ], 
+			"to": [ 5.8, 3.0, 3.8 ], 
+			"rotationOrigin": [ 5.4, 2.0, 3.4 ],
+			"rotationX": -45.0,
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 1.0, 4.0, 8.0, 4.5 ], "rotation": 90 },
+				"east": { "texture": "#handle", "uv": [ 1.0, 5.5, 8.0, 6.0 ], "rotation": 90 },
+				"south": { "texture": "#handle", "uv": [ 0.5, 4.0, 7.5, 4.5 ], "rotation": 90 },
+				"west": { "texture": "#handle", "uv": [ 0.5, 2.5, 7.5, 3.0 ], "rotation": 90 },
+				"up": { "texture": "#handle", "uv": [ 0.0, 0.0, 0.75, 0.75 ], "enabled": false },
+				"down": { "texture": "#handle", "uv": [ 2.0, 1.0, 2.75, 1.75 ] }
+			},
+			"children": [
+				{
+					"name": "PickHead",
+					"from": [ -0.1, 9.0, -0.5 ], 
+					"to": [ 0.9, 10.0, 1.5 ], 
+					"rotationOrigin": [ 0.5, 9.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 1.0, 1.25, 2.0, 2.25 ] },
+						"east": { "texture": "#iron", "uv": [ 1.5, 2.0, 3.5, 3.0 ] },
+						"south": { "texture": "#iron", "uv": [ 2.0, 1.75, 3.0, 2.75 ] },
+						"west": { "texture": "#iron", "uv": [ 1.0, 1.0, 3.0, 2.0 ] },
+						"up": { "texture": "#iron", "uv": [ 2.125, 2.75, 3.125, 4.75 ] },
+						"down": { "texture": "#iron", "uv": [ 1.625, 1.0, 2.625, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "PickLeft1",
+							"from": [ 0.1, 0.1, 1.7 ], 
+							"to": [ 0.9, 0.9, 3.7 ], 
+							"rotationOrigin": [ 0.5, 0.5, 1.7 ],
+							"rotationX": 15.0,
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.75, 0.75 ], "enabled": false },
+								"east": { "texture": "#iron", "uv": [ 1.375, 0.75, 3.375, 1.5 ] },
+								"south": { "texture": "#iron", "uv": [ 1.75, 1.75, 2.5, 2.5 ] },
+								"west": { "texture": "#iron", "uv": [ 0.75, 1.0, 2.75, 1.75 ] },
+								"up": { "texture": "#iron", "uv": [ 0.75, 0.5, 1.5, 2.5 ] },
+								"down": { "texture": "#iron", "uv": [ 1.625, 1.75, 2.375, 3.75 ] }
+							},
+							"children": [
+								{
+									"name": "PickLeft2",
+									"from": [ 0.1, 0.1, 1.7 ], 
+									"to": [ 0.7, 0.7, 3.7 ], 
+									"rotationOrigin": [ 0.1, 0.1, 1.7 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#iron", "uv": [ 2.125, 1.0, 4.125, 1.5 ] },
+										"south": { "texture": "#iron", "uv": [ 0.375, 0.75, 0.875, 1.25 ] },
+										"west": { "texture": "#iron", "uv": [ 1.125, 1.25, 3.125, 1.75 ] },
+										"up": { "texture": "#iron", "uv": [ 1.25, 1.0, 1.75, 3.0 ] },
+										"down": { "texture": "#iron", "uv": [ 2.25, 1.25, 2.75, 3.25 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "PickRight1",
+							"from": [ 0.1, 0.1, -1.7 ], 
+							"to": [ 0.9, 0.9, 0.3 ], 
+							"rotationOrigin": [ 0.5, 0.5, 0.3 ],
+							"rotationX": -15.0,
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 1.875, 2.75, 2.625, 3.5 ] },
+								"east": { "texture": "#iron", "uv": [ 1.25, 0.75, 3.25, 1.5 ] },
+								"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.75, 0.75 ], "enabled": false },
+								"west": { "texture": "#iron", "uv": [ 1.875, 2.25, 3.875, 3.0 ] },
+								"up": { "texture": "#iron", "uv": [ 0.875, 1.0, 1.625, 3.0 ] },
+								"down": { "texture": "#iron", "uv": [ 1.375, 1.5, 2.125, 3.5 ] }
+							},
+							"children": [
+								{
+									"name": "PickRight2",
+									"from": [ 0.1, 0.1, -1.7 ], 
+									"to": [ 0.7, 0.7, 0.3 ], 
+									"rotationOrigin": [ 0.4, 0.4, 0.3 ],
+									"rotationX": -15.0,
+									"faces": {
+										"north": { "texture": "#iron", "uv": [ 1.75, 1.5, 2.25, 2.0 ] },
+										"east": { "texture": "#iron", "uv": [ 0.875, 0.75, 2.875, 1.25 ] },
+										"south": { "texture": "#iron", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+										"west": { "texture": "#iron", "uv": [ 1.5, 1.5, 3.5, 2.0 ] },
+										"up": { "texture": "#iron", "uv": [ 1.625, 1.75, 2.125, 3.75 ] },
+										"down": { "texture": "#iron", "uv": [ 1.5, 1.0, 2.0, 3.0 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "PickCover",
+					"from": [ -0.1, 7.0, -0.1 ], 
+					"to": [ 0.9, 9.0, 0.9 ], 
+					"rotationOrigin": [ -0.1, 7.0, -0.1 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 0.875, 0.75, 1.875, 2.75 ] },
+						"east": { "texture": "#iron", "uv": [ 0.75, 0.25, 1.75, 2.25 ] },
+						"south": { "texture": "#iron", "uv": [ 1.625, 0.75, 2.625, 2.75 ] },
+						"west": { "texture": "#iron", "uv": [ 1.25, 0.75, 2.25, 2.75 ] },
+						"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#iron", "uv": [ 2.125, 2.0, 3.125, 3.0 ] }
+					}
+				}
+			]
+		}
+	]}

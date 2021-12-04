@@ -1,0 +1,41 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"ricebread": "item/food/grain/ricebread"
+	},
+	"elements": [
+		{
+			"name": "ricebread 1",
+			"from": [ 6.0, 0.0, 5.0 ], 
+			"to": [ 9.5, 1.5, 9.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#ricebread", "uv": [ 0.5, 6.0, 4.0, 7.5 ] },
+				"east": { "texture": "#ricebread", "uv": [ 0.0, 6.5, 4.0, 8.0 ] },
+				"south": { "texture": "#ricebread", "uv": [ 10.0, 4.5, 13.5, 6.0 ] },
+				"west": { "texture": "#ricebread", "uv": [ 0.0, 6.0, 4.0, 7.5 ] },
+				"up": { "texture": "#ricebread", "uv": [ 0.5, 1.5, 4.0, 5.5 ] },
+				"down": { "texture": "#ricebread", "uv": [ 4.5, 0.0, 8.0, 4.0 ] }
+			},
+			"children": [
+				{
+					"name": "ricebread 1 top",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.0, 2.0, 4.0 ], 
+					"faces": {
+						"north": { "texture": "#ricebread", "uv": [ 1.0, 1.5, 3.5, 2.0 ] },
+						"east": { "texture": "#ricebread", "uv": [ 0.5, 2.0, 1.0, 5.5 ], "rotation": 90 },
+						"south": { "texture": "#ricebread", "uv": [ 10.5, 4.0, 13.0, 4.5 ] },
+						"west": { "texture": "#ricebread", "uv": [ 3.5, 2.0, 4.0, 5.5 ], "rotation": 90 },
+						"up": { "texture": "#ricebread", "uv": [ 1.0, 2.0, 3.5, 5.5 ] },
+						"down": { "texture": "#ricebread", "uv": [ 5.0, 2.0, 7.5, 5.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

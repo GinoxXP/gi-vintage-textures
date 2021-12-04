@@ -1,0 +1,75 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"oak": "block/wood/debarked/oak",
+		"normal-westeast": "block/reed/basket/normal-westeast"
+	},
+	"elements": [
+		{
+			"name": "MannequinHead",
+			"from": [ 4.8, 3.5, 5.5 ], 
+			"to": [ 10.8, 8.5, 10.5 ], 
+			"rotationOrigin": [ 7.8, 3.5, 8.0 ],
+			"faces": {
+				"north": { "texture": "#normal-westeast", "uv": [ 0.0, 1.0, 6.0, 6.0 ] },
+				"east": { "texture": "#normal-westeast", "uv": [ 9.0, 1.0, 14.0, 6.0 ] },
+				"south": { "texture": "#normal-westeast", "uv": [ 0.0, 5.0, 6.0, 10.0 ] },
+				"west": { "texture": "#normal-westeast", "uv": [ 5.0, 10.0, 10.0, 15.0 ] },
+				"up": { "texture": "#normal-westeast", "uv": [ 8.0, 3.0, 14.0, 8.0 ] },
+				"down": { "texture": "#normal-westeast", "uv": [ 1.0, 9.0, 7.0, 14.0 ] }
+			},
+			"children": [
+				{
+					"name": "StandPole",
+					"from": [ 2.4, -3.0, 1.7 ], 
+					"to": [ 4.0, 0.0, 3.3 ], 
+					"rotationOrigin": [ 3.2, -2.0, 2.5 ],
+					"faces": {
+						"north": { "texture": "#oak", "uv": [ 0.0, 0.0, 3.0, 1.5 ], "rotation": 90 },
+						"east": { "texture": "#oak", "uv": [ 0.0, 5.0, 3.0, 6.5 ], "rotation": 90 },
+						"south": { "texture": "#oak", "uv": [ 0.0, 9.0, 3.0, 10.5 ], "rotation": 90 },
+						"west": { "texture": "#oak", "uv": [ 3.0, 8.0, 6.0, 9.5 ], "rotation": 90 },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "StandLegEW",
+							"from": [ -3.2, -0.5, -0.2 ], 
+							"to": [ 4.8, 0.0, 1.8 ], 
+							"rotationOrigin": [ 0.8, 0.0, 0.8 ],
+							"faces": {
+								"north": { "texture": "#oak", "uv": [ 0.0, 6.0, 8.0, 6.5 ] },
+								"east": { "texture": "#oak", "uv": [ 5.0, 5.0, 7.0, 5.5 ] },
+								"south": { "texture": "#oak", "uv": [ 0.0, 10.0, 8.0, 10.5 ] },
+								"west": { "texture": "#oak", "uv": [ 3.0, 8.0, 3.5, 10.0 ], "rotation": 90 },
+								"up": { "texture": "#oak", "uv": [ 5.0, 4.0, 13.0, 6.0 ] },
+								"down": { "texture": "#oak", "uv": [ 0.0, 14.0, 8.0, 16.0 ] }
+							},
+							"children": [
+								{
+									"name": "StandLegNS",
+									"from": [ 3.0, -0.02, -3.0 ], 
+									"to": [ 5.0, 0.48, 5.0 ], 
+									"rotationOrigin": [ 4.0, 0.5, 1.0 ],
+									"faces": {
+										"north": { "texture": "#oak", "uv": [ 0.0, 1.0, 2.0, 1.5 ] },
+										"east": { "texture": "#oak", "uv": [ 0.0, 5.0, 8.0, 5.5 ] },
+										"south": { "texture": "#oak", "uv": [ 0.0, 9.0, 2.0, 9.5 ] },
+										"west": { "texture": "#oak", "uv": [ 3.0, 8.0, 11.0, 8.5 ] },
+										"up": { "texture": "#oak", "uv": [ 5.0, 12.0, 13.0, 14.0 ], "rotation": 90 },
+										"down": { "texture": "#oak", "uv": [ 0.0, 8.0, 8.0, 10.0 ], "rotation": 90 }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

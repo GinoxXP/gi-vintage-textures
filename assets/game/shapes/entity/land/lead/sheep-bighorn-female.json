@@ -1,0 +1,31 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/sheep-bighorn-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "rope",
+			"stepParentName": "neck",
+			"from": [ 2.0, -0.5, -0.4 ], 
+			"to": [ 3.0, 5.5, 5.4 ], 
+			"rotationOrigin": [ 2.5, 2.5, 2.5 ],
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 8.5, 7.0, 9.5, 13.0 ] },
+				"east": { "texture": "#rope", "uv": [ 2.5, 7.0, 8.0, 13.0 ] },
+				"south": { "texture": "#rope", "uv": [ 8.0, 4.5, 9.0, 10.5 ] },
+				"west": { "texture": "#rope", "uv": [ 3.0, 6.0, 8.5, 12.0 ] },
+				"up": { "texture": "#rope", "uv": [ 8.5, 0.0, 9.5, 5.5 ] },
+				"down": { "texture": "#rope", "uv": [ 6.0, 2.0, 7.0, 7.5 ] }
+			}
+		}
+	]}

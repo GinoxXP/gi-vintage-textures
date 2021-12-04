@@ -1,0 +1,119 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": true,
+		"singleTexture": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/scarf"
+	},
+	"elements": [
+		{
+			"name": "Scarf-Neck",
+			"stepParentName": "Neck",
+			"from": [ -0.5, 1.0, -0.5 ], 
+			"to": [ 3.5, 2.5, 3.5 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 10.5 ],
+			"rotationOrigin": [ -0.5, 1.0, -0.5 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 14.5, 4.0, 16.0 ] },
+				"east": { "texture": "#material", "uv": [ 4.0, 14.5, 8.0, 16.0 ] },
+				"south": { "texture": "#material", "uv": [ 8.0, 14.5, 12.0, 16.0 ] },
+				"west": { "texture": "#material", "uv": [ 12.0, 14.5, 16.0, 16.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 10.5, 4.0, 14.5 ] },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Scarf-Front",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.4, 0.3, 0.45 ], 
+			"to": [ 1.6, 5.3, 2.95 ], 
+			"autoUnwrap": false,
+			"uv": [ 9.5, 7.0 ],
+			"rotationOrigin": [ 0.3, 5.3, 1.7 ],
+			"rotationZ": -4.0,
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 9.5, 9.5, 11.5, 14.5 ] },
+				"east": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 5.0 ], "enabled": false },
+				"south": { "texture": "#material", "uv": [ 11.5, 9.5, 13.5, 14.5 ] },
+				"west": { "texture": "#material", "uv": [ 13.5, 9.5, 16.0, 14.5 ] },
+				"up": { "texture": "#material", "uv": [ 5.5, 7.5, 7.5, 10.0 ] },
+				"down": { "texture": "#material", "uv": [ 7.5, 7.5, 9.5, 10.0 ] }
+			},
+			"children": [
+				{
+					"name": "Frill-front",
+					"from": [ 0.3, -2.0, 0.0 ], 
+					"to": [ 0.3, 0.0, 2.5 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.3, -2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 2.5, 0.5, 4.5 ], "enabled": false },
+						"east": { "texture": "#material", "uv": [ 0.5, 2.5, 3.0, 4.5 ], "enabled": false },
+						"south": { "texture": "#material", "uv": [ 3.0, 2.5, 3.5, 4.5 ], "enabled": false },
+						"west": { "texture": "#material", "uv": [ 7.0, 10.0, 9.5, 12.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "enabled": false },
+						"down": { "texture": "#material", "uv": [ 0.5, 0.0, 1.0, 2.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Scarf-Back",
+			"stepParentName": "UpperTorso",
+			"from": [ 3.6, 0.3, 3.0 ], 
+			"to": [ 5.6, 5.3, 5.5 ], 
+			"autoUnwrap": false,
+			"uv": [ 1.0, 1.0 ],
+			"rotationOrigin": [ 4.6, 5.3, 4.2 ],
+			"rotationZ": 4.0,
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 9.5, 4.5, 11.5, 9.5 ] },
+				"east": { "texture": "#material", "uv": [ 13.5, 4.5, 16.0, 9.5 ] },
+				"south": { "texture": "#material", "uv": [ 11.5, 4.5, 13.5, 9.5 ] },
+				"west": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 5.0 ], "enabled": false },
+				"up": { "texture": "#material", "uv": [ 5.5, 12.0, 7.5, 14.5 ] },
+				"down": { "texture": "#material", "uv": [ 7.5, 12.0, 9.5, 14.5 ] }
+			},
+			"children": [
+				{
+					"name": "Frill-back",
+					"from": [ 1.7, -2.0, 0.0 ], 
+					"to": [ 1.7, 0.0, 2.5 ], 
+					"uv": [ 4.5, 10.0 ],
+					"rotationOrigin": [ 1.7, -2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 3.0, 10.0, 3.5, 11.0 ], "enabled": false },
+						"east": { "texture": "#material", "uv": [ 4.5, 10.0, 7.0, 12.0 ] },
+						"south": { "texture": "#material", "uv": [ 6.0, 10.0, 6.5, 11.0 ], "enabled": false },
+						"west": { "texture": "#material", "uv": [ 6.0, 10.0, 8.5, 11.0 ], "enabled": false },
+						"up": { "texture": "#material", "uv": [ 3.0, 7.5, 3.5, 10.0 ], "enabled": false },
+						"down": { "texture": "#material", "uv": [ 3.5, 7.5, 4.0, 10.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Scarf",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.1, 2.8, -0.1 ], 
+			"to": [ 5.1, 5.3, 3.9 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ -0.1, 2.8, -0.1 ],
+			"rotationX": -3.0,
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 4.0, 5.0, 6.5 ] },
+				"east": { "texture": "#material", "uv": [ 5.5, 2.5, 9.5, 5.0 ] },
+				"south": { "texture": "#material", "uv": [ 0.0, 6.5, 5.0, 9.0 ] },
+				"west": { "texture": "#material", "uv": [ 5.5, 5.0, 9.5, 7.5 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 5.0, 4.0 ] },
+				"down": { "texture": "#material", "uv": [ 11.0, 0.0, 16.0, 4.0 ] }
+			}
+		}
+	]}

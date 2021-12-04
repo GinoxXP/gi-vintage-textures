@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"moss-embroidered-belt": [8, 8]
+	},
+	"textures": {
+		"moss-embroidered-belt": "entity/humanoid/seraphclothes/waist/moss-embroidered-belt"
+	},
+	"elements": [
+		{
+			"name": "Waist",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.2, 0.0, -0.3 ], 
+			"to": [ 5.2, 1.0, 6.3 ], 
+			"rotationOrigin": [ 2.8, 0.0, 3.0 ],
+			"faces": {
+				"north": { "texture": "#moss-embroidered-belt", "uv": [ 1.5, 2.5, 6.5, 3.5 ] },
+				"east": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 2.5, 7.0, 3.5 ] },
+				"south": { "texture": "#moss-embroidered-belt", "uv": [ 1.5, 0.5, 6.5, 1.5 ] },
+				"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.5, 7.0, 1.5 ] },
+				"up": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 5.0, 6.5 ], "enabled": false },
+				"down": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 5.0, 6.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "W-Top",
+					"from": [ -0.2, 1.0, -0.2 ], 
+					"to": [ 0.8, 1.5, 6.8 ], 
+					"rotationOrigin": [ -0.2, 1.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 1.5, 7.0, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 1.5, 8.0, 2.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "W-Down",
+					"from": [ -0.2, -0.5, -0.2 ], 
+					"to": [ 0.8, 0.0, 6.8 ], 
+					"rotationOrigin": [ -0.2, -0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 1.5, 7.0, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 1.5, 8.0, 2.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Down",
+					"from": [ 4.6, -0.5, -0.2 ], 
+					"to": [ 5.6, 0.0, 6.8 ], 
+					"rotationOrigin": [ 4.6, -0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 1.5, 7.0, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 1.5, 8.0, 2.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Top",
+					"from": [ 4.6, 1.0, -0.2 ], 
+					"to": [ 5.6, 1.5, 6.8 ], 
+					"rotationOrigin": [ 4.6, 1.0, 3.3 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 1.5, 7.0, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 1.5, 8.0, 2.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "S-Down",
+					"from": [ 0.8, -0.5, 5.8 ], 
+					"to": [ 4.6, 0.0, 6.8 ], 
+					"rotationOrigin": [ 0.8, -0.5, 5.8 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 3.0, 1.5, 6.5, 2.5 ] },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 4.5, 1.5, 8.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "S-Top",
+					"from": [ 0.8, 1.0, 5.8 ], 
+					"to": [ 4.6, 1.5, 6.8 ], 
+					"rotationOrigin": [ 0.8, 1.0, 5.8 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 3.0, 1.5, 6.5, 2.5 ] },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 4.5, 1.5, 8.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "N-Down",
+					"from": [ 0.8, -0.5, -0.2 ], 
+					"to": [ 4.6, 0.0, 0.8 ], 
+					"rotationOrigin": [ 0.8, -0.5, -0.2 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 3.0, 1.5, 6.5, 2.5 ] },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 4.5, 1.5, 8.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "N-Top",
+					"from": [ 0.8, 1.0, -0.2 ], 
+					"to": [ 4.6, 1.5, 0.8 ], 
+					"rotationOrigin": [ 0.8, 1.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#moss-embroidered-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#moss-embroidered-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#moss-embroidered-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#moss-embroidered-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#moss-embroidered-belt", "uv": [ 3.0, 1.5, 6.5, 2.5 ] },
+						"down": { "texture": "#moss-embroidered-belt", "uv": [ 4.5, 1.5, 8.0, 2.5 ] }
+					}
+				}
+			]
+		}
+	]}

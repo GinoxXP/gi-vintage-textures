@@ -1,0 +1,34 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"stem": "block/plant/bamboo/stem-brown"
+	},
+	"elements": [
+		{
+			"name": "StalkMidNW",
+			"from": [ 5.0, 0.0, 5.0 ], 
+			"to": [ 8.0, 16.0, 8.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 3.0, 0.0, 6.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 1.0, 0.0, 4.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 5.0, 0.0, 8.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 1.0, 0.0, 4.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 11.0, 11.0, 14.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 11.0, 11.0, 14.0 ] }
+			}
+		},
+		{
+			"name": "StalkMidSE",
+			"from": [ 9.0, 0.0, 9.0 ], 
+			"to": [ 12.0, 16.0, 12.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 4.0, 0.0, 7.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 4.0, 0.0, 7.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 5.0, 0.0, 8.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 1.0, 0.0, 4.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 11.0, 11.0, 14.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 11.0, 11.0, 14.0 ] }
+			}
+		}
+	]}

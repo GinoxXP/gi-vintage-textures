@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"painting": "block/cloth/tapestry/ambush1",
+		"ropedcloth": "block/cloth/ropedcloth"
+	},
+	"elements": [
+		{
+			"name": "Canvas",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 0.5 ], 
+			"rotationOrigin": [ 8.0, 8.0, -0.9 ],
+			"faces": {
+				"north": { "texture": "#ropedcloth", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#painting", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "rotation": 90 },
+				"south": { "texture": "#painting", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#painting", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "rotation": 90 },
+				"up": { "texture": "#painting", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+				"down": { "texture": "#painting", "uv": [ 0.0, 0.0, 16.0, 0.5 ] }
+			}
+		}
+	]}

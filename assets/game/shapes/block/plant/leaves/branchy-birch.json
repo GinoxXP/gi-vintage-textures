@@ -1,0 +1,57 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"largeleaves": [32,32],
+		"smallleaves": [16,16],
+		"branch": [16,16]
+	},
+	"textures": {
+		"largeleaves": "block/plant/leaves/large/oak1",
+		"smallleaves": "block/plant/leaves/small/oak1",
+		"branch": "block/plant/leaves/large/branch"
+	},
+	"elements": [
+		{
+			"name": "Cube3",
+			"from": [ -8.0, -8.0, 8.0 ], 
+			"to": [ 24.0, 24.0, 8.0 ], 
+			"shade": false, "gradientShade": true,
+			"climateColorMap": "climatePlantTint", seasonColorMap: "seasonalBirch",
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 0.33,
+			"rotationY": -22.5,
+			"rotationZ": -0.41,
+			"faces": {
+				"north": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "enabled": false },
+				"east": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false },
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] },
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false },
+				"up": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 0.5 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ -8.0, -8.0, 8.0 ], 
+			"to": [ 24.0, 24.0, 8.0 ], 
+			"shade": false, "gradientShade": true,
+			"climateColorMap": "climatePlantTint", seasonColorMap: "seasonalBirch",
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 0.48,
+			"rotationY": 67.5,
+			"rotationZ": -0.56,
+			"faces": {
+				"north": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "enabled": false },
+				"east": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false },
+				"south": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ] },
+				"west": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 0.5, 32.0 ], "enabled": false },
+				"up": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#largeleaves", "uv": [ 0.0, 0.0, 32.0, 0.5 ], "enabled": false }
+			}
+		}
+	]}

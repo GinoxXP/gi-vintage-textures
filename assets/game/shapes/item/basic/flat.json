@@ -1,0 +1,26 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"tex": "item/armor/chain"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 2.5, 0.0, 8.0 ], 
+			"to": [ 13.5, 11.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 11.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 11.0 ], "enabled": false },
+				"south": { "texture": "#tex", "uv": [ 2.0, 3.5, 13.0, 14.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 11.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 11.0, 0.5 ], "enabled": false }
+			}
+		}
+	]}

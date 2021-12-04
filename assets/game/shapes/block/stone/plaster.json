@@ -1,0 +1,26 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"square": "block/stone/plaster/square",
+		"type": "block/stone/plaster/diagonal"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#type", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#type", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#type", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#type", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#square", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#square", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

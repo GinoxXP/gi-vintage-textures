@@ -1,0 +1,99 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"rawsalted": "block/food/dairy/rawsalted",
+		"normal1": "block/cloth/linen/normal1"
+	},
+	"elements": [
+		{
+			"name": "linen",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 1.0, 16.0 ], 
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#normal1", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+				"east": { "texture": "#normal1", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+				"south": { "texture": "#normal1", "uv": [ 0.0, 2.0, 16.0, 3.0 ] },
+				"west": { "texture": "#normal1", "uv": [ 0.0, 1.0, 16.0, 2.0 ] },
+				"up": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#normal1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "CheeseBodyBig",
+			"from": [ 4.0, 1.0, 4.0 ], 
+			"to": [ 12.0, 5.0, 12.0 ], 
+			"rotationOrigin": [ 8.0, 1.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 16.0, 12.0 ] },
+				"east": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 16.0, 12.0 ] },
+				"south": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 16.0, 12.0 ] },
+				"west": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 16.0, 12.0 ] },
+				"up": { "texture": "#rawsalted", "uv": [ 8.0, 0.0, 16.0, 8.0 ] },
+				"down": { "texture": "#rawsalted", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "CheeseN",
+					"from": [ 1.0, 0.0, -1.0 ], 
+					"to": [ 7.0, 4.0, 0.0 ], 
+					"rotationOrigin": [ 4.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 14.0, 12.0 ] },
+						"east": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 9.0, 12.0 ] },
+						"south": { "texture": "#rawsalted", "uv": [ 8.0, 4.0, 14.0, 8.0 ], "enabled": false },
+						"west": { "texture": "#rawsalted", "uv": [ 8.0, 8.0, 9.0, 12.0 ] },
+						"up": { "texture": "#rawsalted", "uv": [ 8.0, 6.0, 14.0, 7.0 ] },
+						"down": { "texture": "#rawsalted", "uv": [ 8.0, 0.0, 14.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "CheeseS",
+					"from": [ 1.0, 0.0, 8.0 ], 
+					"to": [ 7.0, 4.0, 9.0 ], 
+					"rotationOrigin": [ 4.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#rawsalted", "uv": [ 8.0, 13.0, 14.0, 17.0 ], "enabled": false },
+						"east": { "texture": "#rawsalted", "uv": [ 10.0, 8.0, 11.0, 12.0 ] },
+						"south": { "texture": "#rawsalted", "uv": [ 9.0, 8.0, 15.0, 12.0 ] },
+						"west": { "texture": "#rawsalted", "uv": [ 9.0, 8.0, 10.0, 12.0 ] },
+						"up": { "texture": "#rawsalted", "uv": [ 8.0, 3.0, 14.0, 4.0 ] },
+						"down": { "texture": "#rawsalted", "uv": [ 8.0, 4.0, 14.0, 5.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "CheeseW",
+					"from": [ -1.0, 0.0, 1.0 ], 
+					"to": [ 0.0, 4.0, 7.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#rawsalted", "uv": [ 11.0, 8.0, 12.0, 12.0 ] },
+						"east": { "texture": "#rawsalted", "uv": [ 12.0, 10.0, 18.0, 14.0 ], "enabled": false },
+						"south": { "texture": "#rawsalted", "uv": [ 9.0, 8.0, 10.0, 12.0 ] },
+						"west": { "texture": "#rawsalted", "uv": [ 9.0, 8.0, 15.0, 12.0 ] },
+						"up": { "texture": "#rawsalted", "uv": [ 14.0, 1.0, 15.0, 7.0 ] },
+						"down": { "texture": "#rawsalted", "uv": [ 12.0, 1.0, 13.0, 7.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "CheeseE",
+					"from": [ 8.0, 0.0, 1.0 ], 
+					"to": [ 9.0, 4.0, 7.0 ], 
+					"rotationOrigin": [ 8.0, 0.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#rawsalted", "uv": [ 13.0, 8.0, 14.0, 12.0 ] },
+						"east": { "texture": "#rawsalted", "uv": [ 10.0, 8.0, 16.0, 12.0 ] },
+						"south": { "texture": "#rawsalted", "uv": [ 11.0, 8.0, 12.0, 12.0 ] },
+						"west": { "texture": "#rawsalted", "uv": [ 10.0, 12.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#rawsalted", "uv": [ 11.0, 2.0, 12.0, 8.0 ] },
+						"down": { "texture": "#rawsalted", "uv": [ 12.0, 3.0, 13.0, 9.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

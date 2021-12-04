@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"north": "block/wood/planks/acacia2",
+		"east": "block/wood/planks/acacia2",
+		"south": "block/wood/planks/acacia2",
+		"west": "block/wood/planks/acacia2",
+		"up": "block/wood/planks/acacia2",
+		"down": "block/wood/planks/acacia2"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0.0, 8.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 0.0, 5.5, 16.0, 13.5 ] },
+				"east": { "texture": "#east", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+				"south": { "texture": "#south", "uv": [ 0.0, 5.5, 16.0, 13.5 ] },
+				"west": { "texture": "#west", "uv": [ 0.0, 5.5, 16.0, 13.5 ] },
+				"up": { "texture": "#up", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "Step",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 8.0, 8.0 ], 
+			"rotationOrigin": [ 0.0, -8.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 0.0, 3.0, 16.0, 11.0 ] },
+				"east": { "texture": "#east", "uv": [ 2.5, 3.0, 10.5, 11.0 ] },
+				"south": { "texture": "#south", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+				"west": { "texture": "#west", "uv": [ 0.0, 3.0, 8.0, 11.0 ] },
+				"up": { "texture": "#up", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "enabled": false },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 16.0, 8.0 ] }
+			}
+		}
+	]}

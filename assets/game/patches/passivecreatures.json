@@ -1,0 +1,171 @@
+[
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes/0",
+    "file": "entities/land/sheep-bighorn-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/7/states/1",
+    "value": {
+      "code": "aggressiveondamage",
+      "duration": 20,
+      "chance": 0.9,
+      "slot": 0,
+      "priority": 2,
+      "accumType": "noaccum"
+    },
+    "file": "entities/land/drifter.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/3/whenInEmotionState",
+    "value": "aggressiveondamage",
+    "file": "entities/land/drifter.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/states/1",
+    "value": {
+      "code": "aggressiveondamage",
+      "duration": 20,
+      "chance": 0.9,
+      "slot": 0,
+      "priority": 2,
+      "accumType": "noaccum"
+    },
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/7/aitasks/2/whenInEmotionState",
+    "value": "aggressiveondamage",
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  
+  
+  
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/states/1",
+    "value": {
+      "code": "aggressiveondamage",
+      "duration": 20,
+      "chance": 0.9,
+      "slot": 0,
+      "priority": 2,
+      "accumType": "noaccum"
+    },
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/7/aitasks/2/whenInEmotionState",
+    "value": "aggressiveondamage",
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  
+  
+  {
+    "op": "replace",
+    "path": "/server/behaviors/10/aitasks/2/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+      ],
+    "file": "entities/land/wolf-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+      ],
+    "file": "entities/land/wolf-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+
+  
+  
+
+  
+  {
+    "op": "add",
+    "path": "/server/behaviors/7/states/1",
+    "value": {
+      "code": "aggressiveondamage",
+      "duration": 20,
+      "chance": 0.9,
+      "slot": 0,
+      "priority": 2,
+      "accumType": "noaccum"
+    },
+    "file": "entities/land/hyena-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/9/aitasks/3/whenInEmotionState",
+    "value": "aggressiveondamage",
+    "file": "entities/land/hyena-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  
+  
+  {
+    "op": "add",
+    "path": "/server/behaviors/9/states/1",
+    "value": {
+      "code": "aggressiveondamage",
+      "duration": 20,
+      "chance": 0.9,
+      "slot": 0,
+      "priority": 2,
+      "accumType": "noaccum"
+    },
+    "file": "entities/land/hyena-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/10/aitasks/3/whenInEmotionState",
+    "value": "aggressiveondamage",
+    "file": "entities/land/hyena-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "passive" },
+    "side": "Server"
+  }
+
+  
+  
+
+ 
+  
+  
+]

@@ -1,0 +1,99 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "pot bottom",
+					"from": [ -6.0, 0.0, -6.0 ], 
+					"to": [ 6.0, 1.0, 6.0 ], 
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"east": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"south": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"west": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"up": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 12.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 12.0 ] }
+					}
+				},
+				{
+					"name": "pot west wall",
+					"from": [ -6.0, 1.0, -6.0 ], 
+					"to": [ -5.0, 9.0, 6.0 ], 
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"east": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 8.0 ] },
+						"south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"west": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 8.0 ] },
+						"up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 12.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 12.0 ] }
+					}
+				},
+				{
+					"name": "pot north wall",
+					"from": [ -5.0, 1.0, -6.0 ], 
+					"to": [ 5.0, 9.0, -5.0 ], 
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+						"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"south": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+						"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"up": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "pot south wall",
+					"from": [ -5.0, 1.0, 5.0 ], 
+					"to": [ 5.0, 9.0, 6.0 ], 
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+						"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"south": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+						"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"up": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "pot east wall",
+					"from": [ 5.0, 1.0, -6.0 ], 
+					"to": [ 6.0, 9.0, 6.0 ], 
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"east": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 8.0 ] },
+						"south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+						"west": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 8.0 ] },
+						"up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 12.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 12.0 ] }
+					}
+				}
+			]
+		}
+	]}

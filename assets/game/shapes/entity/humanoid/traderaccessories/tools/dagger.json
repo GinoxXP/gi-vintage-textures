@@ -1,0 +1,91 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"iron": "item/tool/material/iron",
+		"handle": "item/tool/material/handle",
+		"leather": "block/leather"
+	},
+	"elements": [
+		{
+			"name": "DaggerBlade",
+			"stepParentName": "LowerTorso",
+			"from": [ 5.0, -2.0, 1.0 ], 
+			"to": [ 5.6, 2.0, 2.0 ], 
+			"rotationOrigin": [ 5.3, 2.0, 1.4 ],
+			"rotationX": -67.5,
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 2.5, 3.0, 3.0, 7.0 ] },
+				"east": { "texture": "#leather", "uv": [ 1.0, 0.75, 2.0, 4.75 ] },
+				"south": { "texture": "#leather", "uv": [ 2.0, 1.25, 2.5, 5.25 ] },
+				"west": { "texture": "#leather", "uv": [ 1.75, 1.25, 2.75, 5.25 ] },
+				"up": { "texture": "#leather", "uv": [ 1.5, 0.75, 2.0, 1.75 ] },
+				"down": { "texture": "#leather", "uv": [ 1.25, 1.0, 1.75, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "DaggerTip",
+					"from": [ 0.0, -1.0, 0.1 ], 
+					"to": [ 0.6, 0.0, 0.9 ], 
+					"rotationOrigin": [ 0.0, -1.0, 0.1 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 2.5, 2.5, 3.0, 3.5 ] },
+						"east": { "texture": "#leather", "uv": [ 0.75, 0.25, 1.5, 1.25 ] },
+						"south": { "texture": "#leather", "uv": [ 2.75, 1.75, 3.25, 2.75 ] },
+						"west": { "texture": "#leather", "uv": [ 2.5, 1.5, 3.25, 2.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 0.5, 0.75 ], "enabled": false },
+						"down": { "texture": "#leather", "uv": [ 1.0, 0.5, 1.5, 1.25 ] }
+					}
+				},
+				{
+					"name": "DaggerHilt",
+					"from": [ -0.1, 4.0, -0.5 ], 
+					"to": [ 0.7, 4.5, 1.5 ], 
+					"rotationOrigin": [ -0.1, 4.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 1.375, 0.75, 2.125, 1.25 ] },
+						"east": { "texture": "#iron", "uv": [ 1.875, 2.0, 3.875, 2.5 ] },
+						"south": { "texture": "#iron", "uv": [ 2.875, 3.0, 3.625, 3.5 ] },
+						"west": { "texture": "#iron", "uv": [ 1.25, 1.25, 3.25, 1.75 ] },
+						"up": { "texture": "#iron", "uv": [ 1.375, 2.0, 2.125, 4.0 ] },
+						"down": { "texture": "#iron", "uv": [ 1.375, 2.25, 2.125, 4.25 ] }
+					}
+				},
+				{
+					"name": "DaggerHandle",
+					"from": [ 0.0, 4.5, 0.2 ], 
+					"to": [ 0.6, 6.5, 0.8 ], 
+					"rotationOrigin": [ 0.3, 4.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#handle", "uv": [ 1.5, 3.5, 3.5, 4.0 ], "rotation": 90 },
+						"east": { "texture": "#handle", "uv": [ 2.5, 1.5, 4.5, 2.0 ], "rotation": 90 },
+						"south": { "texture": "#handle", "uv": [ 4.5, 2.5, 6.5, 3.0 ], "rotation": 90 },
+						"west": { "texture": "#handle", "uv": [ 2.5, 1.0, 4.5, 1.5 ], "rotation": 90 },
+						"up": { "texture": "#handle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#handle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "DaggerPommel",
+					"from": [ -0.1, 6.5, 0.1 ], 
+					"to": [ 0.7, 7.0, 0.9 ], 
+					"rotationOrigin": [ -0.1, 6.5, 0.1 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 0.25, 0.25, 1.0, 0.75 ] },
+						"east": { "texture": "#iron", "uv": [ 0.75, 0.75, 1.5, 1.25 ] },
+						"south": { "texture": "#iron", "uv": [ 1.0, 0.75, 1.75, 1.25 ] },
+						"west": { "texture": "#iron", "uv": [ 0.125, 0.0, 0.875, 0.5 ] },
+						"up": { "texture": "#iron", "uv": [ 1.0, 0.75, 1.75, 1.5 ] },
+						"down": { "texture": "#iron", "uv": [ 0.625, 0.25, 1.375, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

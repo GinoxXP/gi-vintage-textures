@@ -1,0 +1,31 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/armor/hallowcroft"
+	},
+	"elements": [
+		{
+			"name": "Facecover",
+			"stepParentName": "Head",
+			"from": [ -0.6, 0.0, -0.6 ], 
+			"to": [ 0.4, 3.0, 5.6 ], 
+			"unwrapMode": 4,
+			"uv": [ 13.5, 13.5 ],
+			"rotationOrigin": [ -0.6, 0.0, -0.6 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 13.5, 13.5, 14.5, 16.5 ] },
+				"east": { "texture": "#material", "uv": [ 21.5, 13.5, 27.5, 16.5 ] },
+				"south": { "texture": "#material", "uv": [ 20.5, 13.5, 21.5, 16.5 ] },
+				"west": { "texture": "#material", "uv": [ 14.5, 13.5, 20.5, 16.5 ] },
+				"up": { "texture": "#material", "uv": [ 14.5, 13.5, 20.5, 14.5 ], "rotation": 90, "enabled": false },
+				"down": { "texture": "#material", "uv": [ 14.5, 16.5, 20.5, 17.5 ], "rotation": 90 }
+			}
+		}
+	]}

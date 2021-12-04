@@ -1,0 +1,64 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"hay": "block/hay/normal-top"
+	},
+	"elements": [
+		{
+			"name": "Straw 1",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 2.0, 9.0 ], 
+			"faces": {
+				"north": { "texture": "#hay", "uv": [ 6.0, 5.0, 8.0, 7.0 ] },
+				"east": { "texture": "#hay", "uv": [ 7.0, 7.0, 9.0, 9.0 ] },
+				"south": { "texture": "#hay", "uv": [ 7.0, 4.0, 9.0, 6.0 ] },
+				"west": { "texture": "#hay", "uv": [ 6.0, 4.0, 8.0, 6.0 ] },
+				"up": { "texture": "#hay", "uv": [ 7.0, 5.0, 9.0, 7.0 ] },
+				"down": { "texture": "#-1", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Straw 2",
+			"from": [ 7.0, 0.0, 6.0 ], 
+			"to": [ 8.0, 1.0, 7.0 ], 
+			"faces": {
+				"north": { "texture": "#hay", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"east": { "texture": "#hay", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+				"south": { "texture": "#hay", "uv": [ 8.0, 6.0, 9.0, 7.0 ] },
+				"west": { "texture": "#hay", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"up": { "texture": "#hay", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Straw 3",
+			"from": [ 9.0, 0.0, 8.0 ], 
+			"to": [ 10.0, 1.0, 9.0 ], 
+			"faces": {
+				"north": { "texture": "#hay", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"east": { "texture": "#hay", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"south": { "texture": "#hay", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"west": { "texture": "#hay", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+				"up": { "texture": "#hay", "uv": [ 6.0, 6.0, 7.0, 7.0 ] },
+				"down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Straw 4",
+			"from": [ 7.0, 0.0, 9.0 ], 
+			"to": [ 8.0, 1.0, 10.0 ], 
+			"faces": {
+				"north": { "texture": "#hay", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"east": { "texture": "#hay", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"south": { "texture": "#hay", "uv": [ 8.0, 5.0, 9.0, 6.0 ] },
+				"west": { "texture": "#hay", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"up": { "texture": "#hay", "uv": [ 8.0, 5.0, 9.0, 6.0 ] },
+				"down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		}
+	]}

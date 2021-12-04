@@ -1,0 +1,92 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"leather": "block/leather",
+		"iron": "item/tool/material/iron",
+		"string": "item/tool/material/string"
+	},
+	"elements": [
+		{
+			"name": "SwordBlade",
+			"stepParentName": "UpperFootL",
+			"from": [ 0.0, -4.0, 3.4 ], 
+			"to": [ 1.0, 4.0, 4.0 ], 
+			"rotationOrigin": [ 0.5, 4.0, 3.7 ],
+			"rotationY": -5.0,
+			"rotationZ": 45.0,
+			"faces": {
+				"north": { "texture": "#leather", "uv": [ 4.75, 0.0, 5.75, 8.0 ] },
+				"east": { "texture": "#leather", "uv": [ 2.5, 0.0, 3.0, 8.0 ] },
+				"south": { "texture": "#leather", "uv": [ 4.0, 0.0, 5.0, 8.0 ] },
+				"west": { "texture": "#leather", "uv": [ 3.5, 0.0, 4.0, 8.0 ] },
+				"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#leather", "uv": [ 3.25, 1.75, 4.25, 2.25 ] }
+			},
+			"children": [
+				{
+					"name": "SwordTip",
+					"from": [ 0.2, -1.0, 0.0 ], 
+					"to": [ 0.8, 0.0, 0.6 ], 
+					"rotationOrigin": [ 0.2, -1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 1.0, 1.25, 1.5, 2.25 ] },
+						"east": { "texture": "#leather", "uv": [ 1.5, 0.75, 2.0, 1.75 ] },
+						"south": { "texture": "#leather", "uv": [ 1.0, 0.75, 1.5, 1.75 ] },
+						"west": { "texture": "#leather", "uv": [ 2.75, 3.5, 3.25, 4.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#leather", "uv": [ 1.25, 1.75, 1.75, 2.25 ] }
+					}
+				},
+				{
+					"name": "SwordHilt",
+					"from": [ -0.5, 8.0, -0.2 ], 
+					"to": [ 1.5, 8.5, 0.8 ], 
+					"rotationOrigin": [ 0.5, 8.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 5.125, 4.0, 7.125, 4.5 ] },
+						"east": { "texture": "#iron", "uv": [ 0.875, 0.5, 1.875, 1.0 ] },
+						"south": { "texture": "#iron", "uv": [ 2.625, 2.0, 4.625, 2.5 ] },
+						"west": { "texture": "#iron", "uv": [ 0.875, 0.5, 1.875, 1.0 ] },
+						"up": { "texture": "#iron", "uv": [ 2.0, 1.5, 4.0, 2.5 ] },
+						"down": { "texture": "#iron", "uv": [ 1.125, 0.75, 3.125, 1.75 ] }
+					}
+				},
+				{
+					"name": "SwordHandle",
+					"from": [ 0.2, 8.5, 0.0 ], 
+					"to": [ 0.8, 11.5, 0.6 ], 
+					"rotationOrigin": [ 0.4, 8.5, 0.2 ],
+					"faces": {
+						"north": { "texture": "#string", "uv": [ 2.0, 1.5, 2.5, 4.5 ] },
+						"east": { "texture": "#string", "uv": [ 1.25, 1.0, 1.75, 4.0 ] },
+						"south": { "texture": "#string", "uv": [ 2.25, 1.25, 2.75, 4.25 ] },
+						"west": { "texture": "#string", "uv": [ 2.25, 0.75, 2.75, 3.75 ] },
+						"up": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#string", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "SwordPommel",
+					"from": [ 0.1, 11.5, -0.1 ], 
+					"to": [ 0.9, 12.3, 0.7 ], 
+					"rotationOrigin": [ 0.5, 11.5, 0.3 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 2.625, 2.25, 3.375, 3.0 ] },
+						"east": { "texture": "#iron", "uv": [ 1.25, 0.75, 2.0, 1.5 ] },
+						"south": { "texture": "#iron", "uv": [ 1.875, 1.5, 2.625, 2.25 ] },
+						"west": { "texture": "#iron", "uv": [ 1.0, 0.5, 1.75, 1.25 ] },
+						"up": { "texture": "#iron", "uv": [ 0.875, 0.75, 1.625, 1.5 ] },
+						"down": { "texture": "#iron", "uv": [ 1.5, 0.75, 2.25, 1.5 ] }
+					}
+				}
+			]
+		}
+	]}

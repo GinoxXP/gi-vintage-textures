@@ -1,0 +1,52 @@
+{
+    "textures": {
+        "branches": "block/plant/berrybush/branches/default",
+        "leaves": "block/plant/berrybush/leaves/redcurrant1"
+    },
+    "elements": [
+        {
+            "name": "branchesN",
+            "from": [ 0.0, 0.0, 8.0 ], 
+            "to": [ 16.0, 14.0, 8.0 ], 
+            "rotationOrigin": [ 8.0, 8.0, 8.0 ],
+            "rotationY": 45.0,
+            "faces": {
+                "north": { "texture": "#branches", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+                "south": { "texture": "#branches", "uv": [ 16.0, 0.0, 0.0, 16.0 ] },
+                "west": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+                "up": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false },
+                "down": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false }
+            }
+        },
+        {
+            "name": "branchesS",
+            "from": [ 0.0, 0.0, 8.0 ], 
+            "to": [ 16.0, 14.0, 8.0 ], 
+            "rotationOrigin": [ 8.0, 8.0, 8.0 ],
+            "rotationY": -45.0,
+            "faces": {
+                "north": { "texture": "#branches", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+                "south": { "texture": "#branches", "uv": [ 16.0, 0.0, 0.0, 16.0 ] },
+                "west": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+                "up": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false },
+                "down": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false }
+            }
+        },
+        {
+            "name": "Leaves",
+            "from": [ 1.1, 0.1, 1.1 ], 
+            "to": [ 14.8, 13.8, 14.8 ], 
+ 			"climateColorMap": "climatePlantTint", "seasonColorMap": "seasonalBlueberry",
+            "faces": {
+                "north": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "south": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "west": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "up": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "down": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "enabled": false }
+            }
+        }
+    ]
+}

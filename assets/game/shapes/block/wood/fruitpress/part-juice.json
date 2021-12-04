@@ -1,0 +1,41 @@
+{
+	"editor": {
+		"backDropShape": "block/wood/bucket/empty",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Juice",
+			"from": [ 1.0, 12.4, 1.0 ], 
+			"to": [ 15.0, 12.4, 15.0 ], 
+			"rotationOrigin": [ 1.0, 12.4, 1.0 ],
+			"faces": {
+				"north": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+				"east": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+				"south": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+				"west": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+				"up": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 14.0 ] },
+				"down": { "texture": "#juice", "uv": [ 0.0, 0.0, 14.0, 14.0 ], "enabled": false }
+			}
+		}
+	],
+	"animations": [
+		{
+			"name": "Compress",
+			"code": "compress",
+			"quantityframes": 120,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+
+			]
+		}
+	]
+}

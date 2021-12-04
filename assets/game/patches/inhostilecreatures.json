@@ -1,0 +1,328 @@
+[
+  {
+    "op": "remove",
+    "path": "/server/behaviors/2/aitasks/0",
+    "file": "entities/air/beemob.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/6/aitasks/0",
+    "file": "entities/humanoid/trader-*",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/6/aitasks/0",
+    "file": "entities/humanoid/trader-*",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": [
+        "wolf-male",
+        "wolf-female"
+      ],
+    "file": "entities/land/chicken-rooster.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/8/aitasks/2",
+    "file": "entities/land/drifter.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/8/aitasks/2",
+    "file": "entities/land/drifter.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+
+
+
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-arctic*",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-arctic*",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-arctic*",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/fox-female",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/fox-female",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/fox-female",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-male",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-male",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/fox-male",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+ 
+
+    {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/1",
+    "file": "entities/land/hyena-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/2",
+    "file": "entities/land/hyena-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/1",
+    "file": "entities/land/hyena-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/2",
+    "file": "entities/land/hyena-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+
+  {
+    "op": "remove",
+    "path": "/server/behaviors/7/aitasks/0",
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/7/aitasks/0",
+    "file": "entities/land/locust.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/pig-wild-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/pig-wild-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/pig-wild-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/pig-wild-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/raccoon-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/raccoon-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/raccoon-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/raccoon-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/sheep-bighorn-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/0",
+    "file": "entities/land/sheep-bighorn-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+},
+  
+    {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/sheep-bighorn-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/0",
+    "file": "entities/land/sheep-bighorn-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+ },
+  
+
+  
+  {
+    "op": "replace",
+    "path": "/server/behaviors/10/aitasks/0/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+    ],
+    "file": "entities/land/wolf-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/10/aitasks/2/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+      ],
+    "file": "entities/land/wolf-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/10/aitasks/3",
+    "file": "entities/land/wolf-female.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+ },  
+  
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+      ],
+    "file": "entities/land/wolf-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": [
+        "chicken-rooster",
+        "chicken-hen",
+        "chicken-baby",
+        "hare-*"
+      ],
+    "file": "entities/land/wolf-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/aitasks/3",
+    "file": "entities/land/wolf-male.json",
+    "condition": { "when": "creatureHostility", "isValue": "off" },
+    "side": "Server"
+ }
+]

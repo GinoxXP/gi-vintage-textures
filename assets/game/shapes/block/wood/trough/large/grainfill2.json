@@ -1,0 +1,49 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bottom-inside": [16,16],
+		"contents": [16,8],
+		"outer-ring": [16,16],
+		"legs": [16,16],
+		"wood": [16,16]
+	},
+	"textures": {
+		"contents": "block/wood/trough/large/rice"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "contents",
+					"from": [ 5.0, 4.0, 4.0 ], 
+					"to": [ 16.0, 6.0, 12.0 ], 
+					"rotationOrigin": [ 5.0, 8.0, 11.0 ],
+					"faces": {
+						"north": { "texture": "#flax", "uv": [ 1.5, 0.0, 12.5, 2.0 ], "enabled": false },
+						"east": { "texture": "#contents", "uv": [ 2.0, 0.0, 4.0, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#flax", "uv": [ 4.5, 8.0, 15.5, 10.0 ], "enabled": false },
+						"west": { "texture": "#flax", "uv": [ 3.0, 0.0, 11.0, 2.0 ], "enabled": false },
+						"up": { "texture": "#contents", "uv": [ 2.5, 0.0, 13.5, 8.0 ] },
+						"down": { "texture": "#flax", "uv": [ 0.0, 0.0, 11.0, 8.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}
