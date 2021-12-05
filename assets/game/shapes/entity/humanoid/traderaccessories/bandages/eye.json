@@ -1,0 +1,31 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+	},
+	"textures": {
+		"bandages": "entity/humanoid/traderaccessories/bandages"
+	},
+	"elements": [
+		{
+			"name": "BandageEye",
+			"stepParentName": "Head",
+			"from": [ -0.2, 1.8, 2.7 ], 
+			"to": [ -0.1, 3.0, 4.7 ], 
+			"uv": [ 0.0, 8.0 ],
+			"rotationOrigin": [ -0.2, 1.8, 2.7 ],
+			"faces": {
+				"north": { "texture": "#bandages", "uv": [ 0.0, 10.0, 0.5, 11.0 ] },
+				"east": { "texture": "#bandages", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#bandages", "uv": [ 0.5, 10.0, 1.0, 11.0 ] },
+				"west": { "texture": "#bandages", "uv": [ 1.0, 10.0, 3.0, 11.0 ] },
+				"up": { "texture": "#bandages", "uv": [ 0.0, 8.0, 0.5, 10.0 ] },
+				"down": { "texture": "#bandages", "uv": [ 0.5, 8.0, 1.0, 10.0 ] }
+			}
+		}
+	]}

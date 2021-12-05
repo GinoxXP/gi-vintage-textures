@@ -1,0 +1,17 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+	   "leaves": "block/plant/leaves/small/fallen"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 0.0, 16.0 ], 
+			"renderPass": 2,
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

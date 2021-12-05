@@ -1,0 +1,205 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"corner": "block/command01-corner",
+		"tech-powergenerator": "block/tech/tech-powergenerator",
+		"tech-powergeneratorbottom": "block/tech/tech-powergeneratorbottom",
+		"tech-powergeneratormain": "block/tech/tech-powergeneratormain"
+	},
+	"elements": [
+		{
+			"name": "BottomPlate",
+			"from": [ 2.0, 1.0, 2.0 ], 
+			"to": [ 14.0, 2.0, 14.0 ], 
+			"rotationOrigin": [ 8.0, 7.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#tech-powergeneratorbottom", "uv": [ 2.0, 1.0, 14.0, 2.0 ], "glow": 15 },
+				"east": { "texture": "#tech-powergeneratorbottom", "uv": [ 1.0, 2.0, 2.0, 14.0 ], "rotation": 90, "glow": 15 },
+				"south": { "texture": "#tech-powergeneratorbottom", "uv": [ 2.0, 14.0, 14.0, 15.0 ], "glow": 15 },
+				"west": { "texture": "#tech-powergeneratorbottom", "uv": [ 14.0, 2.0, 15.0, 14.0 ], "rotation": 90, "glow": 15 },
+				"up": { "texture": "#tech-powergeneratorbottom", "uv": [ 2.0, 2.0, 14.0, 14.0 ], "glow": 15 },
+				"down": { "texture": "#tech-powergeneratorbottom", "uv": [ 2.0, 1.5, 14.0, 13.5 ], "glow": 15 }
+			},
+			"children": [
+				{
+					"name": "PlateS",
+					"from": [ 2.0, -1.0, 10.0 ], 
+					"to": [ 10.0, 11.0, 13.0 ], 
+					"rotationOrigin": [ 2.0, -1.0, 10.0 ],
+					"faces": {
+						"north": { "texture": "#tech-powergeneratormain", "uv": [ 0.0, 0.0, 8.0, 12.0 ] },
+						"east": { "texture": "#tech-powergeneratormain", "uv": [ 0.0, 12.0, 12.0, 15.0 ], "rotation": 270 },
+						"south": { "texture": "#tech-powergeneratormain", "uv": [ 8.0, 0.0, 16.0, 12.0 ] },
+						"west": { "texture": "#tech-powergeneratormain", "uv": [ 0.0, 12.0, 12.0, 15.0 ], "rotation": 270 },
+						"up": { "texture": "#tech-powergenerator", "uv": [ 2.5, 6.0, 5.5, 14.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#tech-powergenerator", "uv": [ 2.5, 6.0, 5.5, 14.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "PowerPlug",
+							"from": [ 2.5, 6.5, -10.0 ], 
+							"to": [ 5.5, 9.5, -8.7 ], 
+							"rotationOrigin": [ 2.5, 6.5, -10.0 ],
+							"faces": {
+								"north": { "texture": "#corner", "uv": [ 4.5, 0.5, 7.5, 3.5 ] },
+								"east": { "texture": "#corner", "uv": [ 8.0, 7.5, 9.0, 10.5 ] },
+								"south": { "texture": "#corner", "uv": [ 4.5, 0.5, 7.5, 3.5 ] },
+								"west": { "texture": "#corner", "uv": [ 10.0, 7.5, 11.0, 10.5 ] },
+								"up": { "texture": "#corner", "uv": [ 7.5, 10.0, 10.5, 11.0 ] },
+								"down": { "texture": "#corner", "uv": [ 7.0, 10.0, 10.0, 11.0 ] }
+							}
+						},
+						{
+							"name": "PlateN",
+							"from": [ 0.0, 0.0, -11.0 ], 
+							"to": [ 8.0, 11.0, -9.0 ], 
+							"rotationOrigin": [ 0.0, 0.0, -11.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergenerator", "uv": [ 6.0, 2.0, 14.0, 13.0 ] },
+								"east": { "texture": "#tech-powergenerator", "uv": [ 14.0, 2.0, 16.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 0.0, 1.0, 8.0, 12.0 ] },
+								"west": { "texture": "#tech-powergenerator", "uv": [ 14.0, 2.0, 16.0, 13.0 ] },
+								"up": { "texture": "#tech-powergenerator", "uv": [ 0.0, 6.0, 2.0, 14.0 ], "rotation": 90 },
+								"down": { "texture": "#tech-powergenerator", "uv": [ 1.5, 6.0, 3.5, 14.0 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "Bottom Bar",
+									"from": [ 0.0, 0.0, 2.0 ], 
+									"to": [ 8.0, 2.5, 4.5 ], 
+									"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+									"faces": {
+										"north": { "texture": "#tech-powergenerator", "uv": [ 5.5, 13.5, 13.5, 16.0 ], "enabled": false },
+										"east": { "texture": "#tech-powergenerator", "uv": [ 13.5, 13.5, 16.0, 16.0 ] },
+										"south": { "texture": "#tech-powergenerator", "uv": [ 5.5, 13.5, 13.5, 16.0 ] },
+										"west": { "texture": "#tech-powergenerator", "uv": [ 13.5, 13.5, 16.0, 16.0 ] },
+										"up": { "texture": "#tech-powergenerator", "uv": [ 5.5, 13.5, 13.5, 16.0 ] },
+										"down": { "texture": "#tech-powergenerator", "uv": [ 5.5, 13.5, 13.5, 16.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "Rotor",
+							"from": [ 2.5, 6.5, -1.0 ], 
+							"to": [ 5.5, 9.5, 0.0 ], 
+							"rotationOrigin": [ 2.5, 5.5, -1.0 ],
+							"faces": {
+								"north": { "texture": "#corner", "uv": [ 4.5, 0.5, 7.5, 3.5 ] },
+								"east": { "texture": "#corner", "uv": [ 8.0, 7.5, 9.0, 10.5 ] },
+								"south": { "texture": "#corner", "uv": [ 4.5, 0.5, 7.5, 3.5 ], "enabled": false },
+								"west": { "texture": "#corner", "uv": [ 10.0, 7.5, 11.0, 10.5 ] },
+								"up": { "texture": "#corner", "uv": [ 7.5, 10.0, 10.5, 11.0 ] },
+								"down": { "texture": "#corner", "uv": [ 7.0, 10.0, 10.0, 11.0 ] }
+							}
+						},
+						{
+							"name": "Knob",
+							"from": [ 4.0, 7.0, 3.0 ], 
+							"to": [ 7.0, 10.0, 4.0 ], 
+							"rotationOrigin": [ 5.5, 8.5, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 13.0, 12.0, 16.0, 15.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 1.5, 2.5, 2.5, 5.5 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 13.0, 13.0, 16.0, 16.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 5.5, 2.5, 6.5, 5.5 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 2.5, 5.5, 5.5, 6.5 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 2.5, 1.5, 5.5, 2.5 ] }
+							}
+						},
+						{
+							"name": "Indicator1",
+							"from": [ 0.7, 4.0, 3.0 ], 
+							"to": [ 1.7, 5.0, 4.0 ], 
+							"rotationOrigin": [ 0.7, 4.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Indicator2",
+							"from": [ 1.7, 4.0, 3.0 ], 
+							"to": [ 2.7, 5.0, 4.0 ], 
+							"rotationOrigin": [ 1.7, 4.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Indicator3",
+							"from": [ 2.7, 4.0, 3.0 ], 
+							"to": [ 3.7, 5.0, 4.0 ], 
+							"rotationOrigin": [ 2.7, 4.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Indicator4",
+							"from": [ 0.7, 2.8, 3.0 ], 
+							"to": [ 1.7, 3.8, 4.0 ], 
+							"rotationOrigin": [ 0.7, 2.8, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Indicator5",
+							"from": [ 0.7, 1.8, 3.0 ], 
+							"to": [ 1.7, 2.8, 4.0 ], 
+							"rotationOrigin": [ 0.7, 1.8, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						},
+						{
+							"name": "Indicator6",
+							"from": [ 0.7, 0.8, 3.0 ], 
+							"to": [ 1.7, 1.8, 4.0 ], 
+							"rotationOrigin": [ 0.7, 0.8, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ], "enabled": false },
+								"east": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"south": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"west": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"up": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] },
+								"down": { "texture": "#tech-powergeneratormain", "uv": [ 12.0, 12.0, 13.0, 13.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

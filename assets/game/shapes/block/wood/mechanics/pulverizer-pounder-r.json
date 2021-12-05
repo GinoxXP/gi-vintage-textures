@@ -1,0 +1,96 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "mover-topframe",
+			"from": [ 0.0, 16.0, 0.0 ], 
+			"to": [ 1.0, 17.0, 1.0 ], 
+			"rotationOrigin": [ 8.0, 24.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "StampWLow",
+					"from": [ 10.0, -11.9, 2.0 ], 
+					"to": [ 13.0, 4.1, 5.0 ], 
+					"rotationOrigin": [ 10.0, -11.9, 2.0 ],
+					"faces": {
+						"north": { "texture": "#oak", "uv": [ 0.0, 1.0, 16.0, 4.0 ], "rotation": 90 },
+						"east": { "texture": "#oak", "uv": [ 0.0, 6.0, 16.0, 9.0 ], "rotation": 90 },
+						"south": { "texture": "#oak", "uv": [ 0.0, 8.0, 16.0, 11.0 ], "rotation": 90 },
+						"west": { "texture": "#oak", "uv": [ 0.0, 12.0, 16.0, 15.0 ], "rotation": 90 },
+						"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+						"down": { "texture": "#oak", "uv": [ 0.0, 3.0, 3.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "StampWMid",
+							"from": [ 0.0, 16.0, 0.0 ], 
+							"to": [ 3.0, 32.0, 3.0 ], 
+							"faces": {
+								"north": { "texture": "#oak", "uv": [ 0.0, 3.0, 16.0, 6.0 ], "rotation": 90 },
+								"east": { "texture": "#oak", "uv": [ 0.0, 8.0, 16.0, 11.0 ], "rotation": 90 },
+								"south": { "texture": "#oak", "uv": [ 0.0, 4.0, 16.0, 7.0 ], "rotation": 90 },
+								"west": { "texture": "#oak", "uv": [ 0.0, 5.0, 16.0, 8.0 ], "rotation": 90 },
+								"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+								"down": { "texture": "#oak", "uv": [ 0.0, 3.0, 3.0, 6.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "StampWTop",
+							"from": [ 0.0, 32.0, 0.0 ], 
+							"to": [ 3.0, 48.0, 3.0 ], 
+							"faces": {
+								"north": { "texture": "#oak", "uv": [ 0.0, 1.0, 16.0, 4.0 ], "rotation": 90 },
+								"east": { "texture": "#oak", "uv": [ 0.0, 6.0, 16.0, 9.0 ], "rotation": 90 },
+								"south": { "texture": "#oak", "uv": [ 0.0, 8.0, 16.0, 11.0 ], "rotation": 90 },
+								"west": { "texture": "#oak", "uv": [ 0.0, 12.0, 16.0, 15.0 ], "rotation": 90 },
+								"up": { "texture": "#oak", "uv": [ 4.0, 5.0, 7.0, 8.0 ] },
+								"down": { "texture": "#oak", "uv": [ 0.0, 3.0, 3.0, 6.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "StampWToggle",
+							"from": [ 0.0, 4.3, 3.0 ], 
+							"to": [ 3.0, 5.3, 4.2 ], 
+							"rotationOrigin": [ 0.0, 4.5, 3.0 ],
+							"faces": {
+								"north": { "texture": "#oak", "uv": [ 0.0, 1.0, 1.0, 4.0 ], "rotation": 90, "enabled": false },
+								"east": { "texture": "#oak", "uv": [ 0.0, 6.0, 1.0, 7.0 ], "rotation": 90 },
+								"south": { "texture": "#oak", "uv": [ 0.0, 8.0, 1.0, 11.0 ], "rotation": 90 },
+								"west": { "texture": "#oak", "uv": [ 0.0, 12.0, 1.0, 13.0 ], "rotation": 90 },
+								"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+								"down": { "texture": "#oak", "uv": [ 0.0, 3.0, 3.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "StampWCap",
+							"from": [ -0.2, -0.2, -0.2 ], 
+							"to": [ 3.2, 3.8, 3.2 ], 
+							"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+							"faces": {
+								"north": { "texture": "#cap", "uv": [ 4.0, 0.5, 7.0, 4.5 ] },
+								"east": { "texture": "#cap", "uv": [ 4.0, 0.5, 7.0, 4.5 ] },
+								"south": { "texture": "#cap", "uv": [ 8.5, 0.5, 11.5, 4.5 ] },
+								"west": { "texture": "#cap", "uv": [ 4.0, 0.5, 7.0, 4.5 ] },
+								"up": { "texture": "#cap", "uv": [ 4.0, 9.0, 7.0, 12.0 ] },
+								"down": { "texture": "#cap", "uv": [ 4.0, 3.0, 7.0, 6.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

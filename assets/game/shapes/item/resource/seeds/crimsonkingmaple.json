@@ -1,0 +1,108 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"maplered": "item/resource/seeds/maplered"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "seedpod1",
+					"from": [ 0.0, 3.0, 0.0 ], 
+					"to": [ 1.0, 4.0, 1.0 ], 
+					"rotationOrigin": [ 0.5, 4.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] },
+						"east": { "texture": "#maplered", "uv": [ 6.0, 0.0, 7.0, 1.0 ] },
+						"south": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] },
+						"west": { "texture": "#maplered", "uv": [ 6.0, 0.5, 7.0, 1.5 ] },
+						"up": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] },
+						"down": { "texture": "#maplered", "uv": [ 6.0, 0.5, 7.0, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "copterE",
+							"from": [ 0.5, -1.0, 0.5 ], 
+							"to": [ 5.5, 1.0, 0.5 ], 
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"rotationZ": -22.5,
+							"faces": {
+								"north": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 2.0 ], "enabled": false },
+								"east": { "texture": "#maplered", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+								"south": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 2.0 ] },
+								"west": { "texture": "#maplered", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+								"up": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
+								"down": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "seedpod2",
+							"from": [ -1.0, -0.5, 0.5 ], 
+							"to": [ 0.0, 0.5, 1.5 ], 
+							"rotationOrigin": [ -0.5, 0.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] },
+								"east": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] },
+								"south": { "texture": "#maplered", "uv": [ 6.5, 1.0, 7.5, 2.0 ] },
+								"west": { "texture": "#maplered", "uv": [ 7.0, 0.0, 8.0, 1.0 ] },
+								"up": { "texture": "#maplered", "uv": [ 6.5, 0.5, 7.5, 1.5 ] },
+								"down": { "texture": "#maplered", "uv": [ 6.5, 0.0, 7.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "copterW",
+									"from": [ -4.5, -1.0, 0.5 ], 
+									"to": [ 0.5, 1.0, 0.5 ], 
+									"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+									"rotationZ": 22.5,
+									"faces": {
+										"north": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 2.0 ], "enabled": false },
+										"east": { "texture": "#maplered", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+										"south": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 2.0 ] },
+										"west": { "texture": "#maplered", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+										"up": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
+										"down": { "texture": "#maplered", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "stem",
+							"from": [ -0.4, 0.3, 0.8 ], 
+							"to": [ 0.0, 3.3, 1.2 ], 
+							"rotationOrigin": [ 0.0, 0.3, 1.2 ],
+							"rotationY": -45.0,
+							"rotationZ": -22.5,
+							"faces": {
+								"north": { "texture": "#maplered", "uv": [ 7.5, 1.5, 8.0, 4.5 ], "rotation": 180 },
+								"east": { "texture": "#maplered", "uv": [ 7.0, 1.5, 7.5, 4.5 ], "rotation": 180 },
+								"south": { "texture": "#maplered", "uv": [ 7.5, 1.5, 8.0, 4.5 ], "rotation": 180 },
+								"west": { "texture": "#maplered", "uv": [ 7.5, 1.5, 8.0, 4.5 ], "rotation": 180 },
+								"up": { "texture": "#maplered", "uv": [ 7.5, 3.0, 8.0, 3.5 ] },
+								"down": { "texture": "#maplered", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

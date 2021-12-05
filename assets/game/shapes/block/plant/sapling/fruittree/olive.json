@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"0": "block/plant/sapling/trunk",
+		"1": "block/plant/sapling/fruittree/olive"
+	},
+	"elements": [
+		{
+			"name": "trunk",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 10.0, 9.0 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 7.0, 4.0, 9.0, 14.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 1.0, 13.0, 11.0 ] },
+				"south": { "texture": "#0", "uv": [ 7.0, 2.0, 9.0, 12.0 ] },
+				"west": { "texture": "#0", "uv": [ 9.0, 3.0, 11.0, 13.0 ] },
+				"up": { "texture": "#0", "uv": [ 10.0, 4.0, 12.0, 6.0 ] },
+				"down": { "texture": "#0", "uv": [ 10.0, 4.0, 12.0, 6.0 ] }
+			},
+			"children": [
+				{
+					"name": "leaves",
+					"from": [ -3.0, 6.0, -3.0 ], 
+					"to": [ 5.0, 14.0, 5.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#1", "uv": [ 5.0, 8.0, 13.0, 16.0 ] },
+						"east": { "texture": "#1", "uv": [ 4.0, 5.0, 12.0, 13.0 ] },
+						"south": { "texture": "#1", "uv": [ 0.0, 1.0, 8.0, 9.0 ] },
+						"west": { "texture": "#1", "uv": [ 6.0, 3.0, 14.0, 11.0 ] },
+						"up": { "texture": "#1", "uv": [ 4.0, 4.0, 12.0, 12.0 ] },
+						"down": { "texture": "#1", "uv": [ 7.0, 4.0, 15.0, 12.0 ] }
+					}
+				}
+			]
+		}
+	]}

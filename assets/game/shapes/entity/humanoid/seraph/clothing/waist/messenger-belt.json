@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"messenger-belt": [8, 8]
+	},
+	"textures": {
+		"messenger-belt": "entity/humanoid/seraphclothes/waist/messenger-belt"
+	},
+	"elements": [
+		{
+			"name": "Waist",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.2, 0.0, -0.3 ], 
+			"to": [ 5.2, 0.5, 6.3 ], 
+			"rotationOrigin": [ 2.8, 0.0, 3.0 ],
+			"faces": {
+				"north": { "texture": "#messenger-belt", "uv": [ 1.5, 2.0, 6.5, 2.5 ] },
+				"east": { "texture": "#messenger-belt", "uv": [ 0.5, 2.0, 7.0, 2.5 ] },
+				"south": { "texture": "#messenger-belt", "uv": [ 1.5, 2.0, 6.5, 2.5 ] },
+				"west": { "texture": "#messenger-belt", "uv": [ 0.5, 0.5, 7.0, 1.0 ] },
+				"up": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 5.0, 6.5 ], "enabled": false },
+				"down": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 5.0, 6.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "W-Top",
+					"from": [ -0.2, 0.5, -0.2 ], 
+					"to": [ 0.8, 1.0, 6.8 ], 
+					"rotationOrigin": [ -0.2, 0.5, -0.2 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#messenger-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 0.0, 1.0, 7.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#messenger-belt", "uv": [ 1.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "W-Down",
+					"from": [ -0.2, -0.5, -0.2 ], 
+					"to": [ 0.8, 0.0, 6.8 ], 
+					"rotationOrigin": [ -0.2, -0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#messenger-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 0.0, 1.0, 7.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#messenger-belt", "uv": [ 1.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Down",
+					"from": [ 4.6, -0.5, -0.2 ], 
+					"to": [ 5.6, 0.0, 6.8 ], 
+					"rotationOrigin": [ 4.6, -0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#messenger-belt", "uv": [ 0.0, 1.0, 7.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#messenger-belt", "uv": [ 1.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Top",
+					"from": [ 4.6, 0.5, -0.2 ], 
+					"to": [ 5.6, 1.0, 6.8 ], 
+					"rotationOrigin": [ 4.6, 0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.5, 0.0, 7.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#messenger-belt", "uv": [ 0.0, 1.0, 7.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#messenger-belt", "uv": [ 1.0, 1.0, 8.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "S-Down",
+					"from": [ 0.8, -0.5, 5.8 ], 
+					"to": [ 4.6, 0.0, 6.8 ], 
+					"rotationOrigin": [ 0.8, -0.5, 5.8 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#messenger-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#messenger-belt", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "S-Top",
+					"from": [ 0.8, 0.5, 5.8 ], 
+					"to": [ 4.6, 1.0, 6.8 ], 
+					"rotationOrigin": [ 0.8, 0.5, 5.8 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#messenger-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#messenger-belt", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "N-Down",
+					"from": [ 0.8, -0.5, -0.2 ], 
+					"to": [ 4.6, 0.0, 0.8 ], 
+					"rotationOrigin": [ 0.8, -0.5, -0.2 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#messenger-belt", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "N-Top",
+					"from": [ 0.8, 0.5, -0.2 ], 
+					"to": [ 4.6, 1.0, 0.8 ], 
+					"rotationOrigin": [ 0.8, 0.5, -0.2 ],
+					"faces": {
+						"north": { "texture": "#messenger-belt", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#messenger-belt", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#messenger-belt", "uv": [ 2.5, 0.0, 6.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#messenger-belt", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#messenger-belt", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#messenger-belt", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

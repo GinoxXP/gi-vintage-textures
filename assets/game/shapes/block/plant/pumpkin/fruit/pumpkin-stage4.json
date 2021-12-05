@@ -1,0 +1,24 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"0": "block/plant/pumpkin/fruit/stage4-side",
+		"1": "block/plant/pumpkin/fruit/stage4-top",
+		"2": "block/plant/pumpkin/fruit/stage4-bottom"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 2.0, 0.0, 2.0 ],
+			"to": [ 14.0, 12.0, 14.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 4.0, 12.0, 16.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 4.0, 12.0, 16.0 ], "rotation": 180 },
+				"south": { "texture": "#0", "uv": [ 0.0, 4.0, 12.0, 16.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 4.0, 12.0, 16.0 ], "rotation": 180 },
+				"up": { "texture": "#1", "uv": [ 0.0, 4.0, 12.0, 16.0 ] },
+				"down": { "texture": "#2", "uv": [ 0.0, 4.0, 12.0, 16.0 ] }
+			}
+		}
+	]}

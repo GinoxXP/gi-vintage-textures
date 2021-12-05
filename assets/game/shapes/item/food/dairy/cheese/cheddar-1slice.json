@@ -1,0 +1,56 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"cheddarjack": "block/food/dairy/cheddarjack"
+	},
+	"elements": [
+		{
+			"name": "CheeseBodyBig",
+			"from": [ 4.0, 0.0, 4.0 ], 
+			"to": [ 8.0, 4.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#cheddarjack", "uv": [ 0.0, 8.0, 4.0, 12.0 ] },
+				"east": { "texture": "#cheddarjack", "uv": [ 2.0, 12.0, 6.0, 16.0 ] },
+				"south": { "texture": "#cheddarjack", "uv": [ 0.0, 12.0, 4.0, 16.0 ] },
+				"west": { "texture": "#cheddarjack", "uv": [ 0.0, 8.0, 4.0, 12.0 ] },
+				"up": { "texture": "#cheddarjack", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+				"down": { "texture": "#cheddarjack", "uv": [ 3.0, 4.0, 7.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "CheeseN",
+					"from": [ 1.0, 0.0, -1.0 ], 
+					"to": [ 4.0, 4.0, 0.0 ], 
+					"rotationOrigin": [ 4.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#cheddarjack", "uv": [ 1.0, 8.0, 4.0, 12.0 ] },
+						"east": { "texture": "#cheddarjack", "uv": [ 3.0, 12.0, 4.0, 16.0 ] },
+						"south": { "texture": "#cheddarjack", "uv": [ 0.0, 4.0, 3.0, 8.0 ], "enabled": false },
+						"west": { "texture": "#cheddarjack", "uv": [ 5.0, 8.0, 6.0, 12.0 ] },
+						"up": { "texture": "#cheddarjack", "uv": [ 0.0, 6.0, 3.0, 7.0 ] },
+						"down": { "texture": "#cheddarjack", "uv": [ 2.0, 2.0, 5.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "CheeseW",
+					"from": [ -1.0, 0.0, 1.0 ], 
+					"to": [ 0.0, 4.0, 4.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#cheddarjack", "uv": [ 3.0, 8.0, 4.0, 12.0 ] },
+						"east": { "texture": "#cheddarjack", "uv": [ 12.0, 10.0, 15.0, 14.0 ], "enabled": false },
+						"south": { "texture": "#cheddarjack", "uv": [ 1.0, 12.0, 2.0, 16.0 ] },
+						"west": { "texture": "#cheddarjack", "uv": [ 2.0, 8.0, 5.0, 12.0 ] },
+						"up": { "texture": "#cheddarjack", "uv": [ 6.0, 1.0, 7.0, 4.0 ] },
+						"down": { "texture": "#cheddarjack", "uv": [ 4.0, 4.0, 5.0, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}

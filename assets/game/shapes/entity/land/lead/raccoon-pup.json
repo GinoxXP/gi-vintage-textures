@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/raccoon-pup",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "rope",
+			"stepParentName": "neck",
+			"from": [ 0.8, -0.2, -0.3 ], 
+			"to": [ 1.3, 1.71, 1.9 ], 
+			"rotationOrigin": [ 0.8, 0.8, 0.7 ],
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+				"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+				"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+				"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+				"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] }
+			}
+		}
+	]}

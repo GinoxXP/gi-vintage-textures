@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"wall": "block/stone/drystone/mixed4",
+		"edge": "block/stone/drystonefence/mixed-edge"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "wall",
+					"from": [ -8.0, 0.0, -2.0 ], 
+					"to": [ 8.0, 16.0, 2.0 ], 
+					"faces": {
+						"north": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"east": { "texture": "#edge", "uv": [ 0.0, 0.0, 4.0, 16.0 ] },
+						"south": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"west": { "texture": "#edge", "uv": [ 0.0, 0.0, 4.0, 16.0 ] },
+						"up": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
+						"down": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "wall3",
+					"from": [ -8.0, 0.01, -2.0 ], 
+					"to": [ 8.0, 16.01, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -90.0,
+					"faces": {
+						"north": { "texture": "#wall", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+						"east": { "texture": "#edge", "uv": [ 0.0, 0.0, 4.0, 16.0 ] },
+						"south": { "texture": "#wall", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#edge", "uv": [ 0.0, 0.0, 4.0, 16.0 ] },
+						"up": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
+						"down": { "texture": "#wall", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+					}
+				}
+			]
+		}
+	]}

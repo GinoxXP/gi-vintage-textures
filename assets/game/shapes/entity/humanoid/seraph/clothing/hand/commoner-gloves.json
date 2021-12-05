@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"gloves1": [16, 16]
+	},
+	"textures": {
+		"gloves1": "entity/humanoid/seraphclothes/hand/gloves1"
+	},
+	"elements": [
+		{
+			"name": "glove 1",
+			"stepParentName": "LowerArmL",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"faces": {
+				"north": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ -0.1, -0.1, -0.1 ], 
+					"to": [ 2.6, 3.9, 2.1 ], 
+					"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+					"faces": {
+						"north": { "texture": "#gloves1", "uv": [ 0.0, 12.0, 2.5, 16.0 ] },
+						"east": { "texture": "#gloves1", "uv": [ 7.0, 12.0, 9.0, 16.0 ] },
+						"south": { "texture": "#gloves1", "uv": [ 4.5, 12.0, 7.0, 16.0 ] },
+						"west": { "texture": "#gloves1", "uv": [ 2.5, 12.0, 4.5, 16.0 ] },
+						"up": { "texture": "#gloves1", "uv": [ 12.0, 13.5, 14.0, 16.0 ], "rotation": 90 },
+						"down": { "texture": "#gloves1", "uv": [ 10.0, 13.5, 12.0, 16.0 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "glove 3",
+			"stepParentName": "LowerArmR",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"faces": {
+				"north": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#gloves1", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube4",
+					"from": [ -0.1, -0.1, -0.1 ], 
+					"to": [ 2.6, 3.9, 2.1 ], 
+					"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+					"faces": {
+						"north": { "texture": "#gloves1", "uv": [ 2.0, 8.0, 4.5, 12.0 ] },
+						"east": { "texture": "#gloves1", "uv": [ 0.0, 8.0, 2.0, 12.0 ] },
+						"south": { "texture": "#gloves1", "uv": [ 6.5, 8.0, 9.0, 12.0 ] },
+						"west": { "texture": "#gloves1", "uv": [ 4.5, 8.0, 6.5, 12.0 ] },
+						"up": { "texture": "#gloves1", "uv": [ 12.0, 9.5, 14.0, 12.0 ], "rotation": 90 },
+						"down": { "texture": "#gloves1", "uv": [ 10.0, 9.5, 12.0, 12.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}

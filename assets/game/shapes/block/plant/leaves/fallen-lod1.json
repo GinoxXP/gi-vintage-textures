@@ -1,0 +1,9 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+	   "leaves": "block/plant/leaves/small/fallen"
+	},
+	"elements": [
+	]
+}

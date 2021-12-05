@@ -1,0 +1,76 @@
+{
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"leaves": "block/plant/bamboo/leaves-small",
+		"stem": "block/plant/bamboo/stem-brown"
+	},
+	"elements": [
+		{
+			"name": "FoliageCube",
+			"from": [ 0.1, 0.1, 0.1 ], 
+			"to": [ 15.9, 15.9, 15.9 ], 
+			"climateColorMap": "climatePlantTint",
+			"renderPass": 1,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] },
+				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 15.5, 15.5 ] }
+			}
+		},
+		{
+			"name": "StalkSW",
+			"from": [ 4.0, 0.0, 11.0 ], 
+			"to": [ 6.0, 8.01, 13.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 0.0, 8.0, 2.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 2.0, 8.0, 4.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 4.0, 8.0, 6.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 5.0, 8.0, 7.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "StalkSE",
+			"from": [ 12.0, 0.0, 12.0 ], 
+			"to": [ 14.0, 14.0, 14.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 1.0, 2.0, 3.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 6.0, 2.0, 8.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 5.0, 2.0, 7.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 2.0, 2.0, 4.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "StalkNE",
+			"from": [ 10.0, 0.0, 4.0 ], 
+			"to": [ 12.0, 11.0, 6.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 0.0, 5.0, 2.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 3.0, 5.0, 5.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 1.0, 5.0, 3.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 6.0, 5.0, 8.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "StalkNW",
+			"from": [ 3.0, 0.0, 2.0 ], 
+			"to": [ 5.0, 13.0, 4.0 ], 
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 6.0, 3.0, 8.0, 16.0 ] },
+				"east": { "texture": "#stem", "uv": [ 5.0, 3.0, 7.0, 16.0 ] },
+				"south": { "texture": "#stem", "uv": [ 4.0, 3.0, 6.0, 16.0 ] },
+				"west": { "texture": "#stem", "uv": [ 1.0, 3.0, 3.0, 16.0 ] },
+				"up": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] },
+				"down": { "texture": "#stem", "uv": [ 8.0, 14.0, 10.0, 16.0 ] }
+			}
+		}
+	]}

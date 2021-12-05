@@ -1,0 +1,108 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"purpleheart": "item/resource/seeds/purpleheart"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "seed-bare1",
+					"from": [ -1.0, 0.3, -1.0 ], 
+					"to": [ 1.0, 0.8, 1.5 ], 
+					"rotationOrigin": [ 0.0, 0.3, 0.0 ],
+					"rotationY": 47.0,
+					"faces": {
+						"north": { "texture": "#purpleheart", "uv": [ 0.5, 1.0, 2.5, 1.5 ] },
+						"east": { "texture": "#purpleheart", "uv": [ 0.0, 0.5, 2.5, 1.0 ] },
+						"south": { "texture": "#purpleheart", "uv": [ 0.0, 1.0, 2.0, 1.5 ] },
+						"west": { "texture": "#purpleheart", "uv": [ 0.5, 1.0, 3.0, 1.5 ] },
+						"up": { "texture": "#purpleheart", "uv": [ 0.0, 0.5, 2.0, 3.0 ] },
+						"down": { "texture": "#purpleheart", "uv": [ 0.0, 0.0, 2.0, 2.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "seed-tip",
+							"from": [ 1.0, 0.3, 0.3 ], 
+							"to": [ 1.5, 1.3, 0.8 ], 
+							"rotationOrigin": [ 1.2, -0.2, 0.5 ],
+							"rotationX": -36.0,
+							"faces": {
+								"north": { "texture": "#purpleheart", "uv": [ 3.5, 0.0, 4.0, 1.0 ] },
+								"east": { "texture": "#purpleheart", "uv": [ 3.0, 0.5, 3.5, 1.5 ] },
+								"south": { "texture": "#purpleheart", "uv": [ 3.0, 0.5, 3.5, 1.5 ] },
+								"west": { "texture": "#purpleheart", "uv": [ 4.0, 1.5, 4.5, 2.5 ] },
+								"up": { "texture": "#purpleheart", "uv": [ 4.0, 1.0, 4.5, 1.5 ] },
+								"down": { "texture": "#purpleheart", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "shell-d",
+							"from": [ -0.2, -0.3, -0.2 ], 
+							"to": [ 2.2, 0.2, 2.8 ], 
+							"rotationOrigin": [ -0.2, -0.3, -0.2 ],
+							"faces": {
+								"north": { "texture": "#purpleheart", "uv": [ 0.5, 4.5, 2.5, 5.0 ] },
+								"east": { "texture": "#purpleheart", "uv": [ 0.0, 4.0, 3.0, 4.5 ] },
+								"south": { "texture": "#purpleheart", "uv": [ 0.5, 5.0, 2.5, 5.5 ] },
+								"west": { "texture": "#purpleheart", "uv": [ 0.0, 5.0, 3.0, 5.5 ] },
+								"up": { "texture": "#purpleheart", "uv": [ 0.0, 3.5, 2.0, 6.5 ] },
+								"down": { "texture": "#purpleheart", "uv": [ 0.0, 3.0, 2.0, 6.0 ] }
+							},
+							"children": [
+								{
+									"name": "Cube1",
+									"from": [ 1.4, 0.5, 0.0 ], 
+									"to": [ 2.4, 0.9, 3.0 ], 
+									"rotationOrigin": [ 2.4, 0.5, 3.0 ],
+									"rotationY": -5.0,
+									"faces": {
+										"north": { "texture": "#purpleheart", "uv": [ 0.5, 4.5, 1.5, 5.0 ] },
+										"east": { "texture": "#purpleheart", "uv": [ 0.0, 7.5, 3.0, 8.0 ] },
+										"south": { "texture": "#purpleheart", "uv": [ 0.5, 5.0, 1.5, 5.5 ] },
+										"west": { "texture": "#purpleheart", "uv": [ 0.0, 3.5, 3.0, 4.0 ] },
+										"up": { "texture": "#purpleheart", "uv": [ 2.0, 4.0, 3.0, 7.0 ] },
+										"down": { "texture": "#purpleheart", "uv": [ 0.5, 3.0, 1.5, 6.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "shell-up1",
+							"from": [ -0.2, 0.2, -0.2 ], 
+							"to": [ 0.8, 0.6, 2.8 ], 
+							"rotationOrigin": [ -0.2, 0.2, 2.7 ],
+							"rotationY": 8.0,
+							"faces": {
+								"north": { "texture": "#purpleheart", "uv": [ 1.5, 5.5, 2.5, 6.0 ] },
+								"east": { "texture": "#purpleheart", "uv": [ 0.0, 6.0, 3.0, 6.5 ] },
+								"south": { "texture": "#purpleheart", "uv": [ 0.5, 5.0, 1.5, 5.5 ] },
+								"west": { "texture": "#purpleheart", "uv": [ 0.0, 6.0, 3.0, 6.5 ] },
+								"up": { "texture": "#purpleheart", "uv": [ 1.0, 3.5, 2.0, 6.5 ] },
+								"down": { "texture": "#purpleheart", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

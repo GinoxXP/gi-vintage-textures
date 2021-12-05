@@ -1,0 +1,50 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/armor/woodpunk"
+	},
+	"elements": [
+		{
+			"name": "Armor-ThighR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.1, -1.1, -0.5 ], 
+			"to": [ 4.3, 3.9, 1.7 ], 
+			"autoUnwrap": false,
+			"uv": [ 2.5, 32.5 ],
+			"rotationOrigin": [ -0.1, -1.1, -0.5 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 2.5, 42.5, 6.5, 47.5 ] },
+				"east": { "texture": "#material", "uv": [ 0.5, 42.5, 2.5, 47.5 ] },
+				"south": { "texture": "#material", "uv": [ 8.5, 42.5, 12.5, 47.5 ] },
+				"west": { "texture": "#material", "uv": [ 6.5, 42.5, 8.5, 47.5 ] },
+				"up": { "texture": "#material", "uv": [ 2.5, 40.5, 6.5, 42.5 ] },
+				"down": { "texture": "#material", "uv": [ 2.5, 47.5, 6.5, 49.5 ] }
+			}
+		},
+		{
+			"name": "Armor-ThighL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.2, -1.1, 1.4 ], 
+			"to": [ 4.2, 3.9, 3.6 ], 
+			"unwrapRotation": 1,
+			"autoUnwrap": false,
+			"uv": [ 15.5, 38.5 ],
+			"rotationOrigin": [ -0.2, -1.1, 1.4 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 23.5, 42.5, 27.5, 47.5 ] },
+				"east": { "texture": "#material", "uv": [ 21.5, 42.5, 23.5, 47.5 ] },
+				"south": { "texture": "#material", "uv": [ 17.5, 42.5, 21.5, 47.5 ] },
+				"west": { "texture": "#material", "uv": [ 15.5, 42.5, 17.5, 47.5 ] },
+				"up": { "texture": "#material", "uv": [ 17.5, 40.5, 21.5, 42.5 ] },
+				"down": { "texture": "#material", "uv": [ 17.5, 47.5, 21.5, 49.5 ] }
+			}
+		}
+	]}

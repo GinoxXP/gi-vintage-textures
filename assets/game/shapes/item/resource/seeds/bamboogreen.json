@@ -1,0 +1,107 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"bamboo": "item/resource/seeds/bamboo"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "stem",
+					"from": [ -0.4, -2.4, -0.4 ], 
+					"to": [ 0.4, -0.4, 0.4 ], 
+					"rotationOrigin": [ 0.0, 0.6, 0.0 ],
+					"rotationY": 22.5,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#bamboo", "uv": [ 1.5, 6.0, 2.0, 8.0 ] },
+						"east": { "texture": "#bamboo", "uv": [ 2.0, 6.0, 2.5, 8.0 ] },
+						"south": { "texture": "#bamboo", "uv": [ 1.5, 6.0, 2.0, 8.0 ] },
+						"west": { "texture": "#bamboo", "uv": [ 1.5, 6.0, 2.0, 8.0 ] },
+						"up": { "texture": "#bamboo", "uv": [ 1.5, 7.5, 2.0, 8.0 ] },
+						"down": { "texture": "#bamboo", "uv": [ 1.5, 6.5, 2.0, 7.0 ] }
+					},
+					"children": [
+						{
+							"name": "1",
+							"from": [ 0.4, 2.0, -1.6 ], 
+							"to": [ 0.4, 8.0, 2.4 ], 
+							"rotationOrigin": [ 0.4, 2.0, 0.4 ],
+							"rotationY": -44.999996548644546,
+							"faces": {
+								"north": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"east": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
+								"south": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"west": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "enabled": false },
+								"up": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
+								"down": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "2",
+							"from": [ 0.4, 2.0, -1.6 ], 
+							"to": [ 0.4, 8.0, 2.4 ], 
+							"rotationOrigin": [ 0.4, 2.0, 0.4 ],
+							"rotationY": 44.999996548644546,
+							"faces": {
+								"north": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"east": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
+								"south": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"west": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "enabled": false },
+								"up": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
+								"down": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "3",
+							"from": [ 0.4014, 2.0, -1.6 ], 
+							"to": [ 0.4014, 8.0, 2.4 ], 
+							"rotationOrigin": [ 0.4, 2.0, 0.4 ],
+							"rotationY": -89.9802127184967,
+							"faces": {
+								"north": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"east": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
+								"south": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"west": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "enabled": false },
+								"up": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
+								"down": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "4",
+							"from": [ 0.4, 2.0, -1.6 ], 
+							"to": [ 0.4, 8.0, 2.4 ], 
+							"rotationOrigin": [ 0.4, 2.0, 0.4 ],
+							"faces": {
+								"north": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"east": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ] },
+								"south": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+								"west": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "enabled": false },
+								"up": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
+								"down": { "texture": "#bamboo", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,81 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"oak": "block/wood/bark/pine",
+		"oak1": "block/plant/leaves/large/pine1"
+	},
+	"elements": [
+		{
+			"name": "trunk",
+			"from": [ 7.5, 0.0, 7.5 ], 
+			"to": [ 8.5, 6.0, 8.5 ], 
+			"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+			"faces": {
+				"north": { "texture": "#oak", "uv": [ 1.0, 6.5, 2.0, 12.5 ] },
+				"east": { "texture": "#oak", "uv": [ 2.0, 6.0, 3.0, 12.0 ] },
+				"south": { "texture": "#oak", "uv": [ 12.5, 6.0, 13.5, 12.0 ] },
+				"west": { "texture": "#oak", "uv": [ 3.0, 6.0, 4.0, 12.0 ] },
+				"up": { "texture": "#oak", "uv": [ 14.0, 10.0, 15.0, 11.0 ] },
+				"down": { "texture": "#oak", "uv": [ 14.0, 9.0, 15.0, 10.0 ] }
+			},
+			"children": [
+				{
+					"name": "leaves",
+					"from": [ -1.5, 3.0, -1.5 ], 
+					"to": [ 2.5, 8.0, 2.5 ], 
+					"climateColorMap": "climatePlantTint", seasonColorMap: "seasonalLarch",
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, -1.0, 1.5 ],
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 4.0, 4.0, 8.0, 9.0 ] },
+						"east": { "texture": "#oak1", "uv": [ 5.0, 4.0, 9.0, 9.0 ] },
+						"south": { "texture": "#oak1", "uv": [ 1.0, 3.0, 5.0, 8.0 ] },
+						"west": { "texture": "#oak1", "uv": [ 3.0, 4.0, 7.0, 9.0 ] },
+						"up": { "texture": "#oak1", "uv": [ 3.0, 4.0, 7.0, 8.0 ] },
+						"down": { "texture": "#oak1", "uv": [ 7.0, 1.0, 11.0, 5.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "north",
+					"from": [ -3.5, 3.0, 0.5 ], 
+					"to": [ 4.5, 9.0, 0.5 ], 
+					"climateColorMap": "climatePlantTint", seasonColorMap: "seasonalLarch",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 3.0, 0.5 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 0.0, 0.0, 8.0, 6.0 ] },
+						"east": { "texture": "#oak", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+						"south": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "enabled": false },
+						"west": { "texture": "#oak", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+						"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "south",
+					"from": [ -3.5, 3.0, 0.5 ], 
+					"to": [ 4.5, 9.0, 0.5 ], 
+					"climateColorMap": "climatePlantTint", seasonColorMap: "seasonalLarch",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 3.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#oak1", "uv": [ 0.25, 0.25, 8.25, 6.25 ] },
+						"east": { "texture": "#oak", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+						"south": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "enabled": false },
+						"west": { "texture": "#oak", "uv": [ 0.0, 0.0, 0.5, 6.0 ], "enabled": false },
+						"up": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#oak", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

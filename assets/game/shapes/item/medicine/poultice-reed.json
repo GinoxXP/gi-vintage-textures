@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"material": "item/medicine/reed/honey-sulfur",
+		"agent": "item/medicine/reed/honey-sulfur"
+	},
+	"elements": [
+		{
+			"name": "poultice",
+			"from": [ 4.5, 0.0, 5.0 ], 
+			"to": [ 11.5, 1.5, 11.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#agent", "uv": [ 0.0, 0.0, 7.0, 1.5 ] },
+				"east": { "texture": "#agent", "uv": [ 0.0, 0.0, 6.0, 1.5 ] },
+				"south": { "texture": "#agent", "uv": [ 0.0, 1.0, 7.0, 2.5 ] },
+				"west": { "texture": "#agent", "uv": [ 9.5, 14.0, 15.5, 15.5 ] },
+				"up": { "texture": "#agent", "uv": [ 8.0, 1.0, 15.0, 7.0 ] },
+				"down": { "texture": "#agent", "uv": [ 0.0, 0.5, 7.0, 6.5 ] }
+			},
+			"children": [
+				{
+					"name": "strip",
+					"from": [ -1.0, 0.8, -1.5 ], 
+					"to": [ 8.0, 0.8, 7.5 ], 
+					"rotationOrigin": [ -1.0, 0.3, 0.5 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 9.0, 0.0 ], "enabled": false },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 9.0, 0.0 ], "enabled": false },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 9.0, 0.0 ], "enabled": false },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 9.0, 0.0 ], "enabled": false },
+						"up": { "texture": "#material", "uv": [ 0.0, 7.0, 9.0, 16.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 9.0, 9.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

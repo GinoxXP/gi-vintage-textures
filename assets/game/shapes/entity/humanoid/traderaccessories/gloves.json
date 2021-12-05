@@ -1,0 +1,144 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/trader",
+		"allAngles": false,
+		"singleTexture": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"material": "entity/humanoid/traderaccessories/gloves"
+	},
+	"elements": [
+		{
+			"name": "GloveL",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.1, 0.9, -0.1 ], 
+			"to": [ 2.6, 3.9, 2.1 ], 
+			"uv": [ 0.0, 13.0 ],
+			"rotationOrigin": [ -0.1, 0.9, -0.1 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 13.0, 2.5, 16.0 ] },
+				"east": { "texture": "#material", "uv": [ 2.5, 13.0, 4.5, 16.0 ] },
+				"south": { "texture": "#material", "uv": [ 4.5, 13.0, 7.0, 16.0 ] },
+				"west": { "texture": "#material", "uv": [ 7.0, 13.0, 9.0, 16.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 2.0 ], "enabled": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 11.0, 2.5, 13.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "GloveLRimUp",
+					"from": [ -0.2, 3.0, -0.2 ], 
+					"to": [ 2.9, 3.5, 2.4 ], 
+					"autoUnwrap": false,
+					"uv": [ 1.0, 5.0 ],
+					"rotationOrigin": [ -0.2, 3.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 3.5, 3.0, 4.0 ] },
+						"east": { "texture": "#material", "uv": [ 3.0, 3.5, 5.5, 4.0 ] },
+						"south": { "texture": "#material", "uv": [ 5.5, 3.5, 8.5, 4.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 3.5, 11.0, 4.0 ] },
+						"up": { "texture": "#material", "uv": [ 11.0, 2.5, 14.0, 5.0 ] },
+						"down": { "texture": "#material", "uv": [ 11.0, 5.0, 14.0, 7.5 ] }
+					}
+				},
+				{
+					"name": "GloveLHand",
+					"from": [ 0.0, -1.0, 1.2 ], 
+					"to": [ 2.7, 0.0, 2.2 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 7.5 ],
+					"rotationOrigin": [ 0.0, -1.0, 1.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 9.0, 2.5, 10.0 ] },
+						"east": { "texture": "#material", "uv": [ 2.5, 9.0, 3.5, 10.0 ] },
+						"south": { "texture": "#material", "uv": [ 3.5, 9.0, 6.0, 10.0 ] },
+						"west": { "texture": "#material", "uv": [ 6.0, 9.0, 7.0, 10.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false },
+						"down": { "texture": "#material", "uv": [ 6.0, 6.0, 8.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "GloveLRimLow",
+					"from": [ -0.2, 0.0, -0.2 ], 
+					"to": [ 2.9, 0.5, 2.4 ], 
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 2.5, 3.0, 3.0 ] },
+						"east": { "texture": "#material", "uv": [ 3.0, 2.5, 5.5, 3.0 ] },
+						"south": { "texture": "#material", "uv": [ 5.5, 2.5, 8.5, 3.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 2.5, 11.0, 3.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 3.0, 2.5 ] },
+						"down": { "texture": "#material", "uv": [ 3.0, 0.0, 6.0, 2.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "GloveR",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.1, 0.9, -0.1 ], 
+			"to": [ 2.6, 3.9, 2.1 ], 
+			"uv": [ 0.0, 10.0 ],
+			"rotationOrigin": [ -0.1, 0.9, -0.1 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 10.0, 2.5, 13.0 ] },
+				"east": { "texture": "#material", "uv": [ 2.5, 10.0, 4.5, 13.0 ] },
+				"south": { "texture": "#material", "uv": [ 4.5, 10.0, 7.0, 13.0 ] },
+				"west": { "texture": "#material", "uv": [ 7.0, 10.0, 9.0, 13.0 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 2.0 ], "enabled": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 6.0, 2.5, 8.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "GloveRRimUp",
+					"from": [ -0.2, 3.0, -0.2 ], 
+					"to": [ 2.9, 3.5, 2.4 ], 
+					"autoUnwrap": false,
+					"uv": [ 4.0, 4.5 ],
+					"rotationOrigin": [ -0.2, 3.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 4.0, 3.0, 4.5 ] },
+						"east": { "texture": "#material", "uv": [ 3.0, 4.0, 5.5, 4.5 ] },
+						"south": { "texture": "#material", "uv": [ 5.5, 4.0, 8.5, 4.5 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 4.0, 11.0, 4.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 4.5, 3.0, 7.0 ] },
+						"down": { "texture": "#material", "uv": [ 3.0, 4.5, 6.0, 7.0 ] }
+					}
+				},
+				{
+					"name": "GloveRHand",
+					"from": [ 0.0, -1.0, 0.0 ], 
+					"to": [ 2.7, 0.0, 1.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 6.5 ],
+					"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 7.0, 2.5, 8.0 ] },
+						"east": { "texture": "#material", "uv": [ 2.5, 7.0, 3.5, 8.0 ] },
+						"south": { "texture": "#material", "uv": [ 3.5, 7.0, 6.0, 8.0 ] },
+						"west": { "texture": "#material", "uv": [ 6.0, 7.0, 7.0, 8.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false },
+						"down": { "texture": "#material", "uv": [ 6.0, 4.5, 8.5, 5.5 ] }
+					}
+				},
+				{
+					"name": "GloveRRimLow",
+					"from": [ -0.2, 0.0, -0.2 ], 
+					"to": [ 2.9, 0.5, 2.4 ], 
+					"autoUnwrap": false,
+					"uv": [ 0.0, 3.0 ],
+					"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 3.0, 3.0, 3.5 ] },
+						"east": { "texture": "#material", "uv": [ 3.0, 3.0, 5.5, 3.5 ] },
+						"south": { "texture": "#material", "uv": [ 5.5, 3.0, 8.5, 3.5 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 3.0, 11.0, 3.5 ] },
+						"up": { "texture": "#material", "uv": [ 6.0, 0.0, 9.0, 2.5 ] },
+						"down": { "texture": "#material", "uv": [ 9.0, 0.0, 12.0, 2.5 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,104 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "block/metal/shingles/copper1"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 5.0, 0.5, 5.5 ], "enabled": false },
+				"east": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "slate",
+					"from": [ -12.0, 6.5, -7.99 ], 
+					"to": [ -4.0, 11.0, 8.03 ], 
+					"rotationOrigin": [ 1.5, 14.5, 0.0 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 4.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 4.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "Cube6",
+					"from": [ -2.5, 0.0, -8.0 ], 
+					"to": [ 2.5, 10.0, 8.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, -7.8 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 3.0, 6.0, 8.0, 16.0 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 10.0 ] },
+						"south": { "texture": "#material", "uv": [ 7.0, 6.0, 12.0, 16.0 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 10.0 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 5.0, 16.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 5.0, 16.0 ] }
+					},
+					"children": [
+						{
+							"name": "W",
+							"from": [ -5.5, 0.0, 0.02 ], 
+							"to": [ 0.0, 5.0, 16.0 ], 
+							"rotationOrigin": [ -5.5, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 5.0 ] },
+								"east": { "texture": "#material", "uv": [ 0.0, 0.0, 15.5, 5.0 ], "enabled": false },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 5.0 ] },
+								"west": { "texture": "#material", "uv": [ 0.0, 0.0, 15.5, 5.0 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 15.5 ], "enabled": false },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 15.5 ] }
+							}
+						},
+						{
+							"name": "E",
+							"from": [ 5.0, 0.0, 0.02 ], 
+							"to": [ 10.5, 5.0, 16.0 ], 
+							"rotationOrigin": [ 5.0, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 5.0 ] },
+								"east": { "texture": "#material", "uv": [ 0.0, 0.0, 15.5, 5.0 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 5.0 ] },
+								"west": { "texture": "#material", "uv": [ 0.0, 0.0, 15.5, 5.0 ], "enabled": false },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 15.5 ], "enabled": false },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 5.5, 15.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "slate17",
+					"from": [ 1.5, 3.5, -7.99 ], 
+					"to": [ 9.5, 8.0, 8.03 ], 
+					"rotationOrigin": [ 5.0, 6.5, 0.0 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 4.5 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 0.0, 8.0, 4.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+						"up": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 90 },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]}

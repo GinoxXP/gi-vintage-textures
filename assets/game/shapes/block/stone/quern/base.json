@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"baseside": "block/stone/quern/baseside",
+		"baseup": "block/stone/quern/grooves"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 11.0, 16.0 ], 
+			"rotationOrigin": [ 8.0, 10.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#baseside", "uv": [ 0.0, 5.0, 16.0, 16.0 ] },
+				"east": { "texture": "#baseside", "uv": [ 0.0, 5.0, 16.0, 16.0 ] },
+				"south": { "texture": "#baseside", "uv": [ 0.0, 5.0, 16.0, 16.0 ] },
+				"west": { "texture": "#baseside", "uv": [ 0.0, 5.0, 16.0, 16.0 ] },
+				"up": { "texture": "#baseup", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#basematerial", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

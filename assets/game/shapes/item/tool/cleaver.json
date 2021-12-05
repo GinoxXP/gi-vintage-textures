@@ -1,0 +1,100 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textures": {
+		"metal": "block/metal/sheet/steel1",
+		"toolhandle": "item/tool/cleaver-overlay"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [ 9.5, 7.5, 7.6 ], 
+			"to": [ 15.5, 8.5, 8.4 ], 
+			"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#toolhandle", "uv": [ 0.0, 25.0, 24.0, 29.0 ], "rotation": 180, "autoUv": false },
+				"east": { "texture": "#toolhandle", "uv": [ 25.0, 30.0, 29.0, 27.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#toolhandle", "uv": [ 0.0, 25.0, 24.0, 29.0 ], "autoUv": false },
+				"west": { "texture": "#toolhandle", "uv": [ 25.0, 26.0, 29.0, 29.0 ], "autoUv": false },
+				"up": { "texture": "#toolhandle", "uv": [ 0.0, 29.0, 24.0, 32.0 ], "autoUv": false },
+				"down": { "texture": "#toolhandle", "uv": [ 0.0, 29.0, 24.0, 32.0 ], "rotation": 180, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "BladeMid",
+					"from": [ -6.9, -0.5, 0.2 ], 
+					"to": [ 0.1, 0.5, 0.6 ], 
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 28.0, 15.0, 0.0, 11.0 ], "autoUv": false },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 12.0 ], "autoUv": false },
+						"south": { "texture": "#metal", "uv": [ 4.0, 7.0, 32.0, 11.0 ], "autoUv": false },
+						"west": { "texture": "#metal", "uv": [ 2.0, 0.0, 2.5, 12.0 ], "autoUv": false },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 28.0, 0.0 ], "autoUv": false },
+						"down": { "texture": "#metal", "uv": [ 0.0, 18.5, 28.0, 19.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "bladeEyeFront",
+							"from": [ 0.0, 1.0, 0.0 ], 
+							"to": [ 0.5, 1.5, 0.4 ], 
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 22.0, 0.0, 24.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#metal", "uv": [ 2.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#metal", "uv": [ 20.0, 0.0, 22.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#metal", "uv": [ 4.0, 4.0, 5.0, 6.0 ], "autoUv": false },
+								"up": { "texture": "#metal", "uv": [ 3.0, 4.0, 3.5, 4.0 ], "enabled": false },
+								"down": { "texture": "#metal", "uv": [ 1.0, 2.0, 1.5, 2.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "bladeEyeBack",
+							"from": [ 1.0, 1.0, 0.0 ], 
+							"to": [ 7.0, 1.5, 0.4 ], 
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 3.0, 6.0, 27.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#metal", "uv": [ 1.0, 2.0, 1.0, 2.5 ], "enabled": false },
+								"south": { "texture": "#metal", "uv": [ 1.0, 4.0, 25.0, 6.0 ], "autoUv": false },
+								"west": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.0, 1.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 6.0, 0.0 ], "enabled": false },
+								"down": { "texture": "#metal", "uv": [ 1.0, 2.0, 7.0, 2.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "bladeTop",
+							"from": [ 0.0, 1.5, 0.0 ], 
+							"to": [ 7.0, 2.0, 0.4 ], 
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 2.0, 3.0, 30.0, 5.0 ], "autoUv": false },
+								"east": { "texture": "#metal", "uv": [ 1.0, 2.0, 1.0, 2.0 ] },
+								"south": { "texture": "#metal", "uv": [ 4.0, 8.0, 32.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "autoUv": false },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 28.0, 1.0 ], "autoUv": false },
+								"down": { "texture": "#metal", "uv": [ 1.0, 2.0, 29.0, 3.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "BladeEdge",
+							"from": [ 0.0, -2.0, 0.1 ], 
+							"to": [ 7.0, 0.0, 0.3 ], 
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 5.0,
+							"faces": {
+								"north": { "texture": "#toolhandle", "uv": [ 28.0, 17.0, 0.0, 25.0 ], "autoUv": false },
+								"east": { "texture": "#toolhandle", "uv": [ 17.0, 13.0, 17.5, 25.0 ], "autoUv": false },
+								"south": { "texture": "#toolhandle", "uv": [ 0.0, 17.0, 28.0, 25.0 ], "autoUv": false },
+								"west": { "texture": "#toolhandle", "uv": [ 4.0, 13.0, 4.5, 25.0 ], "autoUv": false },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 28.0, 0.0 ], "autoUv": false },
+								"down": { "texture": "#metal", "uv": [ 0.0, 18.5, 28.0, 19.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

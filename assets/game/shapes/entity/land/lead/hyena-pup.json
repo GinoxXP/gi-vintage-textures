@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/hyena-pup",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "rope",
+			"stepParentName": "neck",
+			"from": [ 0.7, -0.2, -0.2 ], 
+			"to": [ 1.2, 2.2, 2.2 ], 
+			"rotationOrigin": [ 0.7, 1.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 7.0, 11.5, 7.5, 13.5 ] },
+				"east": { "texture": "#rope", "uv": [ 12.0, 0.5, 14.0, 2.5 ] },
+				"south": { "texture": "#rope", "uv": [ 11.0, 3.0, 11.5, 5.0 ] },
+				"west": { "texture": "#rope", "uv": [ 0.5, 13.5, 2.5, 15.5 ] },
+				"up": { "texture": "#rope", "uv": [ 10.5, 5.0, 11.0, 7.0 ] },
+				"down": { "texture": "#rope", "uv": [ 3.5, 2.0, 4.0, 4.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,117 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"potted-bamboo": "block/plant/bamboo/potted-bamboo",
+		"foliage-planter": "block/plant/bamboo/foliage-planter"
+	},
+	"elements": [
+		{
+			"name": "bamboo-stem1",
+			"from": [ 7.5, 0.0, 7.5 ], 
+			"to": [ 8.5, 14.0, 8.5 ], 
+			"rotationOrigin": [ 8.5, 0.0, 8.5 ],
+			"faces": {
+				"north": { "texture": "#potted-bamboo", "uv": [ 2.0, 0.0, 3.0, 14.0 ] },
+				"east": { "texture": "#potted-bamboo", "uv": [ 2.0, 0.0, 3.0, 14.0 ] },
+				"south": { "texture": "#potted-bamboo", "uv": [ 2.0, 0.0, 3.0, 14.0 ] },
+				"west": { "texture": "#potted-bamboo", "uv": [ 2.0, 0.0, 3.0, 14.0 ] },
+				"up": { "texture": "#potted-bamboo", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#potted-bamboo", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bamboo-band1",
+					"from": [ -0.2, 6.0, -0.2 ], 
+					"to": [ 1.2, 7.0, 1.2 ], 
+					"rotationOrigin": [ -0.2, 6.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"east": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"south": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"west": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"up": { "texture": "#potted-bamboo", "uv": [ 2.0, 14.0, 3.0, 15.0 ] },
+						"down": { "texture": "#potted-bamboo", "uv": [ 2.0, 14.0, 3.0, 15.0 ] }
+					}
+				},
+				{
+					"name": "bamboo-band2",
+					"from": [ -0.2, 13.0, -0.2 ], 
+					"to": [ 1.2, 14.0, 1.2 ], 
+					"rotationOrigin": [ -0.2, 13.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"east": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"south": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"west": { "texture": "#potted-bamboo", "uv": [ 2.0, 13.0, 3.0, 14.0 ] },
+						"up": { "texture": "#potted-bamboo", "uv": [ 2.5, 14.5, 3.5, 15.5 ] },
+						"down": { "texture": "#potted-bamboo", "uv": [ 2.0, 14.0, 3.0, 15.0 ] }
+					}
+				},
+				{
+					"name": "bamboo-leafW",
+					"from": [ -7.5, 4.5, 0.5 ], 
+					"to": [ 8.5, 20.5, 0.5 ], 
+					"rotationOrigin": [ 0.3, 10.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"east": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"west": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bamboo-leafN",
+					"from": [ 0.5, 4.5, -7.5 ], 
+					"to": [ 0.5, 20.5, 8.5 ], 
+					"rotationOrigin": [ 0.5, 10.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#foliage-planter", "uv": [ 3.5, 3.5, 4.0, 19.5 ], "enabled": false },
+						"east": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"south": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"up": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bamboo-leafNE",
+					"from": [ 0.5, 5.0, -7.5 ], 
+					"to": [ 0.5, 21.0, 8.5 ], 
+					"rotationOrigin": [ 0.5, 11.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#foliage-planter", "uv": [ 3.5, 3.5, 4.0, 19.5 ], "enabled": false },
+						"east": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"south": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#foliage-planter", "uv": [ 3.0, 3.0, 19.0, 19.0 ], "enabled": false },
+						"up": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "bamboo-leafSW",
+					"from": [ -7.5, 5.0, 0.5 ], 
+					"to": [ 8.5, 21.0, 0.5 ], 
+					"rotationOrigin": [ 0.5, 11.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#foliage-planter", "uv": [ 3.0, 3.0, 19.0, 19.0 ], "enabled": false },
+						"east": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+						"west": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#foliage-planter", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

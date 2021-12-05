@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"e5": "block/plant/crop/onion/e2",
+		"s5": "block/plant/crop/onion/s2",
+		"bulb": "block/plant/crop/onion/bulb"
+	},
+	"elements": [
+		{
+			"name": "onion 2",
+			"from": [ 6.75, 0.5, 6.75 ], 
+			"to": [ 9.25, 2.0, 9.25 ], 
+			"rotationOrigin": [ 7.8, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#bulb", "uv": [ 5.5, 12.5, 8.0, 14.0 ] },
+				"east": { "texture": "#bulb", "uv": [ 12.0, 12.5, 14.5, 14.0 ] },
+				"south": { "texture": "#bulb", "uv": [ 7.0, 12.5, 9.5, 14.0 ] },
+				"west": { "texture": "#bulb", "uv": [ 11.0, 13.0, 13.5, 14.5 ] },
+				"up": { "texture": "#bulb", "uv": [ 11.5, 4.0, 14.0, 6.5 ] },
+				"down": { "texture": "#bulb", "uv": [ 5.0, 8.0, 7.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "onion 2 top",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 2.0, 2.0, 2.0 ], 
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 7.0, 4.0, 8.5, 4.5 ] },
+						"east": { "texture": "#bulb", "uv": [ 7.0, 4.5, 8.5, 5.0 ] },
+						"south": { "texture": "#bulb", "uv": [ 11.0, 4.5, 12.5, 5.0 ] },
+						"west": { "texture": "#bulb", "uv": [ 0.5, 4.0, 2.0, 4.5 ] },
+						"up": { "texture": "#bulb", "uv": [ 11.5, 4.5, 13.0, 6.0 ] },
+						"down": { "texture": "#bulb", "uv": [ 9.0, 7.0, 10.5, 8.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "s 2",
+					"from": [ -4.8, 1.0, 1.0 ], 
+					"to": [ 8.2, 14.0, 1.0 ], 
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.5 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 13.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false },
+						"south": { "texture": "#s5", "uv": [ 2.0, 3.0, 15.0, 16.0 ] },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 0.0 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 0.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "e 2",
+					"from": [ 1.2, 1.0, -5.8 ], 
+					"to": [ 1.2, 14.0, 7.2 ], 
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false },
+						"east": { "texture": "#e5", "uv": [ 2.0, 3.0, 15.0, 16.0 ] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 13.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 13.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "onion bottom",
+					"from": [ 0.5, -0.5, 0.5 ], 
+					"to": [ 2.0, 0.0, 2.0 ], 
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 12.5, 6.5, 14.0, 7.0 ] },
+						"east": { "texture": "#bulb", "uv": [ 0.5, 6.0, 2.0, 6.5 ] },
+						"south": { "texture": "#bulb", "uv": [ 9.5, 6.0, 11.0, 6.5 ] },
+						"west": { "texture": "#bulb", "uv": [ 3.0, 6.5, 4.5, 7.0 ] },
+						"up": { "texture": "#bulb", "uv": [ 3.0, 8.0, 4.5, 9.5 ], "enabled": false },
+						"down": { "texture": "#bulb", "uv": [ 10.0, 5.5, 11.5, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}
