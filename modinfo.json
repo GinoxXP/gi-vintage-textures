@@ -6,7 +6,7 @@
   "description": "This is a x16 texturepack.",
   "side": "client",
   "version": "0.0.1",
-  "textureSize" : 16,
+  "textureSize" : 32,
   "dependency": {
     "game": "1.15.0"
   },
