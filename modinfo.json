@@ -3,12 +3,12 @@
   "modid": "GiVintage",
   "name": "GiVintage",
   "authors": [ "GinoxXP" ],
-  "description": "This is a x16 texturepack.",
+  "description": "This is a x16 minecraft-like downscale texturepack.",
   "side": "client",
   "version": "0.0.1",
   "textureSize" : 32,
   "dependency": {
     "game": "1.15.0"
   },
-  "website": "localhost"
+  "website": "https://github.com/GinoxXP/gi-vintage-textures"
 }
