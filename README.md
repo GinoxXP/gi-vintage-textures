@@ -1,4 +1,7 @@
 # gi-vintage-textures
+
+![Mod icon](/modicon.png)
+
 Minecraft-like x16 texture pack for Vintage Story
 
 ![Preview 1](/.images/preview1.png)
