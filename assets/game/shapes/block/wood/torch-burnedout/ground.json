@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"burnout": "block/wood/torch/burnout"
+		"burnedout": "block/wood/torch/burnedout"
 	},
 	"elements": [
 		{
@@ -17,12 +17,12 @@
 			"to": [ 9.0, 7.0, 9.0 ], 
 			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
 			"faces": {
-				"north": { "texture": "#burnout", "uv": [ 7.0, 9.0, 9.0, 16.0 ], "autoUv": false },
-				"east": { "texture": "#burnout", "uv": [ 7.0, 9.0, 9.0, 16.0 ], "autoUv": false },
-				"south": { "texture": "#burnout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
-				"west": { "texture": "#burnout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
-				"up": { "texture": "#burnout", "uv": [ 7.0, 9.0, 9.0, 11.0 ] },
-				"down": { "texture": "#burnout", "uv": [ 7.0, 14.0, 9.0, 16.0 ] }
+				"north": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
+				"west": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
+				"up": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 11.0 ] },
+				"down": { "texture": "#burnedout", "uv": [ 7.0, 14.0, 9.0, 16.0 ] }
 			}
 		}
 	]}
