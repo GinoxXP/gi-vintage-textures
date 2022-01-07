@@ -22,7 +22,7 @@
 				"south": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
 				"west": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 16.0 ] },
 				"up": { "texture": "#burnedout", "uv": [ 7.0, 9.0, 9.0, 11.0 ] },
-				"down": { "texture": "#burnedout", "uv": [ 7.0, 14.0, 9.0, 16.0 ] }
+				"down": { "texture": "#burnedout", "uv": [ 7.0, 14.0, 8.0, 16.0 ], "autoUv": false }
 			}
 		}
 	]}
