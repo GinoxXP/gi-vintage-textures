@@ -8,22 +8,21 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"bee_nest_top": "block/beehive/bee_nest_top",
-		"bee_nest_side": "block/beehive/bee_nest_side",
-		"bee_nest_front": "block/beehive/bee_nest_front"
+		"454": "block/beehive/454"
 	},
 	"elements": [
 		{
 			"name": "Cube1",
-			"from": [ 0.0, 0.0, 0.0 ], 
-			"to": [ 16.0, 16.0, 16.0 ], 
+			"from": [ 4.0, 6.0, 4.0 ], 
+			"to": [ 12.0, 16.0, 12.0 ], 
+			"rotationOrigin": [ 4.0, 6.0, 4.0 ],
 			"faces": {
-				"north": { "texture": "#bee_nest_side", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"east": { "texture": "#bee_nest_side", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"south": { "texture": "#bee_nest_front", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"west": { "texture": "#bee_nest_side", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"up": { "texture": "#bee_nest_top", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"down": { "texture": "#bee_nest_top", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+				"north": { "texture": "#454", "uv": [ 4.0, 0.0, 8.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#454", "uv": [ 4.0, 0.0, 8.0, 5.0 ], "autoUv": false },
+				"south": { "texture": "#454", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"west": { "texture": "#454", "uv": [ 4.0, 0.0, 8.0, 5.0 ], "autoUv": false },
+				"up": { "texture": "#454", "uv": [ 0.0, 5.0, 4.0, 9.0 ], "autoUv": false },
+				"down": { "texture": "#454", "uv": [ 0.0, 5.0, 4.0, 9.0 ], "autoUv": false }
 			}
 		}
 	]}
