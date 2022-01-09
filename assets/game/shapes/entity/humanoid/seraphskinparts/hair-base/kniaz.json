@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"birch": [16,16]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "HairBase",
+			"stepParentName": "Head",
+			"from": [ -0.2, -0.4, -0.1 ], 
+			"to": [ 6.1, 5.1, 4.9 ], 
+			"autoUnwrap": false,
+			"uv": [ 1.5, 10.5 ],
+			"rotationOrigin": [ 2.8, 2.6, 2.5 ],
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 6.0, 6.5 ] },
+				"east": { "texture": "#hair", "uv": [ 8.5, 2.0, 13.5, 7.5 ] },
+				"south": { "texture": "#hair", "uv": [ 6.5, 20.0, 12.0, 26.0 ], "rotation": 90, "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 5.5, 12.5, 10.5, 18.0 ] },
+				"up": { "texture": "#hair", "uv": [ 15.0, 3.0, 21.0, 8.0 ] },
+				"down": { "texture": "#hair", "uv": [ 14.0, 26.0, 20.0, 31.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "HairTop",
+					"from": [ 0.0, 5.5, -0.4 ], 
+					"to": [ 6.3, 5.5, 1.6 ], 
+					"autoUnwrap": false,
+					"uv": [ 15.0, 3.5 ],
+					"rotationOrigin": [ 3.2, 5.5, 1.6 ],
+					"rotationX": 17.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 3.0, 6.0, 3.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 6.0, 3.0, 8.0, 3.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 9.0, 3.0, 15.0, 3.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 15.0, 3.0, 17.0, 3.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 15.0, 4.5, 21.0, 6.5 ], "rotation": 180 },
+						"down": { "texture": "#hair", "uv": [ 6.0, 0.0, 12.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "HairSide",
+					"from": [ 0.0, 2.0, 0.0 ], 
+					"to": [ 6.3, 5.0, 0.0 ], 
+					"uv": [ 15.0, 3.0 ],
+					"rotationOrigin": [ 3.2, 5.0, 0.0 ],
+					"rotationX": 6.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 15.0, 3.0, 21.0, 6.0 ] },
+						"east": { "texture": "#hair", "uv": [ 6.0, 0.5, 6.5, 3.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 6.5, 0.5, 12.5, 3.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 12.5, 0.5, 13.0, 3.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#hair", "uv": [ 6.0, 0.0, 12.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "HairOver",
+			"stepParentName": "Head",
+			"from": [ -0.3, -3.3, -0.2 ], 
+			"to": [ 6.2, 5.2, 5.2 ], 
+			"autoUnwrap": false,
+			"uv": [ 32.5, 22.0 ],
+			"renderInEditor": false,
+			"rotationOrigin": [ 2.7, 2.7, 2.5 ],
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 20.5, 1.5, 27.0, 10.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 27.0, 16.0, 32.0, 24.5 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 0.5, 20.5, 9.0, 27.0 ], "rotation": 90, "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 22.0, 10.0, 27.0, 18.5 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 17.0, 5.5, 22.0, 12.0 ], "rotation": 90, "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 0.0, 0.0, 6.5, 5.0 ], "enabled": false }
+			}
+		}
+	]}

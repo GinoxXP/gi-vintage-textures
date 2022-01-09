@@ -1,0 +1,183 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "brd-Santamover",
+			"stepParentName": "Head",
+			"from": [ 0.0, -0.05, 2.23 ], 
+			"to": [ 1.0, 0.95, 3.23 ], 
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.5, 0.5, 2.7 ],
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "SantaJawL",
+					"from": [ 0.8, -0.4, 2.6 ], 
+					"to": [ 2.8, 0.6, 2.9 ], 
+					"unwrapMode": 2,
+					"uv": [ 23.5, 0.0 ],
+					"rotationOrigin": [ 0.9, -0.4, 2.6 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 26.0, 2.0, 28.0, 3.0 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 25.5, 2.0, 26.0, 3.0 ] },
+						"south": { "texture": "#hair", "uv": [ 23.5, 2.0, 25.5, 3.0 ] },
+						"west": { "texture": "#hair", "uv": [ 26.0, 2.0, 26.5, 3.0 ] },
+						"up": { "texture": "#hair", "uv": [ 25.5, 0.0, 26.0, 2.0 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 25.5, 3.0, 26.0, 5.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "SantaJawR",
+					"from": [ 0.8, -0.4, -2.4 ], 
+					"to": [ 2.8, 0.6, -1.9 ], 
+					"unwrapMode": 2,
+					"uv": [ 23.5, 0.0 ],
+					"rotationOrigin": [ 0.8, -0.4, -2.4 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 24.0, 2.0, 26.0, 3.0 ] },
+						"east": { "texture": "#hair", "uv": [ 23.5, 2.0, 24.0, 3.0 ] },
+						"south": { "texture": "#hair", "uv": [ 23.5, 2.0, 25.5, 3.0 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 26.0, 2.0, 26.5, 3.0 ] },
+						"up": { "texture": "#hair", "uv": [ 23.5, 0.0, 24.0, 2.0 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 23.5, 3.0, 24.0, 5.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "SantaUpL",
+					"from": [ 1.8, 0.6, 2.7 ], 
+					"to": [ 2.8, 2.1, 2.9 ], 
+					"unwrapMode": 2,
+					"uv": [ 23.5, 0.0 ],
+					"rotationOrigin": [ 1.9, 0.6, 2.7 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 25.0, 1.0, 26.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 24.5, 1.0, 25.0, 2.5 ] },
+						"south": { "texture": "#hair", "uv": [ 23.5, 1.0, 24.5, 2.5 ] },
+						"west": { "texture": "#hair", "uv": [ 25.0, 1.0, 25.5, 2.5 ] },
+						"up": { "texture": "#hair", "uv": [ 24.5, 0.0, 25.0, 1.0 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 24.5, 2.5, 25.0, 3.5 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "SantaUpR",
+					"from": [ 1.8, 0.5, -2.4 ], 
+					"to": [ 2.8, 2.0, -2.2 ], 
+					"unwrapMode": 2,
+					"uv": [ 23.5, 0.0 ],
+					"rotationOrigin": [ 1.8, 0.5, -2.4 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 24.0, 1.0, 25.0, 2.5 ] },
+						"east": { "texture": "#hair", "uv": [ 23.5, 1.0, 24.0, 2.5 ] },
+						"south": { "texture": "#hair", "uv": [ 23.5, 1.0, 24.5, 2.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 25.0, 1.0, 25.5, 2.5 ] },
+						"up": { "texture": "#hair", "uv": [ 23.5, 0.0, 24.0, 1.0 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 23.5, 2.5, 24.0, 3.5 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "hideme",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 0.0, 0.0 ], 
+					"uv": [ 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Santa1",
+							"from": [ -0.3, -0.4, -2.4 ], 
+							"to": [ 0.8, 0.6, 2.9 ], 
+							"unwrapMode": 4,
+							"uv": [ 11.0, 0.0 ],
+							"rotationOrigin": [ -0.3, -0.4, -2.4 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 11.0, 1.0, 12.0, 2.0 ] },
+								"east": { "texture": "#hair", "uv": [ 18.0, 1.0, 23.0, 2.0 ] },
+								"south": { "texture": "#hair", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
+								"west": { "texture": "#hair", "uv": [ 12.0, 1.0, 17.0, 2.0 ] },
+								"up": { "texture": "#hair", "uv": [ 12.0, 0.0, 17.0, 1.0 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 12.0, 2.0, 17.0, 3.0 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "Santa2",
+									"from": [ 0.0, -1.0, 0.4 ], 
+									"to": [ 1.0, 0.0, 4.9 ], 
+									"unwrapMode": 4,
+									"uv": [ 13.0, 2.0 ],
+									"rotationOrigin": [ 0.0, -1.0, 0.4 ],
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 13.0, 3.0, 14.0, 4.0 ] },
+										"east": { "texture": "#hair", "uv": [ 19.5, 3.0, 24.0, 4.0 ] },
+										"south": { "texture": "#hair", "uv": [ 18.5, 3.0, 19.5, 4.0 ] },
+										"west": { "texture": "#hair", "uv": [ 14.0, 3.0, 18.5, 4.0 ] },
+										"up": { "texture": "#hair", "uv": [ 14.0, 2.0, 18.5, 3.0 ], "rotation": 90 },
+										"down": { "texture": "#hair", "uv": [ 14.0, 4.0, 18.5, 5.0 ], "rotation": 90 }
+									},
+									"children": [
+										{
+											"name": "Santa3",
+											"from": [ 0.0, -1.0, 0.5 ], 
+											"to": [ 1.0, 0.0, 4.0 ], 
+											"unwrapMode": 4,
+											"uv": [ 18.0, 1.0 ],
+											"rotationOrigin": [ 0.0, -1.0, 0.5 ],
+											"faces": {
+												"north": { "texture": "#hair", "uv": [ 18.0, 2.0, 19.0, 3.0 ] },
+												"east": { "texture": "#hair", "uv": [ 23.5, 2.0, 27.0, 3.0 ] },
+												"south": { "texture": "#hair", "uv": [ 22.5, 2.0, 23.5, 3.0 ] },
+												"west": { "texture": "#hair", "uv": [ 19.0, 2.0, 22.5, 3.0 ] },
+												"up": { "texture": "#hair", "uv": [ 19.0, 1.0, 22.5, 2.0 ], "rotation": 90 },
+												"down": { "texture": "#hair", "uv": [ 19.0, 3.0, 22.5, 4.0 ], "rotation": 90 }
+											},
+											"children": [
+												{
+													"name": "Santa4",
+													"from": [ 0.0, -1.0, 0.5 ], 
+													"to": [ 1.0, 0.0, 3.0 ], 
+													"unwrapMode": 4,
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.0, -1.0, 0.5 ],
+													"faces": {
+														"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+														"east": { "texture": "#hair", "uv": [ 4.5, 1.0, 7.0, 2.0 ] },
+														"south": { "texture": "#hair", "uv": [ 3.5, 1.0, 4.5, 2.0 ] },
+														"west": { "texture": "#hair", "uv": [ 1.0, 1.0, 3.5, 2.0 ] },
+														"up": { "texture": "#hair", "uv": [ 1.0, 0.0, 3.5, 1.0 ], "rotation": 90 },
+														"down": { "texture": "#hair", "uv": [ 1.0, 2.0, 3.5, 3.0 ], "rotation": 90 }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

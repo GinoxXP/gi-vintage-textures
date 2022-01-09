@@ -1,0 +1,49 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "mst-pencilR",
+			"stepParentName": "Head",
+			"from": [ -0.1, 1.05, 1.5 ], 
+			"to": [ 0.1, 1.35, 2.5 ], 
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.1, 1.25, 2.5 ],
+			"rotationX": -5.0,
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+				"east": { "texture": "#hair", "uv": [ 0.5, 1.0, 1.5, 1.5 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 1.5, 1.0, 2.0, 1.5 ] },
+				"west": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ] },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"down": { "texture": "#hair", "uv": [ 0.5, 0.0, 1.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "mst-pencilL",
+			"stepParentName": "Head",
+			"from": [ -0.1, 1.05, 2.6 ], 
+			"to": [ 0.1, 1.35, 3.6 ], 
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.1, 1.25, 2.6 ],
+			"rotationX": 5.0,
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+				"east": { "texture": "#hair", "uv": [ 0.5, 1.0, 1.5, 1.5 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 0.5, 1.0, 1.0, 1.5 ] },
+				"west": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 1.5 ] },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"down": { "texture": "#hair", "uv": [ 0.5, 0.0, 1.0, 1.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Ponytail1",
+					"from": [ 5.7, -2.5, 1.0 ], 
+					"to": [ 7.7, 4.5, 4.0 ], 
+					"uv": [ 14.0, 0.0 ],
+					"rotationOrigin": [ 5.7, 4.5, 2.5 ],
+					"rotationZ": 2.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 14.0, 2.0, 16.0, 9.0 ] },
+						"east": { "texture": "#hair", "uv": [ 16.0, 2.0, 19.0, 9.0 ] },
+						"south": { "texture": "#hair", "uv": [ 19.0, 2.0, 21.0, 9.0 ] },
+						"west": { "texture": "#hair", "uv": [ 29.0, 22.5, 32.0, 29.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 14.0, 0.0, 17.0, 2.0 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 55.0, 46.0, 58.0, 48.0 ], "rotation": 270, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Ponytail 2",
+							"from": [ 0.0, 3.9, 0.5 ], 
+							"to": [ 10.0, 5.9, 2.5 ], 
+							"autoUnwrap": false,
+							"uv": [ 30.0, 16.0 ],
+							"rotationOrigin": [ 0.0, 4.9, 1.5 ],
+							"rotationZ": -75.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 38.5, 15.0, 40.5, 25.0 ], "rotation": 90 },
+								"east": { "texture": "#hair", "uv": [ 56.0, 62.0, 58.0, 64.0 ], "rotation": 180, "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 40.0, 15.0, 42.0, 25.0 ], "rotation": 270 },
+								"west": { "texture": "#hair", "uv": [ 38.5, 16.0, 40.5, 18.0 ] },
+								"up": { "texture": "#hair", "uv": [ 36.5, 15.0, 38.5, 25.0 ], "rotation": 270 },
+								"down": { "texture": "#hair", "uv": [ 38.0, 15.0, 40.0, 25.0 ], "rotation": 90 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

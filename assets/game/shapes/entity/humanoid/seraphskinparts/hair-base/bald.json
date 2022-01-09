@@ -1,0 +1,53 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "Hair",
+			"stepParentName": "Head",
+			"from": [ -0.17, -3.1, -0.3 ], 
+			"to": [ 6.33, 5.4, 5.2 ], 
+			"autoUnwrap": false,
+			"uv": [ 2.0, 2.5 ],
+			"rotationOrigin": [ 3.75, 2.066, 1.8 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 6.5, 9.5 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 18.0, 1.0, 23.5, 9.5 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 11.0, 1.0, 17.5, 9.5 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 6.0, 0.5, 11.5, 9.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 24.0, 0.0, 29.5, 6.5 ], "rotation": 90, "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 14.0, 27.0, 25.5, 12.0 ], "rotation": 90, "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Hair tile upper part",
+			"stepParentName": "Head",
+			"from": [ -0.41, -2.1, -0.6 ], 
+			"to": [ 6.59, 5.4, 5.4 ], 
+			"autoUnwrap": false,
+			"uv": [ 3.0, 9.0 ],
+			"rotationOrigin": [ 2.9252, 5.6058, 2.1 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 10.5, 7.0, 18.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 19.0, 10.5, 25.0, 18.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 12.5, 10.5, 19.5, 18.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 6.5, 10.5, 12.5, 18.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 26.0, 11.0, 32.0, 18.0 ], "rotation": 90, "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 39.0, 34.5, 45.0, 41.5 ], "rotation": 90, "enabled": false }
+			}
+		}
+	]
+}

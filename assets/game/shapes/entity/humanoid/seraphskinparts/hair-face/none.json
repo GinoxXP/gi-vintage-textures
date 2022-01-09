@@ -1,0 +1,16 @@
+{
+	"editor": {
+		"allAngles": true, "backDropShape": "entity/humanoid/seraph-hairless",
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+	]
+}

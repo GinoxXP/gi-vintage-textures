@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48],
+		"birch": [16,16]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray",
+		"birch": "block/wood/debarked/birch"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"stepParentName": "Head",
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "BunTop",
+					"from": [ 3.8, 4.7, 1.5 ], 
+					"to": [ 5.8, 6.7, 3.5 ], 
+					"uv": [ 18.0, 31.5 ],
+					"rotationOrigin": [ 4.8, 5.7, 2.5 ],
+					"rotationZ": -20.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 18.0, 33.5, 20.0, 35.5 ] },
+						"east": { "texture": "#hair", "uv": [ 20.0, 33.5, 22.0, 35.5 ] },
+						"south": { "texture": "#hair", "uv": [ 22.0, 33.5, 24.0, 35.5 ] },
+						"west": { "texture": "#hair", "uv": [ 24.0, 33.5, 26.0, 35.5 ] },
+						"up": { "texture": "#hair", "uv": [ 18.0, 31.5, 20.0, 33.5 ] },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Stick",
+							"from": [ 0.5, 1.0, -1.0 ], 
+							"to": [ 1.0, 1.5, 3.0 ], 
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.5, 1.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#birch", "uv": [ 0.0, 4.0, 0.5, 4.5 ] },
+								"east": { "texture": "#birch", "uv": [ 0.5, 4.0, 4.5, 4.5 ] },
+								"south": { "texture": "#birch", "uv": [ 4.5, 4.0, 5.0, 4.5 ] },
+								"west": { "texture": "#birch", "uv": [ 5.0, 4.0, 9.0, 4.5 ] },
+								"up": { "texture": "#birch", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
+								"down": { "texture": "#birch", "uv": [ 0.5, 0.0, 1.0, 4.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

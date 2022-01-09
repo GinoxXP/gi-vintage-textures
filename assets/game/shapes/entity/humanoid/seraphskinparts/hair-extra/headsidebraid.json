@@ -1,0 +1,144 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "SideBraidLeft",
+					"from": [ 2.0, 2.0, 4.0 ], 
+					"to": [ 5.0, 3.0, 5.0 ], 
+					"uv": [ 20.5, 32.5 ],
+					"rotationOrigin": [ 2.5, 2.5, 4.5 ],
+					"rotationY": -15.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 20.5, 33.5, 24.5, 34.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 20.5, 33.5, 21.5, 34.5 ] },
+						"south": { "texture": "#hair", "uv": [ 21.5, 33.5, 24.5, 34.5 ] },
+						"west": { "texture": "#hair", "uv": [ 29.5, 33.5, 30.5, 34.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 20.5, 32.5, 23.5, 33.5 ] },
+						"down": { "texture": "#hair", "uv": [ 23.5, 32.5, 26.5, 33.5 ] }
+					},
+					"children": [
+						{
+							"name": "BraidLeft1",
+							"from": [ 2.1, -2.4, 0.1 ], 
+							"to": [ 3.1, 0.6, 1.1 ], 
+							"uv": [ 18.0, 32.0 ],
+							"rotationOrigin": [ 2.6, 0.6, 0.6 ],
+							"rotationY": 28.0,
+							"rotationZ": 36.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 18.0, 33.0, 19.0, 36.0 ] },
+								"east": { "texture": "#hair", "uv": [ 19.0, 33.0, 20.0, 36.0 ] },
+								"south": { "texture": "#hair", "uv": [ 20.0, 33.0, 21.0, 36.0 ] },
+								"west": { "texture": "#hair", "uv": [ 21.0, 33.0, 22.0, 36.0 ] },
+								"up": { "texture": "#hair", "uv": [ 18.0, 32.0, 19.0, 33.0 ] },
+								"down": { "texture": "#hair", "uv": [ 19.0, 32.0, 20.0, 33.0 ] }
+							},
+							"children": [
+								{
+									"name": "BraidLeft2",
+									"from": [ 0.0, -3.8, 0.0 ], 
+									"to": [ 1.0, 0.2, 1.0 ], 
+									"uv": [ 24.0, 36.5 ],
+									"rotationOrigin": [ 0.5, 0.2, 0.5 ],
+									"rotationY": 45.0,
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 24.0, 37.5, 25.0, 41.5 ] },
+										"east": { "texture": "#hair", "uv": [ 25.0, 37.5, 26.0, 41.5 ] },
+										"south": { "texture": "#hair", "uv": [ 26.0, 37.5, 27.0, 41.5 ] },
+										"west": { "texture": "#hair", "uv": [ 27.0, 37.5, 28.0, 41.5 ] },
+										"up": { "texture": "#hair", "uv": [ 24.0, 36.5, 25.0, 37.5 ] },
+										"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "SideBraidRight",
+					"stepParentName": "Head",
+					"from": [ 2.0, 2.0, 0.0 ], 
+					"to": [ 5.0, 3.0, 1.0 ], 
+					"uv": [ 19.5, 32.0 ],
+					"rotationOrigin": [ 2.5, 2.5, 0.5 ],
+					"rotationY": 15.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 19.5, 33.0, 22.5, 34.0 ] },
+						"east": { "texture": "#hair", "uv": [ 22.5, 33.0, 23.5, 34.0 ] },
+						"south": { "texture": "#hair", "uv": [ 5.0, 1.0, 9.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 9.0, 1.0, 10.0, 2.0 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 19.5, 32.0, 22.5, 33.0 ] },
+						"down": { "texture": "#hair", "uv": [ 22.5, 32.0, 25.5, 33.0 ] }
+					},
+					"children": [
+						{
+							"name": "BraidRight1",
+							"from": [ 2.1, -2.4, -0.2 ], 
+							"to": [ 3.1, 0.6, 0.8 ], 
+							"uv": [ 22.5, 31.5 ],
+							"rotationOrigin": [ 2.6, 0.6, 0.3 ],
+							"rotationY": -28.0,
+							"rotationZ": 36.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 22.5, 32.5, 23.5, 35.5 ] },
+								"east": { "texture": "#hair", "uv": [ 23.5, 32.5, 24.5, 35.5 ] },
+								"south": { "texture": "#hair", "uv": [ 24.5, 32.5, 25.5, 35.5 ] },
+								"west": { "texture": "#hair", "uv": [ 25.5, 32.5, 26.5, 35.5 ] },
+								"up": { "texture": "#hair", "uv": [ 22.5, 31.5, 23.5, 32.5 ] },
+								"down": { "texture": "#hair", "uv": [ 23.5, 31.5, 24.5, 32.5 ] }
+							},
+							"children": [
+								{
+									"name": "BraidRigh2",
+									"from": [ 0.0, -3.8, 0.0 ], 
+									"to": [ 1.0, 0.2, 1.0 ], 
+									"uv": [ 24.0, 36.5 ],
+									"rotationOrigin": [ 0.5, 0.2, 0.5 ],
+									"rotationY": -45.0,
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 24.0, 37.5, 25.0, 41.5 ] },
+										"east": { "texture": "#hair", "uv": [ 25.0, 37.5, 26.0, 41.5 ] },
+										"south": { "texture": "#hair", "uv": [ 26.0, 37.5, 27.0, 41.5 ] },
+										"west": { "texture": "#hair", "uv": [ 27.0, 37.5, 28.0, 41.5 ] },
+										"up": { "texture": "#hair", "uv": [ 24.0, 36.5, 25.0, 37.5 ] },
+										"down": { "texture": "#hair", "uv": [ 25.0, 36.5, 26.0, 37.5 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

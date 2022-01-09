@@ -1,0 +1,151 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Top",
+					"from": [ 3.0, 4.0, 1.5 ], 
+					"to": [ 7.0, 5.0, 3.5 ], 
+					"uv": [ 28.5, 33.5 ],
+					"rotationOrigin": [ 3.0, 4.0, 2.5 ],
+					"rotationZ": 15.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 28.5, 35.5, 32.5, 36.5 ] },
+						"east": { "texture": "#hair", "uv": [ 32.5, 35.5, 34.5, 36.5 ] },
+						"south": { "texture": "#hair", "uv": [ 34.5, 35.5, 38.5, 36.5 ] },
+						"west": { "texture": "#hair", "uv": [ 10.0, 2.0, 12.0, 3.0 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 28.5, 33.5, 32.5, 35.5 ] },
+						"down": { "texture": "#hair", "uv": [ 32.5, 33.5, 36.5, 35.5 ] }
+					},
+					"children": [
+						{
+							"name": "Dread1",
+							"from": [ 3.0, -3.0, 1.0 ], 
+							"to": [ 3.5, 0.0, 1.5 ], 
+							"uv": [ 36.0, 31.0 ],
+							"rotationOrigin": [ 3.25, 0.0, 1.25 ],
+							"rotationX": -22.0,
+							"rotationZ": 28.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 36.0, 31.5, 36.5, 34.5 ] },
+								"east": { "texture": "#hair", "uv": [ 36.5, 31.5, 37.0, 34.5 ] },
+								"south": { "texture": "#hair", "uv": [ 37.0, 31.5, 37.5, 34.5 ] },
+								"west": { "texture": "#hair", "uv": [ 37.5, 31.5, 38.0, 34.5 ] },
+								"up": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 36.0, 31.0, 36.5, 31.5 ] }
+							}
+						},
+						{
+							"name": "DreadBack",
+							"from": [ 2.7, -3.0, 0.5 ], 
+							"to": [ 3.7, 0.0, 1.5 ], 
+							"uv": [ 33.0, 31.0 ],
+							"rotationOrigin": [ 3.2, 0.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 33.0, 32.0, 34.0, 35.0 ] },
+								"east": { "texture": "#hair", "uv": [ 34.0, 32.0, 35.0, 35.0 ] },
+								"south": { "texture": "#hair", "uv": [ 35.0, 32.0, 36.0, 35.0 ] },
+								"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 4.0 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 33.0, 31.0, 34.0, 32.0 ] }
+							}
+						},
+						{
+							"name": "Dread4",
+							"from": [ 3.1, -2.0, 1.4 ], 
+							"to": [ 3.6, 0.0, 1.9 ], 
+							"uv": [ 30.0, 31.5 ],
+							"rotationOrigin": [ 3.35, 0.0, 1.65 ],
+							"rotationX": -47.0,
+							"rotationZ": 6.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 30.0, 32.0, 30.5, 34.0 ] },
+								"east": { "texture": "#hair", "uv": [ 30.5, 32.0, 31.0, 34.0 ] },
+								"south": { "texture": "#hair", "uv": [ 31.0, 32.0, 31.5, 34.0 ] },
+								"west": { "texture": "#hair", "uv": [ 31.5, 32.0, 32.0, 34.0 ] },
+								"up": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 30.0, 31.5, 30.5, 32.0 ] }
+							}
+						},
+						{
+							"name": "Dread5",
+							"from": [ 3.2, -3.0, 0.6 ], 
+							"to": [ 3.7, 0.0, 1.1 ], 
+							"uv": [ 29.0, 32.0 ],
+							"rotationOrigin": [ 3.45, 0.0, 0.85 ],
+							"rotationX": 36.0,
+							"rotationZ": 14.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 29.0, 32.5, 29.5, 35.5 ] },
+								"east": { "texture": "#hair", "uv": [ 29.5, 32.5, 30.0, 35.5 ] },
+								"south": { "texture": "#hair", "uv": [ 30.0, 32.5, 30.5, 35.5 ] },
+								"west": { "texture": "#hair", "uv": [ 30.5, 32.5, 31.0, 35.5 ] },
+								"up": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ] }
+							}
+						},
+						{
+							"name": "Dread6",
+							"from": [ 3.0, -2.0, 1.0 ], 
+							"to": [ 3.5, 0.0, 1.5 ], 
+							"uv": [ 30.0, 31.5 ],
+							"rotationOrigin": [ 3.25, 0.0, 1.25 ],
+							"rotationX": 7.0,
+							"rotationZ": 28.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 30.0, 32.0, 30.5, 34.0 ] },
+								"east": { "texture": "#hair", "uv": [ 30.5, 32.0, 31.0, 34.0 ] },
+								"south": { "texture": "#hair", "uv": [ 31.0, 32.0, 31.5, 34.0 ] },
+								"west": { "texture": "#hair", "uv": [ 31.5, 32.0, 32.0, 34.0 ] },
+								"up": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 30.0, 31.5, 30.5, 32.0 ] }
+							}
+						},
+						{
+							"name": "Dread7",
+							"from": [ 3.4, -1.4, 0.5 ], 
+							"to": [ 3.9, 0.6, 1.0 ], 
+							"uv": [ 30.0, 31.5 ],
+							"rotationOrigin": [ 3.65, 0.6, 0.75 ],
+							"rotationX": -5.0,
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 30.0, 32.0, 30.5, 34.0 ] },
+								"east": { "texture": "#hair", "uv": [ 30.5, 32.0, 31.0, 34.0 ] },
+								"south": { "texture": "#hair", "uv": [ 31.0, 32.0, 31.5, 34.0 ] },
+								"west": { "texture": "#hair", "uv": [ 31.5, 32.0, 32.0, 34.0 ] },
+								"up": { "texture": "#hair", "uv": [ 29.0, 32.0, 29.5, 32.5 ], "enabled": false },
+								"down": { "texture": "#hair", "uv": [ 30.0, 31.5, 30.5, 32.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,118 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "ChinCurtain1",
+					"from": [ -0.3, -0.2, -0.23 ], 
+					"to": [ 0.2, 0.3, 5.22 ], 
+					"unwrapMode": 2,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.3, -0.2, -0.3 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 5.5, 0.5, 6.0, 1.0 ] },
+						"east": { "texture": "#hair", "uv": [ 0.5, 0.5, 5.5, 1.0 ] },
+						"south": { "texture": "#hair", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+						"west": { "texture": "#hair", "uv": [ 6.0, 0.5, 11.0, 1.0 ] },
+						"up": { "texture": "#hair", "uv": [ 0.5, 0.0, 5.5, 0.5 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 0.5, 1.0, 5.5, 1.5 ], "rotation": 270 }
+					},
+					"children": [
+						{
+							"name": "ChinCurtainLJaw",
+							"from": [ 0.5, 0.0, 5.25 ], 
+							"to": [ 3.0, 0.5, 5.45 ], 
+							"unwrapMode": 3,
+							"uv": [ 23.5, 0.0 ],
+							"rotationOrigin": [ 0.6, 0.0, 5.3 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 27.0, 0.5, 29.5, 1.0 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 26.5, 0.5, 27.0, 1.0 ] },
+								"south": { "texture": "#hair", "uv": [ 24.0, 0.5, 26.5, 1.0 ] },
+								"west": { "texture": "#hair", "uv": [ 23.5, 0.5, 24.0, 1.0 ] },
+								"up": { "texture": "#hair", "uv": [ 24.0, 0.0, 26.5, 0.5 ] },
+								"down": { "texture": "#hair", "uv": [ 24.0, 1.0, 26.5, 1.5 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "ChinCurtainLUp",
+									"from": [ 2.0, 0.5, -0.1 ], 
+									"to": [ 2.5, 2.5, 0.2 ], 
+									"unwrapMode": 3,
+									"uv": [ 21.5, 0.0 ],
+									"rotationOrigin": [ 2.1, 0.5, -0.1 ],
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 23.0, 0.5, 23.5, 2.5 ], "enabled": false },
+										"east": { "texture": "#hair", "uv": [ 22.5, 0.5, 23.0, 2.5 ] },
+										"south": { "texture": "#hair", "uv": [ 22.0, 0.5, 22.5, 2.5 ] },
+										"west": { "texture": "#hair", "uv": [ 21.5, 0.5, 22.0, 2.5 ] },
+										"up": { "texture": "#hair", "uv": [ 22.0, 0.0, 22.5, 0.5 ] },
+										"down": { "texture": "#hair", "uv": [ 22.0, 2.5, 22.5, 3.0 ], "rotation": 180 }
+									}
+								}
+							]
+						},
+						{
+							"name": "ChinCurtainRJaw",
+							"from": [ 0.5, 0.0, 0.0 ], 
+							"to": [ 3.0, 0.5, 0.5 ], 
+							"unwrapMode": 1,
+							"uv": [ 23.5, 2.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 24.0, 2.5, 26.5, 3.0 ] },
+								"east": { "texture": "#hair", "uv": [ 23.5, 2.5, 24.0, 3.0 ] },
+								"south": { "texture": "#hair", "uv": [ 27.0, 2.5, 29.5, 3.0 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 26.5, 2.5, 27.0, 3.0 ] },
+								"up": { "texture": "#hair", "uv": [ 24.0, 2.0, 26.5, 2.5 ], "rotation": 180 },
+								"down": { "texture": "#hair", "uv": [ 24.0, 3.0, 26.5, 3.5 ] }
+							},
+							"children": [
+								{
+									"name": "ChinCurtainRUp",
+									"from": [ 2.0, 0.5, 0.0 ], 
+									"to": [ 2.5, 2.5, 0.4 ], 
+									"unwrapMode": 1,
+									"uv": [ 27.5, 0.0 ],
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 28.0, 0.5, 28.5, 2.5 ] },
+										"east": { "texture": "#hair", "uv": [ 27.5, 0.5, 28.0, 2.5 ] },
+										"south": { "texture": "#hair", "uv": [ 29.0, 0.5, 29.5, 2.5 ], "enabled": false },
+										"west": { "texture": "#hair", "uv": [ 28.5, 0.5, 29.0, 2.5 ] },
+										"up": { "texture": "#hair", "uv": [ 28.0, 0.0, 28.5, 0.5 ], "rotation": 180 },
+										"down": { "texture": "#hair", "uv": [ 28.0, 2.5, 28.5, 3.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}
