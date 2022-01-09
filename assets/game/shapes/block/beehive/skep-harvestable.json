@@ -10,8 +10,8 @@
 	"textures": {
 		"1": "block/beehive/1",
 		"2": "block/beehive/2",
-		"honeycomb": "block/beehive/honeycomb",
-		"3": "block/beehive/3"
+		"3": "block/beehive/3",
+		"6575647": "block/beehive/6575647"
 	},
 	"elements": [
 		{
@@ -126,12 +126,12 @@
 			"from": [ 5.0, 1.0, 5.0 ], 
 			"to": [ 11.0, 8.0, 11.0 ], 
 			"faces": {
-				"north": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-				"east": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-				"south": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-				"west": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
-				"up": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
-				"down": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
+				"north": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+				"east": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+				"south": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+				"west": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
+				"up": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+				"down": { "texture": "#6575647", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
 			}
 		}
 	]}
