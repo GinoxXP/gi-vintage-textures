@@ -1,0 +1,107 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sagemushroom": "block/plant/mushroom/sagemushroom/sagemushroom"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 10.5, 0.0, 6.2 ], 
+			"to": [ 10.5, 0.0, 6.2 ], 
+			"rotationOrigin": [ 10.5, 0.0, 6.2 ],
+			"faces": {
+				"north": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ -1.9232, 0.788, -1.6176 ], 
+					"to": [ 1.0768, 2.788, 2.3824 ], 
+					"rotationOrigin": [ 0.0768, 0.788, 0.3824 ],
+					"rotationY": 22.5,
+					"rotationZ": 32.5,
+					"faces": {
+						"north": { "texture": "#sagemushroom", "uv": [ 8.5, 8.5, 11.5, 10.5 ] },
+						"east": { "texture": "#sagemushroom", "uv": [ 9.0, 9.0, 13.0, 11.0 ] },
+						"south": { "texture": "#sagemushroom", "uv": [ 8.5, 9.5, 11.5, 11.5 ] },
+						"west": { "texture": "#sagemushroom", "uv": [ 10.0, 9.0, 14.0, 11.0 ] },
+						"up": { "texture": "#sagemushroom", "uv": [ 2.0, 7.5, 5.0, 11.5 ], "enabled": false },
+						"down": { "texture": "#sagemushroom", "uv": [ 11.5, 8.5, 14.5, 12.5 ] }
+					},
+					"children": [
+						{
+							"name": "cap",
+							"from": [ -3.0, 1.0, -1.0 ], 
+							"to": [ 3.0, 2.0, 5.0 ], 
+							"rotationOrigin": [ 3.0, 1.0, 2.0 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#sagemushroom", "uv": [ 9.0, 15.0, 15.0, 16.0 ] },
+								"east": { "texture": "#sagemushroom", "uv": [ 10.0, 15.0, 16.0, 16.0 ] },
+								"south": { "texture": "#sagemushroom", "uv": [ 8.5, 15.0, 14.5, 16.0 ] },
+								"west": { "texture": "#sagemushroom", "uv": [ 10.0, 15.0, 16.0, 16.0 ] },
+								"up": { "texture": "#sagemushroom", "uv": [ 1.0, 5.5, 7.0, 11.5 ] },
+								"down": { "texture": "#sagemushroom", "uv": [ 9.0, 7.5, 15.0, 13.5 ] }
+							},
+							"children": [
+								{
+									"name": "n",
+									"from": [ 1.0, 0.0, -1.0 ], 
+									"to": [ 5.0, 1.0, 0.0 ], 
+									"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+									"faces": {
+										"north": { "texture": "#sagemushroom", "uv": [ 11.0, 15.0, 15.0, 16.0 ] },
+										"east": { "texture": "#sagemushroom", "uv": [ 12.5, 15.0, 13.5, 16.0 ] },
+										"south": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "enabled": false },
+										"west": { "texture": "#sagemushroom", "uv": [ 13.0, 15.0, 14.0, 16.0 ] },
+										"up": { "texture": "#sagemushroom", "uv": [ 0.0, 6.5, 1.0, 10.5 ], "rotation": 90 },
+										"down": { "texture": "#sagemushroom", "uv": [ 9.0, 8.0, 13.0, 9.0 ] }
+									}
+								},
+								{
+									"name": "s",
+									"from": [ 1.0, 0.0, 6.0 ], 
+									"to": [ 5.0, 1.0, 7.0 ], 
+									"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+									"faces": {
+										"north": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "enabled": false },
+										"east": { "texture": "#sagemushroom", "uv": [ 14.0, 15.0, 15.0, 16.0 ] },
+										"south": { "texture": "#sagemushroom", "uv": [ 11.5, 15.0, 15.5, 16.0 ] },
+										"west": { "texture": "#sagemushroom", "uv": [ 12.0, 15.0, 13.0, 16.0 ] },
+										"up": { "texture": "#sagemushroom", "uv": [ 7.0, 6.5, 8.0, 10.5 ], "rotation": 90 },
+										"down": { "texture": "#sagemushroom", "uv": [ 8.0, 9.5, 12.0, 10.5 ] }
+									}
+								},
+								{
+									"name": "w",
+									"from": [ -1.0, 0.0, 1.0 ], 
+									"to": [ 0.0, 1.0, 5.0 ], 
+									"rotationOrigin": [ -1.0, 0.0, 1.0 ],
+									"faces": {
+										"north": { "texture": "#sagemushroom", "uv": [ 14.5, 15.0, 15.5, 16.0 ] },
+										"east": { "texture": "#sagemushroom", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "enabled": false },
+										"south": { "texture": "#sagemushroom", "uv": [ 11.5, 15.0, 12.5, 16.0 ] },
+										"west": { "texture": "#sagemushroom", "uv": [ 9.5, 15.0, 13.5, 16.0 ] },
+										"up": { "texture": "#sagemushroom", "uv": [ 1.5, 11.0, 5.5, 12.0 ], "rotation": 90 },
+										"down": { "texture": "#sagemushroom", "uv": [ 14.0, 5.5, 15.0, 9.5 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

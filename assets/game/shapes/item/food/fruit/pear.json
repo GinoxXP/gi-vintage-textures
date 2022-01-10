@@ -1,0 +1,77 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"pear": "item/food/fruit/pear"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#pear", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bottom",
+					"from": [ -2.0, 0.0, -2.0 ], 
+					"to": [ 2.0, 3.0, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#pear", "uv": [ 0.0, 5.0, 4.0, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#pear", "uv": [ 0.0, 5.0, 4.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#pear", "uv": [ 0.0, 5.0, 4.0, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#pear", "uv": [ 0.0, 5.0, 4.0, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#pear", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#pear", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "top",
+							"from": [ 0.5, 3.0, 0.5 ], 
+							"to": [ 3.5, 6.0, 3.5 ], 
+							"rotationOrigin": [ 2.0, 3.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#pear", "uv": [ 0.5, 0.0, 3.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#pear", "uv": [ 0.5, 0.0, 3.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#pear", "uv": [ 0.5, 0.0, 3.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#pear", "uv": [ 0.5, 0.0, 3.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#pear", "uv": [ 4.5, 4.5, 7.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#pear", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "stem",
+							"from": [ 1.5, 5.6, 1.5 ], 
+							"to": [ 2.5, 7.6, 2.5 ], 
+							"rotationOrigin": [ 2.0, 5.6, 2.0 ],
+							"rotationX": -22.5,
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#pear", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#pear", "uv": [ 4.5, 2.0, 5.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#pear", "uv": [ 4.0, 2.0, 5.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#pear", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#pear", "uv": [ 4.0, 2.0, 5.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#pear", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

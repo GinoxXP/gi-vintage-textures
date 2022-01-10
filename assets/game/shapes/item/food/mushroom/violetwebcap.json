@@ -1,0 +1,77 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"violetwebcap": "block/plant/mushroom/violetwebcap/violetwebcap",
+		"stipe": "block/plant/mushroom/fieldmushroom/stipe",
+		"gills": "block/plant/mushroom/gills"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.7, 0.0, 6.7 ], 
+			"to": [ 6.7, 0.0, 6.7 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#stipe", "uv": [ 13.0, 14.0, 13.0, 14.0 ], "enabled": false },
+				"east": { "texture": "#stipe", "uv": [ 2.0, 14.0, 2.0, 14.0 ], "enabled": false },
+				"south": { "texture": "#stipe", "uv": [ 11.0, 14.0, 11.0, 14.0 ], "enabled": false },
+				"west": { "texture": "#stipe", "uv": [ 2.0, 14.0, 2.0, 14.0 ], "enabled": false },
+				"up": { "texture": "#stipe", "uv": [ 4.0, 5.0, 4.0, 5.0 ], "enabled": false },
+				"down": { "texture": "#stipe", "uv": [ 2.0, 14.0, 2.0, 14.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "stem3",
+					"from": [ 0.5, 0.0, 0.5 ], 
+					"to": [ 2.0, 3.5, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#violetwebcap", "uv": [ 0.5, 11.5, 2.0, 15.0 ] },
+						"east": { "texture": "#violetwebcap", "uv": [ 0.5, 12.0, 2.0, 15.5 ] },
+						"south": { "texture": "#violetwebcap", "uv": [ 0.0, 12.0, 1.5, 15.5 ] },
+						"west": { "texture": "#violetwebcap", "uv": [ 0.5, 11.0, 2.0, 14.5 ] },
+						"up": { "texture": "#violetwebcap", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+						"down": { "texture": "#violetwebcap", "uv": [ 0.0, 13.5, 1.5, 15.0 ] }
+					},
+					"children": [
+						{
+							"name": "cap4",
+							"from": [ -1.5, 3.5, -1.5 ], 
+							"to": [ 3.0, 4.5, 3.0 ], 
+							"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#violetwebcap", "uv": [ 9.0, 0.0, 13.5, 1.0 ] },
+								"east": { "texture": "#violetwebcap", "uv": [ 10.5, 0.0, 15.0, 1.0 ] },
+								"south": { "texture": "#violetwebcap", "uv": [ 4.0, 0.0, 8.5, 1.0 ] },
+								"west": { "texture": "#violetwebcap", "uv": [ 8.5, 0.0, 13.0, 1.0 ] },
+								"up": { "texture": "#violetwebcap", "uv": [ 8.0, 4.0, 12.5, 8.5 ] },
+								"down": { "texture": "#gills", "uv": [ 2.0, 8.0, 6.5, 12.5 ] }
+							},
+							"children": [
+								{
+									"name": "cap5",
+									"from": [ 0.5, 1.0, 0.5 ], 
+									"to": [ 4.0, 1.5, 4.0 ], 
+									"faces": {
+										"north": { "texture": "#violetwebcap", "uv": [ 4.5, 6.0, 8.0, 6.5 ] },
+										"east": { "texture": "#violetwebcap", "uv": [ 7.0, 6.5, 10.5, 7.0 ] },
+										"south": { "texture": "#violetwebcap", "uv": [ 7.0, 10.0, 10.5, 10.5 ] },
+										"west": { "texture": "#violetwebcap", "uv": [ 10.5, 6.0, 14.0, 6.5 ] },
+										"up": { "texture": "#violetwebcap", "uv": [ 9.5, 4.0, 13.0, 7.5 ] },
+										"down": { "texture": "#violetwebcap", "uv": [ 7.0, 12.0, 10.5, 15.5 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

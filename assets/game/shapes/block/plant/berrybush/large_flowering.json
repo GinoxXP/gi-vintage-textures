@@ -1,0 +1,75 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"berriesup": "block/plant/berrybush/ripe/blackcurranttop1",
+		"leaves": "block/plant/berrybush/leaves/redcurrant1",
+		"berries": "block/plant/berrybush/ripe/blackcurrant1",
+		"branches": "block/plant/berrybush/branches/default"
+	},
+	"elements": [
+		{
+			"name": "Berries",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,1,0] },
+				"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,7,7], "windData": [0,0,1,1] },
+				"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,7,7], "windData": [0,0,1,1] },
+				"up": { "texture": "#berriesup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [1,1,1,1] },
+				"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "branchesN",
+			"from": [ 0.0, 0.0, 8.0 ], 
+			"to": [ 16.0, 16.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#branches", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,1,0] },
+				"east": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+				"south": { "texture": "#branches", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "windMode": [0,0,7,7], "windData": [0,0,1,1] },
+				"west": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false },
+				"down": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "branchesS",
+			"from": [ 0.0, 0.0, 8.0 ], 
+			"to": [ 16.0, 16.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#branches", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,1,0] },
+				"east": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+				"south": { "texture": "#branches", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "windMode": [0,0,7,7], "windData": [0,0,1,1] },
+				"west": { "texture": "#branches", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false },
+				"down": { "texture": "#branches", "uv": [ 0.0, 0.0, 22.6, 8.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Leaves",
+			"from": [ 0.1, 0.1, 0.1 ], 
+			"to": [ 15.8, 15.8, 15.8 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0] },
+				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0] },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,7,7] },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,7,7] },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [7,7,7,7] },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false }
+			}
+		}
+	]}
