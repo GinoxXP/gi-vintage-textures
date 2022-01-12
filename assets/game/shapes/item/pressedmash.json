@@ -6,22 +6,24 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+		"fill-blueberry": [16,16]
 	},
 	"textures": {
+		"material": "block/food/pie/fill-blueberry"
 	},
 	"elements": [
 		{
 			"name": "Mash",
 			"from": [ 4.8, 0.0, 4.8 ], 
-			"to": [ 11.3, 2.0, 11.3 ], 
+			"to": [ 11.3, 4.0, 11.3 ], 
 			"rotationOrigin": [ 4.8, 12.0, 4.8 ],
 			"faces": {
-				"north": { "texture": "#mash", "uv": [ 5.0, 0.5, 11.5, 2.5 ] },
-				"east": { "texture": "#mash", "uv": [ 0.5, 6.0, 7.0, 8.0 ] },
-				"south": { "texture": "#mash", "uv": [ 6.0, 6.5, 12.5, 8.5 ] },
-				"west": { "texture": "#mash", "uv": [ 1.0, 5.0, 7.5, 7.0 ] },
-				"up": { "texture": "#mash", "uv": [ 3.0, 1.5, 9.5, 8.0 ] },
-				"down": { "texture": "#mash", "uv": [ 5.0, 1.5, 11.5, 8.0 ] }
+				"north": { "texture": "#material", "uv": [ 5.0, 0.5, 11.5, 12.5 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 1.5, 2.5, 8.0, 14.5 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 5.5, 3.5, 12.0, 15.5 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 3.0, 3.5, 9.5, 15.5 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 4.0, 0.5, 10.5, 12.5 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 4.5, 1.0, 11.0, 13.0 ], "autoUv": false }
 			}
 		}
 	],
