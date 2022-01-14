@@ -1,0 +1,63 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"plum": "item/food/fruit/plum"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#plum", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bottom",
+					"from": [ -2.0, 0.0, -2.0 ], 
+					"to": [ 2.0, 4.0, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#plum", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#plum", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#plum", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#plum", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#plum", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#plum", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "stem",
+							"from": [ 1.5, 3.6, 1.5 ], 
+							"to": [ 2.5, 5.6, 2.5 ], 
+							"rotationOrigin": [ 2.0, 3.6, 2.0 ],
+							"rotationX": -22.5,
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#plum", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#plum", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#plum", "uv": [ 4.5, 2.0, 5.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#plum", "uv": [ 4.5, 2.0, 5.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#plum", "uv": [ 4.0, 2.0, 5.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#plum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,79 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"paddystraw": "block/plant/mushroom/paddystraw/paddystraw"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "stem3",
+					"from": [ -0.8, -0.7, -0.8 ], 
+					"to": [ 0.6, 0.3, 0.6 ], 
+					"rotationOrigin": [ -0.1, -0.7, -0.1 ],
+					"rotationX": -28.0,
+					"rotationZ": -19.0,
+					"faces": {
+						"north": { "texture": "#paddystraw", "uv": [ 0.5, 4.0, 1.5, 5.0 ] },
+						"east": { "texture": "#paddystraw", "uv": [ 1.0, 5.5, 2.0, 6.5 ] },
+						"south": { "texture": "#paddystraw", "uv": [ 1.0, 5.0, 2.0, 6.0 ] },
+						"west": { "texture": "#paddystraw", "uv": [ 1.0, 4.0, 2.0, 5.0 ] },
+						"up": { "texture": "#paddystraw", "uv": [ 0.0, 5.5, 1.0, 6.5 ] },
+						"down": { "texture": "#paddystraw", "uv": [ 1.5, 6.0, 2.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "stem15",
+					"from": [ -3.8, -0.3, -5.8 ], 
+					"to": [ -2.4, 1.2, -4.4 ], 
+					"rotationOrigin": [ -3.1, -0.3, -5.1 ],
+					"rotationX": 6.0,
+					"rotationY": -22.0,
+					"faces": {
+						"north": { "texture": "#paddystraw", "uv": [ 0.5, 4.0, 1.5, 5.5 ] },
+						"east": { "texture": "#paddystraw", "uv": [ 1.0, 5.5, 2.0, 7.0 ] },
+						"south": { "texture": "#paddystraw", "uv": [ 1.0, 5.0, 2.0, 6.5 ] },
+						"west": { "texture": "#paddystraw", "uv": [ 1.0, 4.0, 2.0, 5.5 ] },
+						"up": { "texture": "#paddystraw", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#paddystraw", "uv": [ 1.5, 6.0, 2.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "stem20",
+					"from": [ 1.2, -0.2, 4.2 ], 
+					"to": [ 2.6, 0.3, 5.6 ], 
+					"rotationOrigin": [ 1.9, -0.2, 4.9 ],
+					"rotationX": 8.0,
+					"rotationY": -6.0,
+					"rotationZ": 3.0,
+					"faces": {
+						"north": { "texture": "#paddystraw", "uv": [ 0.5, 4.0, 1.5, 4.5 ] },
+						"east": { "texture": "#paddystraw", "uv": [ 1.0, 5.5, 2.0, 6.0 ] },
+						"south": { "texture": "#paddystraw", "uv": [ 1.0, 5.0, 2.0, 5.5 ] },
+						"west": { "texture": "#paddystraw", "uv": [ 1.0, 4.0, 2.0, 4.5 ] },
+						"up": { "texture": "#paddystraw", "uv": [ 0.5, 1.5, 1.5, 2.5 ] },
+						"down": { "texture": "#paddystraw", "uv": [ 1.5, 6.0, 2.5, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}

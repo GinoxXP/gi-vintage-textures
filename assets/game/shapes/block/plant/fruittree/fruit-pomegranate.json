@@ -1,0 +1,903 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"fruit": [16,16]
+	},
+	"textures": {
+		"fruit": "block/food/pie/fill-pomegranate"
+	},
+	"elements": [
+		{
+			"name": "fruits-s",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"east": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"south": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"west": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"up": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"down": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] }
+			},
+			"children": [
+				{
+					"name": "fruit 23",
+					"from": [ 11.8, 6.8, 12.0 ], 
+					"to": [ 14.8, 8.8, 15.0 ], 
+					"rotationOrigin": [ 13.3, 7.8, 13.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 4.0, 12.5, 7.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 3.0, 12.0, 6.0, 14.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 4.0, 13.0, 7.0, 15.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 7.0, 8.0, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 7.0, 11.5, 10.0, 14.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 2.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube25",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 3.0, 12.5, 5.0, 15.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 13.5, 3.5, 15.5, 6.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 3.5, 9.0, 5.5, 12.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 5.0, 10.5, 7.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 8.5, 6.0, 10.5, 8.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 4.5, 5.0, 6.5, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 17",
+					"from": [ 11.9, 0.6, 14.0 ], 
+					"to": [ 14.9, 2.6, 17.0 ], 
+					"rotationOrigin": [ 13.4, 1.6, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 5.0, 5.0, 8.0, 7.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 8.5, 5.0, 11.5, 7.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 1.0, 13.5, 4.0, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 7.5, 7.0, 10.5, 9.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 12.5, 12.0, 15.5, 15.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 7.5, 9.5, 10.5, 12.5 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube19",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 2.0, 11.0, 4.0, 14.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 2.0, 1.0, 4.0, 4.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 8.5, 3.0, 10.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 10.0, 9.5, 12.0, 12.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 10.0, 4.0, 12.0, 6.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 7.5, 1.0, 9.5, 3.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 14",
+					"from": [ 0.7, 13.1, 14.3 ], 
+					"to": [ 3.2, 14.6, 16.8 ], 
+					"rotationOrigin": [ 1.7, 13.6, 15.3 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 6.5, 4.0, 9.0, 5.5 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"east": { "texture": "#fruit", "uv": [ 6.5, 1.5, 9.0, 3.0 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"south": { "texture": "#fruit", "uv": [ 1.0, 5.5, 3.5, 7.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 13.0, 3.5, 14.5 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 2.0, 4.0, 4.5, 6.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 7.5, 7.5, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [5,5,5,5] }
+					},
+					"children": [
+						{
+							"name": "Cube16",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.0, 2.0, 2.0 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 7.5, 5.0, 9.0, 7.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 12.0, 12.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"south": { "texture": "#fruit", "uv": [ 8.0, 3.5, 9.5, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 13.5, 13.0, 15.0, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 0.5, 2.5, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 11",
+					"from": [ 3.0, -1.5, 15.0 ], 
+					"to": [ 6.0, 0.5, 18.0 ], 
+					"rotationOrigin": [ 4.5, -0.5, 16.5 ],
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 2.0, 3.0, 5.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 4.0, 10.0, 7.0, 12.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 13.0, 8.0, 16.0, 10.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 0.0, 4.0, 2.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 8.0, 5.0, 11.0, 8.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 10.0, 3.0, 13.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube13",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 12.0, 6.5, 14.0, 9.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 9.0, 12.5, 12.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 13.5, 3.0, 15.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 0.5, 11.0, 2.5, 14.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 12.5, 1.0, 14.5, 3.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 13.0, 0.5, 15.0, 2.5 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 8",
+					"from": [ 10.0, 11.5, 16.0 ], 
+					"to": [ 13.0, 13.5, 19.0 ], 
+					"rotationOrigin": [ 11.5, 12.5, 17.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 5.0, 7.5, 8.0, 9.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 1.5, 8.5, 4.5, 10.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 9.5, 3.5, 12.5, 5.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 6.0, 9.5, 9.0, 11.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 11.5, 0.0, 14.5, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube10",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 8.5, 10.0, 10.5, 13.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 12.5, 4.0, 14.5, 7.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 12.5, 9.5, 14.5, 12.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 3.0, 7.0, 5.0, 10.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 3.5, 8.0, 5.5, 10.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 10.0, 12.0, 12.0, 14.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 5",
+					"from": [ 2.7, 8.5, 16.0 ], 
+					"to": [ 5.7, 10.5, 19.0 ], 
+					"rotationOrigin": [ 4.2, 9.5, 17.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 0.0, 3.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 1.0, 11.0, 4.0, 13.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 12.0, 1.0, 15.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 5.0, 10.0, 8.0, 12.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 7.0, 6.0, 10.0, 9.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube7",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 5.0, 2.0, 7.0, 5.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.5, 14.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 0.0, 1.0, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.0, 10.5, 13.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 5.0, 11.0, 7.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 7.5, 3.0, 9.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 1",
+					"from": [ 9.0, 4.5, 15.0 ], 
+					"to": [ 11.5, 6.0, 17.5 ], 
+					"rotationOrigin": [ 10.0, 5.0, 16.0 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 2.5, 10.5, 5.0, 12.0 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"east": { "texture": "#fruit", "uv": [ 9.0, 0.0, 11.5, 1.5 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"south": { "texture": "#fruit", "uv": [ 1.5, 2.5, 4.0, 4.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 12.5, 13.5, 15.0, 15.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 11.5, 12.5, 14.0, 15.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 9.0, 2.0, 11.5, 4.5 ], "windMode": [8,8,8,8], "windData": [5,5,5,5] }
+					},
+					"children": [
+						{
+							"name": "Cube4",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.0, 2.0, 2.0 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 10.5, 3.5, 12.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"east": { "texture": "#fruit", "uv": [ 14.0, 5.5, 15.5, 8.0 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"south": { "texture": "#fruit", "uv": [ 1.5, 1.0, 3.0, 3.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 2.0, 13.0, 3.5, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 11.5, 5.0, 13.0, 6.5 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 8.0, 7.5, 9.5, 9.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "fruits-w",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -90.0,
+			"faces": {
+				"north": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [8,8,8,8] },
+				"east": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"south": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"west": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"up": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"down": { "texture": "#fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] }
+			},
+			"children": [
+				{
+					"name": "fruit 21",
+					"from": [ 11.8, 6.8, 12.0 ], 
+					"to": [ 14.8, 8.8, 15.0 ], 
+					"rotationOrigin": [ 13.3, 7.8, 13.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 4.0, 12.5, 7.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 3.0, 12.0, 6.0, 14.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 4.0, 13.0, 7.0, 15.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 7.0, 8.0, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 7.0, 11.5, 10.0, 14.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 2.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube21",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 3.0, 12.5, 5.0, 15.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 13.5, 3.5, 15.5, 6.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 3.5, 9.0, 5.5, 12.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 5.0, 10.5, 7.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 8.5, 6.0, 10.5, 8.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 4.5, 5.0, 6.5, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 24",
+					"from": [ 10.5, 1.6, 16.0 ], 
+					"to": [ 13.5, 3.6, 19.0 ], 
+					"rotationOrigin": [ 12.0, 2.6, 17.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 12.0, 7.0, 15.0, 9.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 0.0, 5.0, 3.0, 7.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 6.0, 10.0, 9.0, 12.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 12.0, 1.0, 15.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 12.0, 12.0, 15.0, 15.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 4.0, 12.0, 7.0, 15.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube26",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 0.5, 2.0, 2.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 13.5, 1.0, 15.5, 4.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 11.5, 0.5, 13.5, 3.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 5.5, 2.0, 7.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 1.5, 3.0, 3.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 26",
+					"from": [ 0.7, 13.1, 14.3 ], 
+					"to": [ 3.2, 14.6, 16.8 ], 
+					"rotationOrigin": [ 1.7, 13.6, 15.3 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 6.5, 4.0, 9.0, 5.5 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"east": { "texture": "#fruit", "uv": [ 6.5, 1.5, 9.0, 3.0 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"south": { "texture": "#fruit", "uv": [ 1.0, 5.5, 3.5, 7.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 13.0, 3.5, 14.5 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 2.0, 4.0, 4.5, 6.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 7.5, 7.5, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [5,5,5,5] }
+					},
+					"children": [
+						{
+							"name": "Cube27",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.0, 2.0, 2.0 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 7.5, 5.0, 9.0, 7.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 12.0, 12.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"south": { "texture": "#fruit", "uv": [ 8.0, 3.5, 9.5, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 13.5, 13.0, 15.0, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 0.5, 2.5, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 28",
+					"from": [ 2.0, -0.5, 15.5 ], 
+					"to": [ 5.0, 1.5, 18.5 ], 
+					"rotationOrigin": [ 3.5, 0.5, 17.0 ],
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 5.0, 9.0, 8.0, 11.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 4.0, 7.5, 7.0, 9.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 8.5, 1.0, 11.5, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 4.0, 4.5, 7.0, 6.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 6.5, 6.5, 9.5, 9.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 2.5, 3.0, 5.5 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube29",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 9.5, 6.0, 11.5, 9.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 8.0, 1.5, 10.0, 4.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 9.5, 6.5, 11.5, 9.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 2.5, 3.5, 4.5, 6.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 7.5, 4.5, 9.5, 6.5 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 13.0, 11.5, 15.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 30",
+					"from": [ 9.0, 15.5, 13.0 ], 
+					"to": [ 12.0, 17.5, 16.0 ], 
+					"rotationOrigin": [ 10.5, 16.5, 14.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 9.0, 4.0, 12.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 10.0, 9.0, 13.0, 11.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 2.0, 3.0, 5.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 10.0, 3.0, 13.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 12.0, 11.0, 15.0, 14.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube31",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 13.0, 5.5, 15.0, 8.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 11.0, 5.0, 13.0, 8.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 8.5, 8.5, 10.5, 11.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.5, 12.0, 13.5, 15.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 10.0, 5.0, 12.0, 7.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 9.5, 4.0, 11.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 32",
+					"from": [ 4.9, 8.5, 14.0 ], 
+					"to": [ 7.9, 10.5, 17.0 ], 
+					"rotationOrigin": [ 6.4, 9.5, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 0.0, 3.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 0.5, 11.0, 3.5, 13.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 11.5, 0.5, 14.5, 2.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 5.0, 9.5, 8.0, 11.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 6.5, 5.5, 9.5, 8.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube33",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 5.0, 2.0, 7.0, 5.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.5, 14.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 0.0, 1.0, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.0, 10.5, 13.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 5.0, 11.0, 7.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 7.5, 3.0, 9.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "fruits-n",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -180.0,
+			"faces": {
+				"north": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"east": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"south": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"west": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"up": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"down": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] }
+			},
+			"children": [
+				{
+					"name": "fruit 35",
+					"from": [ 11.8, 6.8, 12.0 ], 
+					"to": [ 14.8, 8.8, 15.0 ], 
+					"rotationOrigin": [ 13.3, 7.8, 13.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 4.0, 12.5, 7.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 3.0, 12.0, 6.0, 14.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 4.0, 13.0, 7.0, 15.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 7.0, 8.0, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 7.0, 11.5, 10.0, 14.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 2.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube36",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 3.0, 12.5, 5.0, 15.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 13.5, 3.5, 15.5, 6.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 3.5, 9.0, 5.5, 12.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 5.0, 10.5, 7.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 8.5, 6.0, 10.5, 8.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 4.5, 5.0, 6.5, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 39",
+					"from": [ 11.9, 1.6, 14.0 ], 
+					"to": [ 14.9, 3.6, 17.0 ], 
+					"rotationOrigin": [ 13.4, 2.6, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 1.5, 7.5, 4.5, 9.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 0.0, 7.5, 3.0, 9.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 10.0, 7.5, 13.0, 9.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 5.5, 4.0, 8.5, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 4.0, 10.0, 7.0, 13.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 1.0, 4.0, 4.0, 7.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube40",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 13.0, 12.5, 15.0, 15.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 5.0, 5.0, 7.0, 8.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 2.5, 8.0, 4.5, 11.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 4.5, 2.0, 6.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 0.5, 7.0, 2.5, 9.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 0.0, 9.0, 2.0, 11.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 41",
+					"from": [ 0.7, 13.1, 14.3 ], 
+					"to": [ 3.2, 14.6, 16.8 ], 
+					"rotationOrigin": [ 1.7, 13.6, 15.3 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 6.5, 4.0, 9.0, 5.5 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"east": { "texture": "#fruit", "uv": [ 6.5, 1.5, 9.0, 3.0 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"south": { "texture": "#fruit", "uv": [ 1.0, 5.5, 3.5, 7.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 13.0, 3.5, 14.5 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 2.0, 4.0, 4.5, 6.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 7.5, 7.5, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [5,5,5,5] }
+					},
+					"children": [
+						{
+							"name": "Cube42",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.0, 2.0, 2.0 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 7.5, 5.0, 9.0, 7.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 12.0, 12.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"south": { "texture": "#fruit", "uv": [ 8.0, 3.5, 9.5, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 13.5, 13.0, 15.0, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 0.5, 2.5, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 43",
+					"from": [ 2.5, -1.5, 14.0 ], 
+					"to": [ 5.5, 0.5, 17.0 ], 
+					"rotationOrigin": [ 4.0, -0.5, 15.5 ],
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 2.0, 3.0, 5.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 4.0, 10.0, 7.0, 12.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 13.0, 8.0, 16.0, 10.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 0.0, 4.0, 2.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 8.0, 5.0, 11.0, 8.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 10.0, 3.0, 13.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube44",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 12.0, 6.5, 14.0, 9.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 9.0, 12.5, 12.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 13.5, 3.0, 15.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 0.5, 11.0, 2.5, 14.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 12.5, 1.0, 14.5, 3.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 13.0, 0.5, 15.0, 2.5 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 45",
+					"from": [ 10.0, 11.5, 15.0 ], 
+					"to": [ 13.0, 13.5, 18.0 ], 
+					"rotationOrigin": [ 11.5, 12.5, 16.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 9.0, 4.0, 12.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 10.0, 9.0, 13.0, 11.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 2.0, 3.0, 5.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 10.0, 3.0, 13.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 12.0, 11.0, 15.0, 14.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube46",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 13.0, 5.5, 15.0, 8.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 11.0, 5.0, 13.0, 8.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 8.5, 8.5, 10.5, 11.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.5, 12.0, 13.5, 15.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 10.0, 5.0, 12.0, 7.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 9.5, 4.0, 11.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 47",
+					"from": [ 4.9, 8.5, 14.0 ], 
+					"to": [ 7.9, 10.5, 17.0 ], 
+					"rotationOrigin": [ 6.4, 9.5, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 0.0, 3.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 0.5, 11.0, 3.5, 13.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 11.5, 0.5, 14.5, 2.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 5.0, 9.5, 8.0, 11.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 6.5, 5.5, 9.5, 8.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube48",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 5.0, 2.0, 7.0, 5.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.5, 14.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 0.0, 1.0, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.0, 10.5, 13.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 5.0, 11.0, 7.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 7.5, 3.0, 9.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "fruits-e",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"east": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"south": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"west": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"up": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] },
+				"down": { "texture": "#smallleaves", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [8,8,8,8] }
+			},
+			"children": [
+				{
+					"name": "fruit 50",
+					"from": [ 10.8, 6.8, 16.0 ], 
+					"to": [ 13.8, 8.8, 19.0 ], 
+					"rotationOrigin": [ 12.3, 7.8, 17.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 2.0, 5.5, 5.0, 7.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 1.5, 3.5, 4.5, 5.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 0.5, 4.5, 3.5, 6.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 8.5, 2.0, 11.5, 4.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 9.0, 9.5, 12.0, 12.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 12.0, 4.0, 15.0, 7.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube51",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 12.5, 12.0, 14.5, 15.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 6.0, 3.5, 8.0, 6.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 1.5, 10.0, 3.5, 13.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 2.0, 10.5, 4.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 11.0, 3.0, 13.0, 5.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 8.0, 5.0, 10.0, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 54",
+					"from": [ 12.6, 1.6, 14.0 ], 
+					"to": [ 15.6, 3.6, 17.0 ], 
+					"rotationOrigin": [ 14.1, 2.6, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 1.5, 2.5, 4.5, 4.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 11.0, 0.5, 14.0, 2.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 7.0, 5.0, 10.0, 7.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 6.5, 11.0, 9.5, 13.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 7.0, 0.0, 10.0, 3.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 6.0, 0.0, 9.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube55",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 0.0, 1.5, 2.0, 4.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 13.5, 6.5, 15.5, 9.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 8.0, 11.0, 10.0, 14.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 9.5, 4.0, 11.5, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 13.0, 8.5, 15.0, 10.5 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 12.0, 9.5, 14.0, 11.5 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 56",
+					"from": [ 0.7, 13.1, 14.3 ], 
+					"to": [ 3.2, 14.6, 16.8 ], 
+					"rotationOrigin": [ 1.7, 13.6, 15.3 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 6.5, 4.0, 9.0, 5.5 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"east": { "texture": "#fruit", "uv": [ 6.5, 1.5, 9.0, 3.0 ], "windMode": [8,8,8,8], "windData": [5,2,2,5] },
+						"south": { "texture": "#fruit", "uv": [ 1.0, 5.5, 3.5, 7.0 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 1.0, 13.0, 3.5, 14.5 ], "windMode": [8,8,8,8], "windData": [5,5,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 2.0, 4.0, 4.5, 6.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 7.5, 7.5, 10.0, 10.0 ], "windMode": [8,8,8,8], "windData": [5,5,5,5] }
+					},
+					"children": [
+						{
+							"name": "Cube57",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.0, 2.0, 2.0 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 7.5, 5.0, 9.0, 7.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"east": { "texture": "#fruit", "uv": [ 10.5, 12.0, 12.0, 14.5 ], "windMode": [8,8,8,8], "windData": [6,1,1,6] },
+								"south": { "texture": "#fruit", "uv": [ 8.0, 3.5, 9.5, 6.0 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 13.5, 13.0, 15.0, 15.5 ], "windMode": [8,8,8,8], "windData": [6,6,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 0.5, 2.5, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 58",
+					"from": [ 2.0, -1.5, 14.9 ], 
+					"to": [ 5.0, 0.5, 17.9 ], 
+					"rotationOrigin": [ 3.5, -0.5, 16.4 ],
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 0.0, 7.0, 3.0, 9.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 3.0, 9.5, 6.0, 11.5 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 10.0, 11.5, 13.0, 13.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 9.0, 0.0, 12.0, 2.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 9.5, 12.0, 12.5, 15.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 4.5, 0.0, 7.5, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube59",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 13.0, 4.0, 15.0, 7.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 11.0, 2.5, 13.0, 5.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 13.0, 4.0, 15.0, 7.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 1.5, 11.5, 3.5, 14.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 6.5, 9.0, 8.5, 11.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 2.0, 11.5, 4.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 60",
+					"from": [ 9.0, 15.5, 13.0 ], 
+					"to": [ 12.0, 17.5, 16.0 ], 
+					"rotationOrigin": [ 10.5, 16.5, 14.5 ],
+					"rotationY": 22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 9.0, 4.0, 12.0, 6.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 10.0, 9.0, 13.0, 11.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 2.0, 3.0, 5.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 10.0, 3.0, 13.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 12.0, 11.0, 15.0, 14.0 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube61",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 13.0, 5.5, 15.0, 8.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 11.0, 5.0, 13.0, 8.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 8.5, 8.5, 10.5, 11.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.5, 12.0, 13.5, 15.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 10.0, 5.0, 12.0, 7.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 9.5, 4.0, 11.5, 6.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "fruit 62",
+					"from": [ 4.9, 8.5, 14.0 ], 
+					"to": [ 7.9, 10.5, 17.0 ], 
+					"rotationOrigin": [ 6.4, 9.5, 15.5 ],
+					"rotationY": -22.5,
+					"renderPass": 0,
+					"faces": {
+						"north": { "texture": "#fruit", "uv": [ 0.0, 3.0, 3.0, 5.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"east": { "texture": "#fruit", "uv": [ 0.5, 11.0, 3.5, 13.0 ], "windMode": [8,8,8,8], "windData": [6,2,2,6] },
+						"south": { "texture": "#fruit", "uv": [ 11.5, 0.5, 14.5, 2.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"west": { "texture": "#fruit", "uv": [ 5.0, 9.5, 8.0, 11.5 ], "windMode": [8,8,8,8], "windData": [6,6,2,2] },
+						"up": { "texture": "#fruit", "uv": [ 6.5, 5.5, 9.5, 8.5 ], "windMode": [8,8,8,8], "windData": [2,2,2,2] },
+						"down": { "texture": "#fruit", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "windMode": [8,8,8,8], "windData": [6,6,6,6] }
+					},
+					"children": [
+						{
+							"name": "Cube63",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 2.5, 2.5, 2.5 ], 
+							"rotationOrigin": [ -2.5, -0.5, -7.5 ],
+							"renderPass": 0,
+							"faces": {
+								"north": { "texture": "#fruit", "uv": [ 5.0, 2.0, 7.0, 5.0 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"east": { "texture": "#fruit", "uv": [ 0.5, 11.5, 2.5, 14.5 ], "windMode": [8,8,8,8], "windData": [7,1,1,7] },
+								"south": { "texture": "#fruit", "uv": [ 0.0, 1.0, 2.0, 4.0 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"west": { "texture": "#fruit", "uv": [ 11.0, 10.5, 13.0, 13.5 ], "windMode": [8,8,8,8], "windData": [7,7,1,1] },
+								"up": { "texture": "#fruit", "uv": [ 5.0, 11.0, 7.0, 13.0 ], "windMode": [8,8,8,8], "windData": [1,1,1,1] },
+								"down": { "texture": "#fruit", "uv": [ 7.5, 3.0, 9.5, 5.0 ], "windMode": [8,8,8,8], "windData": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

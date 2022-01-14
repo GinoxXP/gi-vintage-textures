@@ -1,0 +1,116 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"deerear": "block/plant/mushroom/deerear/deerear",
+		"pores": "block/plant/mushroom/pores"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "cap6",
+					"from": [ 0.5, 7.0, 7.1 ], 
+					"to": [ 1.5, 7.5, 8.1 ], 
+					"rotationOrigin": [ 2.0, 7.0, 8.4 ],
+					"rotationX": -6.0,
+					"rotationY": 1.0,
+					"rotationZ": 1.0,
+					"faces": {
+						"north": { "texture": "#deerear", "uv": [ 3.0, 8.5, 4.0, 9.0 ] },
+						"east": { "texture": "#deerear", "uv": [ 10.5, 6.5, 11.5, 7.0 ] },
+						"south": { "texture": "#deerear", "uv": [ 0.0, 9.0, 1.0, 9.5 ] },
+						"west": { "texture": "#deerear", "uv": [ 6.0, 9.5, 7.0, 10.0 ] },
+						"up": { "texture": "#deerear", "uv": [ 7.5, 4.0, 8.5, 5.0 ] },
+						"down": { "texture": "#pores", "uv": [ 6.0, 12.0, 7.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "cap7",
+					"from": [ 5.5, 8.0, 7.1 ], 
+					"to": [ 6.5, 8.5, 8.1 ], 
+					"rotationOrigin": [ 7.0, 8.0, 8.4 ],
+					"rotationX": 2.0,
+					"rotationY": 1.0,
+					"rotationZ": 1.0,
+					"faces": {
+						"north": { "texture": "#deerear", "uv": [ 3.0, 8.5, 4.0, 9.0 ] },
+						"east": { "texture": "#deerear", "uv": [ 10.5, 6.5, 11.5, 7.0 ] },
+						"south": { "texture": "#deerear", "uv": [ 0.0, 9.0, 1.0, 9.5 ] },
+						"west": { "texture": "#deerear", "uv": [ 6.0, 9.5, 7.0, 10.0 ] },
+						"up": { "texture": "#deerear", "uv": [ 5.0, 11.5, 6.0, 12.5 ] },
+						"down": { "texture": "#pores", "uv": [ 6.0, 12.0, 7.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "cap8",
+					"from": [ 2.5, 14.0, 7.1 ], 
+					"to": [ 3.5, 14.5, 8.1 ], 
+					"rotationOrigin": [ 3.0, 14.0, 8.4 ],
+					"rotationX": -4.0,
+					"rotationY": 1.0,
+					"rotationZ": -1.0,
+					"faces": {
+						"north": { "texture": "#deerear", "uv": [ 3.0, 8.5, 4.0, 9.0 ] },
+						"east": { "texture": "#deerear", "uv": [ 10.5, 6.5, 11.5, 7.0 ] },
+						"south": { "texture": "#deerear", "uv": [ 0.0, 9.0, 1.0, 9.5 ] },
+						"west": { "texture": "#deerear", "uv": [ 6.0, 9.5, 7.0, 10.0 ] },
+						"up": { "texture": "#deerear", "uv": [ 8.5, 7.5, 9.5, 8.5 ] },
+						"down": { "texture": "#pores", "uv": [ 6.0, 12.0, 7.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "cap9",
+					"from": [ 3.5, 1.0, 7.1 ], 
+					"to": [ 4.5, 1.5, 8.1 ], 
+					"rotationOrigin": [ 4.0, 1.0, 8.4 ],
+					"rotationX": -6.0,
+					"rotationY": 1.0,
+					"rotationZ": 1.0,
+					"faces": {
+						"north": { "texture": "#deerear", "uv": [ 3.0, 8.5, 4.0, 9.0 ] },
+						"east": { "texture": "#deerear", "uv": [ 10.5, 6.5, 11.5, 7.0 ] },
+						"south": { "texture": "#deerear", "uv": [ 0.0, 9.0, 1.0, 9.5 ] },
+						"west": { "texture": "#deerear", "uv": [ 6.0, 9.5, 7.0, 10.0 ] },
+						"up": { "texture": "#deerear", "uv": [ 1.0, 2.5, 2.0, 3.5 ] },
+						"down": { "texture": "#pores", "uv": [ 6.0, 12.0, 7.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "cap11",
+					"from": [ -7.5, 14.0, 7.1 ], 
+					"to": [ -6.5, 14.5, 8.1 ], 
+					"rotationOrigin": [ -7.0, 14.0, 8.4 ],
+					"rotationX": -7.0,
+					"rotationY": 3.0,
+					"rotationZ": 1.0,
+					"faces": {
+						"north": { "texture": "#deerear", "uv": [ 3.0, 8.5, 4.0, 9.0 ] },
+						"east": { "texture": "#deerear", "uv": [ 10.5, 6.5, 11.5, 7.0 ] },
+						"south": { "texture": "#deerear", "uv": [ 0.0, 9.0, 1.0, 9.5 ] },
+						"west": { "texture": "#deerear", "uv": [ 6.0, 9.5, 7.0, 10.0 ] },
+						"up": { "texture": "#deerear", "uv": [ 1.0, 2.5, 2.0, 3.5 ] },
+						"down": { "texture": "#pores", "uv": [ 6.0, 12.0, 7.0, 13.0 ] }
+					}
+				}
+			]
+		}
+	]}

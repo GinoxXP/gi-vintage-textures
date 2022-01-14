@@ -1,0 +1,114 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 0.0, 0.0, 0.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "brd-DucktailBase1",
+					"from": [ -0.3, -0.5, -0.21 ], 
+					"to": [ 2.7, 0.5, 5.19 ], 
+					"unwrapMode": 5,
+					"uv": [ 29.5, 32.0 ],
+					"rotationOrigin": [ -0.3, -0.5, -0.2 ],
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 30.5, 32.0, 33.5, 33.0 ], "rotation": 180 },
+						"east": { "texture": "#hair", "uv": [ 33.5, 33.0, 34.5, 38.0 ], "rotation": 90 },
+						"south": { "texture": "#hair", "uv": [ 30.5, 38.0, 33.5, 39.0 ] },
+						"west": { "texture": "#hair", "uv": [ 29.5, 33.0, 30.5, 38.0 ], "rotation": 270 },
+						"up": { "texture": "#hair", "uv": [ 30.5, 33.0, 33.5, 38.0 ] },
+						"down": { "texture": "#hair", "uv": [ 34.5, 33.0, 37.5, 38.0 ] }
+					},
+					"children": [
+						{
+							"name": "DucktailLeftUp",
+							"from": [ 2.5, 1.0, 5.2 ], 
+							"to": [ 3.0, 2.5, 5.4 ], 
+							"unwrapMode": 2,
+							"uv": [ 22.5, 0.0 ],
+							"rotationOrigin": [ 2.6, 1.0, 5.2 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 23.0, 0.5, 23.5, 2.0 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 23.0, 0.5, 23.5, 2.0 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 22.5, 0.5, 23.0, 2.0 ] },
+								"west": { "texture": "#hair", "uv": [ 23.0, 0.5, 23.5, 2.0 ] },
+								"up": { "texture": "#hair", "uv": [ 23.0, 0.0, 23.5, 0.5 ], "rotation": 270 },
+								"down": { "texture": "#hair", "uv": [ 23.0, 2.0, 23.5, 2.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "DucktailRightUp",
+							"from": [ 2.5, 1.0, 0.0 ], 
+							"to": [ 3.0, 2.5, 0.2 ], 
+							"unwrapMode": 2,
+							"uv": [ 18.9, 0.0 ],
+							"rotationOrigin": [ 2.5, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 19.0, 0.5, 19.5, 2.0 ] },
+								"east": { "texture": "#hair", "uv": [ 19.0, 0.5, 19.5, 2.0 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 19.0, 0.5, 19.5, 2.0 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 19.5, 0.5, 20.0, 2.0 ] },
+								"up": { "texture": "#hair", "uv": [ 19.0, 0.0, 19.5, 0.5 ], "rotation": 270 },
+								"down": { "texture": "#hair", "uv": [ 19.0, 2.0, 19.5, 2.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "DuckTail1",
+							"from": [ 0.0, -0.5, 1.8 ], 
+							"to": [ 0.6, 0.0, 3.8 ], 
+							"unwrapMode": 2,
+							"uv": [ 24.9, 2.0 ],
+							"rotationOrigin": [ 0.1, 0.0, 2.55 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 25.5, 2.5, 26.0, 3.0 ] },
+								"east": { "texture": "#hair", "uv": [ 25.5, 2.5, 27.5, 3.0 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 25.0, 2.5, 25.5, 3.0 ] },
+								"west": { "texture": "#hair", "uv": [ 26.0, 2.5, 28.0, 3.0 ] },
+								"up": { "texture": "#hair", "uv": [ 25.5, 2.0, 27.5, 2.5 ], "rotation": 270 },
+								"down": { "texture": "#hair", "uv": [ 25.5, 3.0, 27.5, 3.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "DuckTail2",
+							"from": [ 0.0, -1.0, 2.3 ], 
+							"to": [ 0.6, -0.5, 3.3 ], 
+							"unwrapMode": 2,
+							"uv": [ 23.5, 0.0 ],
+							"rotationOrigin": [ 0.1, -0.5, 3.05 ],
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 24.0, 0.5, 24.5, 1.0 ] },
+								"east": { "texture": "#hair", "uv": [ 24.0, 0.5, 25.0, 1.0 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 23.5, 0.5, 24.0, 1.0 ] },
+								"west": { "texture": "#hair", "uv": [ 24.5, 0.5, 25.5, 1.0 ] },
+								"up": { "texture": "#hair", "uv": [ 24.0, 0.0, 25.0, 0.5 ], "rotation": 270 },
+								"down": { "texture": "#hair", "uv": [ 24.0, 1.0, 25.0, 1.5 ], "rotation": 270 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

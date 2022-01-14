@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"allAngles": true, 
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "mst-sheriff",
+			"stepParentName": "Head",
+			"from": [ -0.15, 1.1, 2.0 ], 
+			"to": [ 0.05, 1.5, 3.0 ], 
+			"unwrapMode": 2,
+			"uv": [ 21.5, 1.0 ],
+			"rotationOrigin": [ 0.1, 1.5, 2.0 ],
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 23.0, 1.5, 23.5, 2.0 ] },
+				"east": { "texture": "#hair", "uv": [ 22.0, 1.5, 23.0, 2.0 ] },
+				"south": { "texture": "#hair", "uv": [ 21.5, 1.5, 22.0, 2.0 ] },
+				"west": { "texture": "#hair", "uv": [ 23.5, 1.5, 24.5, 2.0 ] },
+				"up": { "texture": "#hair", "uv": [ 22.0, 1.0, 23.0, 1.5 ], "rotation": 270 },
+				"down": { "texture": "#hair", "uv": [ 22.0, 2.0, 23.0, 2.5 ], "rotation": 270 }
+			},
+			"children": [
+				{
+					"name": "sheriffL",
+					"from": [ 0.01, 0.0, 1.0 ], 
+					"to": [ 0.21, 0.4, 2.5 ], 
+					"unwrapMode": 2,
+					"uv": [ 22.5, 1.0 ],
+					"rotationOrigin": [ 0.2, 0.4, 1.0 ],
+					"rotationX": 45.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 24.5, 1.5, 25.0, 2.0 ] },
+						"east": { "texture": "#hair", "uv": [ 23.0, 1.5, 24.5, 2.0 ] },
+						"south": { "texture": "#hair", "uv": [ 22.5, 1.5, 23.0, 2.0 ] },
+						"west": { "texture": "#hair", "uv": [ 25.0, 1.5, 26.5, 2.0 ] },
+						"up": { "texture": "#hair", "uv": [ 23.0, 1.0, 24.5, 1.5 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 23.0, 2.0, 24.5, 2.5 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "sheriffR",
+					"from": [ 0.01, 0.0, -1.5 ], 
+					"to": [ 0.21, 0.4, 0.0 ], 
+					"unwrapMode": 2,
+					"uv": [ 19.5, 1.0 ],
+					"rotationOrigin": [ 0.2, 0.4, 0.0 ],
+					"rotationX": -45.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 21.5, 1.5, 22.0, 2.0 ] },
+						"east": { "texture": "#hair", "uv": [ 20.0, 1.5, 21.5, 2.0 ] },
+						"south": { "texture": "#hair", "uv": [ 19.5, 1.5, 20.0, 2.0 ] },
+						"west": { "texture": "#hair", "uv": [ 22.0, 1.5, 23.5, 2.0 ] },
+						"up": { "texture": "#hair", "uv": [ 20.0, 1.0, 21.5, 1.5 ], "rotation": 270 },
+						"down": { "texture": "#hair", "uv": [ 20.0, 2.0, 21.5, 2.5 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]}

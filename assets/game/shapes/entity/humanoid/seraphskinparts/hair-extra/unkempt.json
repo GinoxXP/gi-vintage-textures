@@ -1,0 +1,260 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 1.0, 1.0, 1.0 ], 
+			"uv": [ 0.0, 0.0 ],
+			"stepParentName": "Head",
+			"faces": {
+				"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hair", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hair", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hair", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Strand10",
+					"from": [ 2.0, 5.0, 2.0 ], 
+					"to": [ 4.0, 5.0, 3.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 41.0, 40.5 ],
+					"rotationOrigin": [ 4.0, 5.0, 2.5 ],
+					"rotationY": 97.0,
+					"rotationZ": -30.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 36.5, 38.5, 38.5, 39.5 ], "autoUv": false },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube11",
+							"from": [ -1.0, 0.0, 0.0 ], 
+							"to": [ 0.0, 0.0, 1.0 ], 
+							"autoUnwrap": false,
+							"uv": [ 36.0, 30.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 1.5 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 38.0, 35.5, 39.0, 36.5 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 3.0, 1.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Cube12",
+									"from": [ -2.0, 0.0, 0.0 ], 
+									"to": [ 0.0, 0.0, 1.0 ], 
+									"autoUnwrap": false,
+									"uv": [ 35.0, 32.5 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+									"rotationZ": 39.0,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+										"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+										"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+										"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+										"up": { "texture": "#hair", "uv": [ 34.5, 39.5, 35.5, 41.5 ], "rotation": 90 },
+										"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Strand8",
+					"stepParentName": "Head",
+					"from": [ 2.0, 5.0, 2.0 ], 
+					"to": [ 4.0, 5.0, 3.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 41.0, 40.5 ],
+					"rotationOrigin": [ 4.0, 5.0, 2.5 ],
+					"rotationY": 147.0,
+					"rotationZ": -35.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 36.5, 38.5, 38.5, 39.5 ], "autoUv": false },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube9",
+							"from": [ -2.0, 0.0, 0.0 ], 
+							"to": [ 0.0, 0.0, 1.0 ], 
+							"autoUnwrap": false,
+							"uv": [ 36.0, 30.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 37.0, 39.5, 38.0, 41.5 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Strand6",
+					"stepParentName": "Head",
+					"from": [ 1.0, 5.0, 2.0 ], 
+					"to": [ 3.0, 5.0, 3.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 41.0, 40.5 ],
+					"rotationOrigin": [ 3.0, 5.0, 2.5 ],
+					"rotationY": -89.0,
+					"rotationZ": -30.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 36.5, 38.5, 38.5, 39.5 ], "autoUv": false },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube7",
+							"from": [ -2.0, 0.0, 0.0 ], 
+							"to": [ 0.0, 0.0, 1.0 ], 
+							"autoUnwrap": false,
+							"uv": [ 36.0, 30.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 38.0, 39.5, 39.0, 41.5 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Strand3",
+					"stepParentName": "Head",
+					"from": [ -1.0, 5.0, 2.0 ], 
+					"to": [ 1.0, 5.0, 3.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 41.0, 40.5 ],
+					"rotationOrigin": [ 1.0, 5.0, 2.5 ],
+					"rotationY": 64.0,
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 36.5, 38.5, 38.5, 39.5 ], "autoUv": false },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube4",
+							"from": [ -1.0, 0.0, 0.0 ], 
+							"to": [ 0.0, 0.0, 1.0 ], 
+							"autoUnwrap": false,
+							"uv": [ 36.0, 30.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 4.0, 1.5 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 38.0, 35.5, 39.0, 36.5 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 3.0, 1.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Cube5",
+									"from": [ -2.0, 0.0, 0.0 ], 
+									"to": [ 0.0, 0.0, 1.0 ], 
+									"autoUnwrap": false,
+									"uv": [ 35.0, 32.5 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+									"rotationZ": 39.0,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+										"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+										"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+										"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+										"up": { "texture": "#hair", "uv": [ 34.5, 39.5, 35.5, 41.5 ], "rotation": 90 },
+										"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Strand1",
+					"stepParentName": "Head",
+					"from": [ -1.0, 5.0, 2.0 ], 
+					"to": [ 1.0, 5.0, 3.0 ], 
+					"autoUnwrap": false,
+					"uv": [ 41.0, 40.5 ],
+					"rotationOrigin": [ 1.0, 5.0, 2.5 ],
+					"rotationY": -39.0,
+					"rotationZ": -20.0,
+					"faces": {
+						"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+						"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+						"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+						"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+						"up": { "texture": "#hair", "uv": [ 36.5, 38.5, 38.5, 39.5 ], "autoUv": false },
+						"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube1",
+							"from": [ -2.0, 0.0, 0.0 ], 
+							"to": [ 0.0, 0.0, 1.0 ], 
+							"autoUnwrap": false,
+							"uv": [ 36.0, 30.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 0.0, 1.0, 2.0, 1.5 ], "enabled": false },
+								"east": { "texture": "#hair", "uv": [ 2.0, 1.0, 3.0, 1.5 ], "enabled": false },
+								"south": { "texture": "#hair", "uv": [ 3.0, 1.0, 5.0, 1.5 ], "enabled": false },
+								"west": { "texture": "#hair", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "enabled": false },
+								"up": { "texture": "#hair", "uv": [ 38.0, 39.5, 39.0, 41.5 ], "rotation": 90 },
+								"down": { "texture": "#hair", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

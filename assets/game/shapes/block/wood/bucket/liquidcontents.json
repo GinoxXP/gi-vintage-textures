@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sides": "block/wood/bucket/sides",
+		"inner side": "block/wood/bucket/inner side"
+	},
+	"elements": [
+		{
+			"name": "Floor",
+			"from": [ 5.0, 0.0, 5.0 ], 
+			"to": [ 11.0, 1.0, 11.0 ], 
+			"faces": {
+				"north": { "texture": "#generic wood", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#generic wood", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#generic wood", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#sides", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#sides", "uv": [ 0.0, 10.0, 6.0, 16.0 ], "enabled": false },
+				"down": { "texture": "#inner side", "uv": [ 10.0, 10.0, 16.0, 16.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "contents",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 6.0, 1.0, 6.0 ], 
+					"renderPass": 4,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#water_bucket", "uv": [ 7.0, 7.0, 13.0, 13.0 ] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}
