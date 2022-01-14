@@ -1,7 +1,0 @@
-{
-	"normal": { x: 6, y: 6 },
-	"move": { x: 16, y: 16 },
-	"linkselect": { x: 13, y: 5 },
-	"busy": { x: 8, y: 4 },
-	"textselect": { x: 16, y: 16 }
-}
