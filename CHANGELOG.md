@@ -1,11 +1,13 @@
-#dev
+# dev
+Fix:
+* knapping surface
 
-#1.1.1
+# 1.1.1
 Fix:
 * nugget in rock texture
 
 
-#1.1.0 
+# 1.1.0 
 Fix:
 * knapping textures;
 * sculpting clay textures;
@@ -33,13 +35,13 @@ Redraw:
 * bloomery;
 * spider web.
 
-#1.0.1
+# 1.0.1
 Fix:
 * flint knapping texture;
 * redwood 2x2 bark texture.
 
 
-#1.0.0
+# 1.0.0
 Redraw:
 * stone;
 * ore;
