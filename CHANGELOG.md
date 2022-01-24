@@ -2,6 +2,9 @@
 New:
 * anvil;
 
+Redraw:
+* clay;
+
 # main
 Fix:
 * knapping surface
