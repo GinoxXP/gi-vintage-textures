@@ -106,20 +106,5 @@
 				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
 				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
 			}
-		},
-		{
-			"name": "Log3",
-			"from": [ 4.0, 1.0, 7.0 ], 
-			"to": [ 6.0, 3.0, 15.0 ], 
-			"rotationOrigin": [ 4.0, 1.0, 7.0 ],
-			"rotationY": 90.0,
-			"faces": {
-				"north": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
-				"east": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
-				"south": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
-				"west": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
-				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
-			}
 		}
 	]}
