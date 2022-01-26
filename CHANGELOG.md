@@ -1,9 +1,8 @@
 # dev
 New:
 * anvil;
-
-Redraw:
 * clay;
+* fire pit;
 
 # main
 Fix:
