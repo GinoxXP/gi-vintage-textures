@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"campfire_log": "block/wood/firepit/campfire_log"
+	},
+	"elements": [
+		{
+			"name": "Log",
+			"from": [ 5.0, 0.0, 4.0 ], 
+			"to": [ 7.0, 2.0, 12.0 ], 
+			"rotationOrigin": [ 5.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"east": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"south": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"west": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "Log1",
+			"from": [ 9.0, 0.0, 4.0 ], 
+			"to": [ 11.0, 2.0, 12.0 ], 
+			"rotationOrigin": [ 9.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"east": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"south": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"west": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "Log2",
+			"from": [ 4.0, 1.0, 11.0 ], 
+			"to": [ 6.0, 3.0, 19.0 ], 
+			"rotationOrigin": [ 4.0, 1.0, 11.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"east": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"south": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"west": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "Log3",
+			"from": [ 4.0, 1.0, 7.0 ], 
+			"to": [ 6.0, 3.0, 15.0 ], 
+			"rotationOrigin": [ 4.0, 1.0, 7.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"east": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"south": { "texture": "#campfire_log", "uv": [ 0.0, 4.0, 2.0, 6.0 ] },
+				"west": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"up": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#campfire_log", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "autoUv": false }
+			}
+		}
+	]}
