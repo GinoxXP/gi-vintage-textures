@@ -1,4 +1,13 @@
 # dev
+Fix:
+* snow color;
+
+New:
+* anvil;
+* clay;
+* fire pit;
+* door;
+* trapdoor;
 
 # main
 Fix:

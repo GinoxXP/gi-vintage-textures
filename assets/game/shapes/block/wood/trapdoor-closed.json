@@ -1,0 +1,100 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"trapdoor": "block/wood/trapdoor/trapdoor",
+		"wood": "block/wood/trapdoor/wood"
+	},
+	"elements": [
+		{
+			"name": "N frame",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 3.0, 3.0 ], 
+			"rotationOrigin": [ 3.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#trapdoor", "uv": [ 0.0, 0.0, 16.0, 3.0 ] },
+				"east": { "texture": "#trapdoor", "uv": [ 0.0, 7.0, 3.0, 10.0 ] },
+				"south": { "texture": "#trapdoor", "uv": [ 0.0, 0.0, 16.0, 3.0 ] },
+				"west": { "texture": "#trapdoor", "uv": [ 0.0, 7.0, 3.0, 10.0 ] },
+				"up": { "texture": "#trapdoor", "uv": [ 0.0, 0.0, 16.0, 3.0 ] },
+				"down": { "texture": "#trapdoor", "uv": [ 0.0, 0.0, 16.0, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "W frame",
+					"from": [ 0.0, 0.0, 3.0 ], 
+					"to": [ 3.0, 3.0, 13.0 ], 
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 6.0, 13.0, 9.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#trapdoor", "uv": [ 13.0, 3.0, 16.0, 13.0 ], "rotation": 90 },
+						"south": { "texture": "#wood", "uv": [ 14.0, 7.0, 17.0, 10.0 ], "enabled": false },
+						"west": { "texture": "#trapdoor", "uv": [ 13.0, 3.0, 16.0, 13.0 ], "rotation": 90 },
+						"up": { "texture": "#trapdoor", "uv": [ 13.0, 3.0, 16.0, 13.0 ] },
+						"down": { "texture": "#trapdoor", "uv": [ 13.0, 3.0, 16.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "E frame",
+					"from": [ 13.0, 0.0, 3.0 ], 
+					"to": [ 16.0, 3.0, 13.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 8.0, 3.0, 11.0 ], "enabled": false },
+						"east": { "texture": "#trapdoor", "uv": [ 0.0, 3.0, 3.0, 13.0 ], "rotation": 90 },
+						"south": { "texture": "#wood", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "enabled": false },
+						"west": { "texture": "#trapdoor", "uv": [ 0.0, 4.0, 3.0, 14.0 ], "rotation": 90 },
+						"up": { "texture": "#trapdoor", "uv": [ 0.0, 3.0, 3.0, 13.0 ] },
+						"down": { "texture": "#trapdoor", "uv": [ 0.0, 3.0, 3.0, 13.0 ] }
+					}
+				},
+				{
+					"name": "Inside 2",
+					"from": [ 6.0, 0.0, 3.0 ], 
+					"to": [ 10.0, 3.0, 13.0 ], 
+					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 8.0, 4.0, 11.0 ], "enabled": false },
+						"east": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 9.0 ] },
+						"south": { "texture": "#wood", "uv": [ 4.0, 7.0, 8.0, 10.0 ], "enabled": false },
+						"west": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 9.0 ] },
+						"up": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 10.0 ], "rotation": 90 },
+						"down": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 10.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "S frame",
+					"from": [ 0.0, 0.0, 13.0 ], 
+					"to": [ 16.0, 3.0, 16.0 ], 
+					"rotationOrigin": [ 3.0, 0.0, 13.0 ],
+					"faces": {
+						"north": { "texture": "#trapdoor", "uv": [ 0.0, 13.0, 16.0, 16.0 ] },
+						"east": { "texture": "#trapdoor", "uv": [ 0.0, 7.0, 3.0, 10.0 ] },
+						"south": { "texture": "#trapdoor", "uv": [ 0.0, 13.0, 16.0, 16.0 ] },
+						"west": { "texture": "#trapdoor", "uv": [ 0.0, 7.0, 3.0, 10.0 ] },
+						"up": { "texture": "#trapdoor", "uv": [ 0.0, 13.0, 16.0, 16.0 ] },
+						"down": { "texture": "#trapdoor", "uv": [ 0.0, 12.0, 16.0, 15.0 ] }
+					}
+				},
+				{
+					"name": "Inside",
+					"from": [ 3.0, 0.0, 6.0 ], 
+					"to": [ 13.0, 3.0, 10.0 ], 
+					"rotationOrigin": [ -4.0, 0.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 9.0 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#trapdoor", "uv": [ 6.0, 6.0, 10.0, 9.0 ] },
+						"south": { "texture": "#trapdoor", "uv": [ 3.0, 6.0, 13.0, 9.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#trapdoor", "uv": [ 6.0, 6.0, 10.0, 9.0 ] },
+						"up": { "texture": "#trapdoor", "uv": [ 6.0, 3.0, 10.0, 13.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#trapdoor", "uv": [ 6.0, 3.0, 10.0, 13.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}
