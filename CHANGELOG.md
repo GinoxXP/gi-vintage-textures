@@ -1,4 +1,7 @@
 # dev
+Fix:
+* snow color;
+
 New:
 * anvil;
 * clay;
