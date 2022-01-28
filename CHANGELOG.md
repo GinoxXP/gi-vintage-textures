@@ -3,6 +3,7 @@ New:
 * anvil;
 * clay;
 * fire pit;
+* door;
 
 # main
 Fix:
