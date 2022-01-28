@@ -4,6 +4,7 @@ New:
 * clay;
 * fire pit;
 * door;
+* trapdoor;
 
 # main
 Fix:
