@@ -1,6 +1,7 @@
-# dev
+# 1.2.0
 Fix:
 * snow color;
+* knapping surface
 
 New:
 * anvil;
@@ -8,10 +9,6 @@ New:
 * fire pit;
 * door;
 * trapdoor;
-
-# main
-Fix:
-* knapping surface
 
 # 1.1.1
 Fix:

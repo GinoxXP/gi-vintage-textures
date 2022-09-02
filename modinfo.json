@@ -5,7 +5,7 @@
   "authors": [ "GinoxXP", "Jura" ],
   "description": "This is a x16 minecraft-like downscale texturepack.",
   "side": "client",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "textureSize" : 32,
   "dependency": {
     "game": "1.16.0"
