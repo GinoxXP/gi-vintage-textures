@@ -1,24 +1,41 @@
+# 1.3.0
+Fix:
+* flowers;
+* bamboo;
+* leaves;
+* dummy face.
+
+New:
+* termite;
+* mushrooms;
+* sky;
+* metal blocks;
+* crates;
+* berry bush;
+* teleporter.
+
+
 # 1.2.0
 Fix:
 * snow color;
-* knapping surface
+* knapping surface.
 
 New:
 * anvil;
 * clay;
 * fire pit;
 * door;
-* trapdoor;
+* trapdoor.
 
 # 1.1.1
 Fix:
-* nugget in rock texture
+* nugget in rock texture.
 
 
-# 1.1.0 
+# 1.1.0
 Fix:
 * knapping textures;
-* sculpting clay textures;
+* sculpting clay textures.
 
 Redraw:
 * grass coverage;
